@@ -12,7 +12,7 @@ published in this repository.
 
 ## Maintain the bank
 
-Edit `ornac-questions.txt` and `case-groups.json`, then run
+Edit `ornac-questions.txt`, `case-groups.json`, and `question-page-map.json`, then run
 `python3 build-bank.py`. The pipe-delimited question fields are:
 
 `section|domain|prompt|correct|wrong1|wrong2|wrong3|rationale`
@@ -25,7 +25,11 @@ case groups, source sections, and the generated explanation fields. The site
 shuffles answer choices and keeps attempts, missed status, and saved items in
 browser storage under a 17th-edition key.
 
-The source link on the site leads to ORNAC's information page. Readers need
-their own access to the full guideline. Questions and learning notes are
+Each answer links to the owner's Drive copy and lists the relevant one-based
+PDF page numbers and printed page labels. `question-page-map.json` stores the
+reference for every stable question ID. Its pagination is specific to the
+548-page `ORNAC Print to PDF Trial.pdf`; remap the references if the PDF changes.
+The PDF remains in Drive with its existing permissions and is not included here.
+Questions and learning notes are
 original paraphrases, not copied guideline passages or official exam items.
 This project is not endorsed by CNA or ORNAC.

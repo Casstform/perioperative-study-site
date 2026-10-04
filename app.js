@@ -211,9 +211,14 @@ function answer(index) {
   const explanation = document.createElement("p");
   explanation.textContent = q.explanation;
   const source = document.createElement("a");
-  source.href = state.bank.sources[q.source].url;
+  const reference = q.reference;
+  const sections = reference.sections.map(section => section === "F" ? "Foreword" : `§${section}`).join(", ");
+  const pdfPages = reference.pages.map(page => page.pdfPage).join(", ");
+  const printedPages = reference.pages.map(page => page.printedPage).join(", ");
+  source.href = state.bank.document.url;
   source.target = "_blank"; source.rel = "noopener";
-  source.textContent = `Guideline reference: ${state.bank.sources[q.source].name} · Access information ↗`;
+  source.textContent = `Guideline reference: ORNAC Guidelines, 17th ed. (2025), ${sections} · PDF ${reference.pages.length === 1 ? "p." : "pp."} ${pdfPages} (printed ${printedPages}) ↗`;
+  source.title = `Open your Drive copy, then enter PDF page ${reference.pages[0].pdfPage} in the viewer’s page box.`;
   feedback.append(title, explanation, source);
 
   const why = document.createElement("details");
@@ -321,7 +326,7 @@ function bind() {
 async function init() {
   bind();
   try {
-    const response = await fetch("./bank.json?v=ORNAC-17-2025-r2");
+    const response = await fetch("./bank.json?v=ORNAC-17-2025-r3-pages");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.bank = await response.json();
     if (!Array.isArray(state.bank.questions) || !state.bank.questions.length) throw new Error("Question bank is empty");

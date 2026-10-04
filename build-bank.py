@@ -170,14 +170,26 @@ for case_id, group in groups.items():
 assert 0.15 <= len(seen_case_ids) / len(questions) <= 0.25
 assert len(questions) >= 300, len(questions)
 assert len(sections) >= 120, len(sections)
-url = 'https://ornac.ca/guidelines.phtml'
-sources = {'F': {'name': 'ORNAC Guidelines, 17th ed. (2025), Foreword p. xiii', 'url': url, 'note': 'Terminology in the user-provided PDF.'}}
+page_map = json.loads((ROOT / 'question-page-map.json').read_text())
+document = page_map['document']
+assert set(page_map['questions']) == {q['id'] for q in questions}, 'Every question needs a PDF reference'
+for question in questions:
+    reference = page_map['questions'][question['id']]
+    assert reference['sections'] and all(s == 'F' or s in sections for s in reference['sections'])
+    assert reference['pages'], question['id']
+    page_numbers = [p['pdfPage'] for p in reference['pages']]
+    assert page_numbers == sorted(set(page_numbers)), question['id']
+    assert all(isinstance(n, int) and 1 <= n <= document['pdfPageCount'] for n in page_numbers)
+    assert all(p['printedPage'] for p in reference['pages']), question['id']
+    question['reference'] = reference
+url = document['url']
+sources = {'F': {'name': 'ORNAC Guidelines, 17th ed. (2025), Foreword', 'url': url, 'note': 'Terminology in the owner’s Drive PDF.'}}
 sources.update({s: {'name': f'ORNAC Guidelines, 17th ed. (2025), §{s}', 'url': url,
-               'note': 'Section reference to the user-provided PDF; the publisher page describes access to the full guidelines.'}
+               'note': 'Relevant guideline discussion in the owner’s Drive PDF; individual questions identify PDF and printed pages.'}
            for s in sorted(sections, key=lambda s: tuple(map(int, s.split('.'))))})
 concepts = {key: {'title': title, 'text': body} for key, (title, body) in CONCEPTS.items()}
 bank = {'version': 'ORNAC-17-2025', 'questions': questions, 'cases': {key: value['context'] for key, value in groups.items()},
-        'sources': sources, 'concepts': concepts, 'categories': list(CATEGORIES.values()),
+        'sources': sources, 'document': document, 'concepts': concepts, 'categories': list(CATEGORIES.values()),
         'blueprintWeights': WEIGHTS}
 (ROOT / 'bank.json').write_text(json.dumps(bank, ensure_ascii=False, separators=(',', ':')) + '\n')
 print(len(questions), 'questions covering', len(sections), 'subsections;', len(seen_case_ids), 'case questions')
