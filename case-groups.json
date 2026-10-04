@@ -1,0 +1,17 @@
+{
+  "CASE01": {"context": "An adult is scheduled for a left knee procedure. During preparation, the team checks the record, consent, site mark, and planned time-out.", "questionIds": [64, 68, 70, 72]},
+  "CASE02": {"context": "An adult is preparing for major abdominal surgery. The team reviews allergies, infection prevention, temperature management, and clot risk.", "questionIds": [66, 74, 75, 85]},
+  "CASE03": {"context": "An anesthetized patient is transferred and positioned for a prolonged prone procedure. Skin, pressure, nerve, and handoff risks are considered.", "questionIds": [78, 79, 83, 240]},
+  "CASE04": {"context": "During an open abdominal procedure, sponges are used and the closing count does not reconcile. The team must prevent an unintentionally retained item.", "questionIds": [92, 95, 101, 286]},
+  "CASE05": {"context": "During surgery, a verbal order is given and specimens are sent for time-sensitive analysis. Several clear solutions are on the field.", "questionIds": [106, 107, 111, 247]},
+  "CASE06": {"context": "Before anesthesia, a family history raises concern for malignant hyperthermia. The team reviews preparedness and recognition of a possible crisis.", "questionIds": [197, 198, 199, 263]},
+  "CASE07": {"context": "A robotic minimally invasive operation is planned with some staff new to the platform. The team reviews docking, emergency access, and plume controls.", "questionIds": [127, 255, 128, 134]},
+  "CASE08": {"context": "An urgent operation is needed for a patient with suspected respiratory infection. Airway management and subsequent room turnover require planning.", "questionIds": [5, 8, 9, 62]},
+  "CASE09": {"context": "A joint replacement is scheduled. A loaned tray and implant arrive, and the team assesses validated processing and load release before use.", "questionIds": [38, 51, 46, 44]},
+  "CASE10": {"context": "A head and neck procedure uses oxygen and surgical energy after skin preparation. The team is concerned about fire prevention and safe electrode handling.", "questionIds": [32, 131, 279, 290]},
+  "CASE11": {"context": "An extremity operation requires a pneumatic tourniquet. The patient has fragile skin, and equipment function and inflation time need attention.", "questionIds": [103, 104, 244, 287]},
+  "CASE12": {"context": "A severely injured patient is treated in the OR, with possible medicolegal evidence. The team plans preservation and, if death occurs, appropriate handling.", "questionIds": [193, 194, 261, 190]},
+  "CASE13": {"context": "A pandemic surge affects an urgent surgical service. Patient routing, personnel communication, and protective-equipment supply are under review.", "questionIds": [202, 204, 206, 207]},
+  "CASE14": {"context": "An OR is reviewing equipment reliability after a recall and an intraoperative malfunction. Maintenance and a safe replacement are discussed.", "questionIds": [179, 180, 181, 274]},
+  "CASE15": {"context": "A reprocessing team sorts different patient-care devices by Spaulding infection-risk class and prepares them for the appropriate validated process.", "questionIds": [40, 41, 42, 43]}
+}
