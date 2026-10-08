@@ -4,14 +4,49 @@
     "platform": "Meazure Learning",
     "recordedDate": "2026-10-08",
     "questionCount": 100,
-    "officialAnswerKeyShown": false,
-    "reviewOnlyNumbers": [
+    "officialAnswerKeyShown": true,
+    "reviewOnlyNumbers": [],
+    "method": "Question text and cases were transcribed from the first user recording. All 100 correct choices were then checked against the highlighted answers in the complete review recording. Explanations are concise editorial paraphrases checked against the displayed feedback, with current-guideline notes where older wording, assumptions, or practice differ. Recorded questions are scored against the displayed practice-review key; this does not make every older explanation current clinical guidance.",
+    "reviewRecording": "Screen Recording 2026-10-08 154422.mp4",
+    "answerKeyVerifiedCount": 100,
+    "scoringBasis": "Correct choices highlighted in the user-supplied CNA practice-test review recording",
+    "previouslyDifferentAnswerNumbers": [
+      9,
+      18,
+      28,
+      59,
+      60,
+      78,
+      85
+    ],
+    "resolvedReviewOnlyNumbers": [
       8,
       16,
       75,
       81
     ],
-    "method": "Transcribed from the user-supplied recording. Shared cases and original question numbers are retained. OCR artifacts are corrected against the frames. Study answers and explanations are independently assessed against ORNAC 17th edition and named clinical references; they are not represented as an official CNA or Meazure answer key."
+    "currentGuidanceNoteNumbers": [
+      4,
+      8,
+      16,
+      17,
+      23,
+      50,
+      54,
+      57,
+      59,
+      60,
+      61,
+      75,
+      81,
+      85
+    ],
+    "observedCognitiveCounts": {
+      "knowledgeComprehension": 15,
+      "application": 45,
+      "criticalThinking": 40
+    },
+    "reviewReferenceNote": "Displayed references include ORNAC 14th edition (2019), older ORNAC references (2011), and Alexander’s Care of the Patient in Surgery (2011/2019). These are distinct from the owner’s ORNAC 17th-edition PDF (2025)."
   },
   "questions": [
     {
@@ -29,7 +64,7 @@
       "explanation": "An initial surgical count accounts for sponges, sharps, instruments, and miscellaneous countable items; minimally invasive access does not remove retained-item risk.",
       "concept": "recording-counts",
       "optionExplanations": [
-        "Omits instruments.",
+        "Omits instruments, which the review includes because a laparoscopic procedure may convert to an open operation.",
         "Omits sponges and instruments.",
         "Includes all four count categories.",
         "Omits miscellaneous countable items."
@@ -40,9 +75,17 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 1,
         "videoSeconds": 4,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 0.0
       },
-      "case": "REC-CASE-1"
+      "case": "REC-CASE-1",
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 0.0,
+        "cognitiveLevel": "KNOWLEDGE/COMPREHENSION"
+      }
     },
     {
       "id": "MEAZURE-002",
@@ -70,9 +113,17 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 2,
         "videoSeconds": 20,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 1.0
       },
-      "case": "REC-CASE-1"
+      "case": "REC-CASE-1",
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 1.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-003",
@@ -100,9 +151,17 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 3,
         "videoSeconds": 21,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 2.0
       },
-      "case": "REC-CASE-1"
+      "case": "REC-CASE-1",
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 2.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-004",
@@ -116,7 +175,7 @@
         "Neostigmine bromide (Prostigmin)"
       ],
       "answer": 3,
-      "explanation": "Neostigmine is the listed reversal drug for nondepolarizing neuromuscular blockade. Quantitative monitoring and appropriate recovery are needed. The recording names a bromide product; IV reversal uses the prescribed injectable formulation, commonly neostigmine methylsulfate, not an interchangeable salt or route.",
+      "explanation": "Neostigmine is the listed drug used to reverse suitable nondepolarizing neuromuscular blockade. The other choices cause neuromuscular blockade or provide hypnosis rather than reverse paralysis. Monitoring and the prescribed reversal regimen still apply.",
       "concept": "recording-reversal",
       "optionExplanations": [
         "Produces depolarizing neuromuscular blockade rather than reversing it.",
@@ -130,7 +189,8 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 4,
         "videoSeconds": 23,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 5.0
       },
       "case": "REC-CASE-1",
       "additionalReferences": [
@@ -138,7 +198,15 @@
           "name": "DailyMed · Injectable neostigmine prescribing information",
           "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=81243f47-bd25-bd02-518a-087badcca755"
         }
-      ]
+      ],
+      "currentGuidance": "The recorded option names neostigmine bromide. IV reversal uses the prescribed injectable formulation, commonly neostigmine methylsulfate; salts and routes are not interchangeable. Quantitative neuromuscular monitoring and the prescribed antimuscarinic remain important.",
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 5.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-005",
@@ -158,7 +226,7 @@
         "Can be needed for persistent spasm, but oxygenation measures come first.",
         "Residual paralysis and laryngospasm are different problems.",
         "Addresses the immediate oxygenation problem.",
-        "May be part of treatment, but does not replace the initial oxygenation measures."
+        "Not the review's initial measure. Anesthesia-led deepening of anesthesia may be part of escalation; it is not a substitute for initial oxygenation and airway maneuvers."
       ],
       "collection": "recording",
       "reviewOnly": false,
@@ -166,7 +234,8 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 5,
         "videoSeconds": 25,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 8.0
       },
       "case": "REC-CASE-1",
       "additionalReferences": [
@@ -174,7 +243,14 @@
           "name": "OpenAnesthesia · Laryngospasm",
           "url": "https://www.openanesthesia.org/keywords/laryngospasm/"
         }
-      ]
+      ],
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 8.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-006",
@@ -202,9 +278,17 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 6,
         "videoSeconds": 26,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 10.0
       },
-      "case": "REC-CASE-1"
+      "case": "REC-CASE-1",
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 10.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-007",
@@ -232,9 +316,17 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 7,
         "videoSeconds": 28,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 12.0
       },
-      "case": "REC-CASE-2"
+      "case": "REC-CASE-2",
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 12.0,
+        "cognitiveLevel": "KNOWLEDGE/COMPREHENSION"
+      }
     },
     {
       "id": "MEAZURE-008",
@@ -247,24 +339,33 @@
         "Continue with the set-up because Mrs. Snider is already asleep.",
         "Tell the circulating nurse to document the break in technique."
       ],
-      "answer": null,
-      "explanation": "The tear is a barrier breach requiring immediate assessment and correction. The recording gives no official key and does not state its location, whether contents were exposed, or whether local policy permits controlled over-draping. Replace affected supplies if contamination cannot be excluded; a cover cannot make contaminated items sterile. This item is retained for discussion and is not scored.",
+      "answer": 0,
+      "explanation": "The recorded review treats the torn table drape as a contaminated setup. Inform the circulating nurse and replace the compromised setup promptly; documentation follows corrective action.",
       "concept": "recording-sterile",
       "optionExplanations": [
-        "Appropriate when contents are contaminated or contamination cannot be excluded; replacing every item is not necessarily required for every isolated defect.",
-        "May be an approved response to an isolated defect only when no contents are contaminated and policy permits it; it cannot reverse existing contamination.",
-        "Being anesthetized is not a reason to ignore a barrier breach.",
-        "Documenting the event is necessary but does not correct the breach."
+        "Corrects the barrier breach immediately and communicates the need for replacement supplies.",
+        "The review considers the setup contaminated; covering the hole does not restore contaminated supplies to sterility.",
+        "An anesthetized patient does not justify continuing with a compromised sterile field.",
+        "Documentation is necessary, but corrective action comes first."
       ],
       "collection": "recording",
-      "reviewOnly": true,
+      "reviewOnly": false,
       "origin": {
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 8,
         "videoSeconds": 29,
-        "answerStatus": "Review only — insufficient detail"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 16.0
       },
-      "case": "REC-CASE-2"
+      "case": "REC-CASE-2",
+      "currentGuidance": "The key assumes the tear compromises the working sterile field. ORNAC requires recognition and correction of aseptic breaches. Assess the location and affected items, and replace contaminated supplies; simply placing a cover over contamination does not make it sterile.",
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 16.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-009",
@@ -277,14 +378,14 @@
         "Ask to see the consent form.",
         "Assume the surgeon knows what he is doing and say nothing."
       ],
-      "answer": 1,
-      "explanation": "Voice the concern to the circulating nurse so the procedure and consent can be reconciled with the surgeon. A larger incision alone does not establish unauthorized surgery.",
+      "answer": 0,
+      "explanation": "The scrub nurse should raise the concern directly with the surgeon on the patient's behalf. The review tests active patient advocacy and clarification of the extent of surgery, rather than silently accepting an unexpected finding.",
       "concept": "recording-priority",
       "optionExplanations": [
-        "A direct safety question may also be useful, but a comment about incision size alone does not reconcile consent.",
-        "Initiates coordinated advocacy and verification without assuming wrongdoing.",
-        "Obtaining the form alone does not communicate or resolve the concern.",
-        "Silence abandons the opportunity to clarify a potentially important discrepancy."
+        "Directly seeks clarification from the surgeon while advocating for the patient.",
+        "Involving the circulating nurse can help, but this option delays the direct clarification the review expects from the scrub nurse.",
+        "Consent should already have been checked; retrieving it alone does not address the surgeon's unexpected dissection.",
+        "Silence leaves the concern unresolved and does not advocate for the patient."
       ],
       "collection": "recording",
       "reviewOnly": false,
@@ -292,9 +393,17 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 9,
         "videoSeconds": 31,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 16.0
       },
-      "case": "REC-CASE-2"
+      "case": "REC-CASE-2",
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 16.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-010",
@@ -322,9 +431,17 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 10,
         "videoSeconds": 32,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 19.0
       },
-      "case": "REC-CASE-2"
+      "case": "REC-CASE-2",
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 19.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-011",
@@ -352,7 +469,8 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 11,
         "videoSeconds": 34,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 22.0
       },
       "case": "REC-CASE-3",
       "additionalReferences": [
@@ -360,7 +478,14 @@
           "name": "ASA · Operating room fire practice advisory",
           "url": "https://www.asahq.org/~/media/sites/asahq/files/public/resources/standards-guidelines/practice-advisory-for-the-prevention-and-management-of-operating-room-fires.pdf"
         }
-      ]
+      ],
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 22.0,
+        "cognitiveLevel": "CRITICAL THINKING"
+      }
     },
     {
       "id": "MEAZURE-012",
@@ -388,9 +513,17 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 12,
         "videoSeconds": 36,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 24.0
       },
-      "case": "REC-CASE-3"
+      "case": "REC-CASE-3",
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 24.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-013",
@@ -418,9 +551,17 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 13,
         "videoSeconds": 37,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 26.0
       },
-      "case": "REC-CASE-3"
+      "case": "REC-CASE-3",
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 26.0,
+        "cognitiveLevel": "CRITICAL THINKING"
+      }
     },
     {
       "id": "MEAZURE-014",
@@ -448,9 +589,17 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 14,
         "videoSeconds": 39,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 29.0
       },
-      "case": "REC-CASE-3"
+      "case": "REC-CASE-3",
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 29.0,
+        "cognitiveLevel": "CRITICAL THINKING"
+      }
     },
     {
       "id": "MEAZURE-015",
@@ -478,9 +627,17 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 15,
         "videoSeconds": 41,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 31.0
       },
-      "case": "REC-CASE-4"
+      "case": "REC-CASE-4",
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 31.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-016",
@@ -493,30 +650,43 @@
         "Vancomycin HCl (Vancocin)",
         "Bacitracin"
       ],
-      "answer": null,
-      "explanation": "The penicillin reaction is unspecified, so a unique antibiotic choice cannot be verified from this stem. Cefazolin is appropriate for many patients with a penicillin allergy label; severe delayed reactions or a confirmed cefazolin allergy require a different assessment and regimen. Vancomycin is not automatically required by any penicillin allergy. Confirm the reaction, previous prophylaxis, timing, and local protocol. This item is not scored.",
+      "answer": 2,
+      "explanation": "The recorded key selects vancomycin. Its explanation assumes that the reported penicillin allergy rules out cefazolin. Learn the intended exam answer together with the current allergy-assessment note below.",
       "concept": "recording-allergy",
       "optionExplanations": [
-        "Often preferred orthopedic prophylaxis after appropriate allergy assessment; the stem lacks the details needed to exclude it.",
-        "Anaerobic coverage alone does not provide standard orthopedic prophylaxis.",
-        "Can be used for specific indications or contraindications to the preferred agent, but the allergy label alone does not establish those indications.",
-        "Not a standard IV orthopedic prophylaxis choice in this setting."
+        "The older review excludes cefazolin because of the penicillin allergy label. Current guidance does not support that blanket exclusion; see the note below.",
+        "Metronidazole alone is not the expected prophylactic regimen for this orthopedic scenario.",
+        "This is the antibiotic selected by the recorded key under its penicillin-allergy assumption.",
+        "Bacitracin is not the appropriate systemic IV prophylactic choice for this scenario."
       ],
       "collection": "recording",
-      "reviewOnly": true,
+      "reviewOnly": false,
       "origin": {
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 16,
         "videoSeconds": 42,
-        "answerStatus": "Review only — insufficient detail"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 33.0
       },
       "case": "REC-CASE-4",
       "additionalReferences": [
         {
           "name": "Health PEI · Penicillin and beta-lactam allergy guidance",
           "url": "https://src.healthpei.ca/sites/src.healthpei.ca/files/Laboratory%20Services/Management_of_penicillin_and_beta_lactam_allergy_guidelines.pdf"
+        },
+        {
+          "name": "Canadian Paediatric Society · Beta-lactam allergy (reaffirmed 2026)",
+          "url": "https://cps.ca/en/documents/position/beta-lactam-allergy"
         }
-      ]
+      ],
+      "currentGuidance": "A penicillin-allergy label does not automatically require vancomycin or exclude cefazolin. Assess the actual reaction, severity, previous tolerance, the planned prophylaxis, and local protocol. Cefazolin may be appropriate in many patients with a penicillin-allergy label; severe delayed reactions and a cefazolin-specific allergy require a different assessment.",
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 33.0,
+        "cognitiveLevel": "KNOWLEDGE/COMPREHENSION"
+      }
     },
     {
       "id": "MEAZURE-017",
@@ -536,7 +706,7 @@
         "Tests air removal in applicable sterilizers; it does not replace the internal load indicator.",
         "Provides the internal chemical monitoring asked for.",
         "Neither a biological test nor an air-removal test substitutes for the required internal CI.",
-        "An external indicator belongs outside the container; it is not the additional item to place inside."
+        "The review rejects this option under its older flash-pan premise. An external CI is outside the container and remains required when applicable; see the current-guideline note."
       ],
       "collection": "recording",
       "reviewOnly": false,
@@ -544,9 +714,18 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 17,
         "videoSeconds": 43,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 40.0
       },
-      "case": "REC-CASE-4"
+      "case": "REC-CASE-4",
+      "currentGuidance": "The review rejects an external indicator using an older 'flash pan' explanation, although the question refers to a rigid IUSS container. ORNAC 17th edition requires an internal CI in each package/container and an external CI when applicable (§2.26.4), plus the validated IUSS container and its instructions. Do not interpret the key as a universal prohibition on external indicators.",
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 40.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-018",
@@ -559,14 +738,14 @@
         "Verify with the patient and his wife the surgery and site; check unique identifiers, bracelet, consent form and preoperative record.",
         "Confirm the operative site with the surgeon and anesthesia provider; check unique identifiers, bracelet, preoperative record and consent form."
       ],
-      "answer": 3,
-      "explanation": "A heavily sedated patient may not provide dependable verification. Reconcile identifiers, records, consent, and site with the responsible team; involve the wife and patient as their participation permits. Do not infer the operative side from the injury's appearance.",
+      "answer": 2,
+      "explanation": "The review expects verification with the patient and his wife, together with unique identifiers, the bracelet, consent, and the preoperative record. Heavy sedation makes the responsible adult's participation particularly important; reconcile the findings with the surgical team.",
       "concept": "recording-priority",
       "optionExplanations": [
-        "Assumes a side not given in the case and relies on the sedated patient.",
-        "An obvious injury does not waive site verification.",
-        "Family input is valuable, but the option relies on patient confirmation despite heavy sedation and omits responsible-team reconciliation.",
-        "Reconciles the responsible team and the objective identification and operative records."
+        "Relies on a heavily sedated patient and a site mark without the full verification process.",
+        "An obvious fracture does not remove the requirement to verify the operative site.",
+        "Combines patient/responsible-adult participation with identifiers and the relevant records.",
+        "Team and document checks matter, but this option omits the patient/responsible adult whom the review expects to involve."
       ],
       "collection": "recording",
       "reviewOnly": false,
@@ -574,9 +753,17 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 18,
         "videoSeconds": 45,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 38.0
       },
-      "case": "REC-CASE-5"
+      "case": "REC-CASE-5",
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 38.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-019",
@@ -604,9 +791,17 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 19,
         "videoSeconds": 47,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 42.0
       },
-      "case": "REC-CASE-5"
+      "case": "REC-CASE-5",
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 42.0,
+        "cognitiveLevel": "CRITICAL THINKING"
+      }
     },
     {
       "id": "MEAZURE-020",
@@ -634,9 +829,17 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 20,
         "videoSeconds": 49,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 44.0
       },
-      "case": "REC-CASE-5"
+      "case": "REC-CASE-5",
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 44.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-021",
@@ -664,9 +867,17 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 21,
         "videoSeconds": 50,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 46.0
       },
-      "case": "REC-CASE-5"
+      "case": "REC-CASE-5",
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 46.0,
+        "cognitiveLevel": "KNOWLEDGE/COMPREHENSION"
+      }
     },
     {
       "id": "MEAZURE-022",
@@ -694,7 +905,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 22,
         "videoSeconds": 52,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 51.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 51.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -714,7 +933,7 @@
       "optionExplanations": [
         "A probe does not clear the blood obscuring the source.",
         "May be needed if conversion becomes necessary, but that is not yet established.",
-        "Includes suction but omits the irrigating equipment useful for restoring visualization.",
+        "Does not explicitly provide the insulated laparoscopic instruments and irrigation included in the best listed combination.",
         "Supports visualization and subsequent hemostasis through the laparoscopic approach."
       ],
       "collection": "recording",
@@ -723,7 +942,16 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 23,
         "videoSeconds": 54,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 54.0
+      },
+      "currentGuidance": "The displayed explanation uses 'insulated dispersive electrode' when discussing coagulation. The return electrode requires appropriate conductive skin contact. Insulation of the active laparoscopic instrument is a different safety requirement; avoid conflating the two.",
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 54.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -752,7 +980,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 24,
         "videoSeconds": 56,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 57.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 57.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -781,7 +1017,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 25,
         "videoSeconds": 57,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 60.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 60.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -810,7 +1054,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 26,
         "videoSeconds": 59,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 62.0
+      },
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 62.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -839,14 +1091,22 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 27,
         "videoSeconds": 60,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 65.0
       },
       "additionalReferences": [
         {
           "name": "RCoA · Rapid sequence induction statement (2026)",
           "url": "https://www.rcoa.ac.uk/sites/default/files/documents/2026-07/RSI%20statement-%20FINAL%20version%20100626.pdf"
         }
-      ]
+      ],
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 65.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-028",
@@ -859,14 +1119,14 @@
         "His concerns about his wife preoperatively",
         "Information about his diagnosis"
       ],
-      "answer": 0,
-      "explanation": "Among these choices, the type and amount of replacement fluid directly support assessment of fluid balance and perfusion after blood loss. The complete handoff also includes respiratory status, the chest drain, procedure, and complications.",
+      "answer": 1,
+      "explanation": "The recent hip replacement is the most important additional finding in this scenario. Communicate the operation and applicable positioning precautions so PACU can protect the new hip during movement and recovery. Fluid replacement remains part of a complete handoff.",
       "concept": "recording-incident",
       "optionExplanations": [
-        "Completes the immediate blood-loss and replacement information.",
-        "Relevant history, but less directly tied to the immediate fluid-balance issue.",
-        "Psychosocial concerns matter, but do not replace the physiological handoff.",
-        "Diagnosis is necessary background, but does not complete the described fluid-replacement report."
+        "Fluid replacement should be reported, but the review prioritizes the recent hip replacement and its positioning implications after the stated moderate blood loss.",
+        "Identifies the recent hip surgery that affects safe postoperative positioning and transfer.",
+        "His concern for his wife matters, but does not take priority over protecting the recently replaced hip.",
+        "The diagnosis belongs in the handoff, but does not convey the specific positioning risk from the recent hip surgery."
       ],
       "collection": "recording",
       "reviewOnly": false,
@@ -874,7 +1134,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 28,
         "videoSeconds": 62,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 67.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 67.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -903,7 +1171,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 29,
         "videoSeconds": 64,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 70.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 70.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -932,7 +1208,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 30,
         "videoSeconds": 66,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 72.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 72.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -961,7 +1245,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 31,
         "videoSeconds": 67,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 74.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 74.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -990,14 +1282,22 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 32,
         "videoSeconds": 69,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 77.0
       },
       "additionalReferences": [
         {
           "name": "Canadian Epilepsy Alliance · Seizure first aid",
           "url": "https://www.canadianepilepsyalliance.org/about-epilepsy/epilepsy-safety/seizure-first-aid/"
         }
-      ]
+      ],
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 77.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-033",
@@ -1025,7 +1325,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 33,
         "videoSeconds": 70,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 79.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 79.0,
+        "cognitiveLevel": "KNOWLEDGE/COMPREHENSION"
       }
     },
     {
@@ -1054,7 +1362,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 34,
         "videoSeconds": 72,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 82.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 82.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -1083,7 +1399,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 35,
         "videoSeconds": 73,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 85.0
+      },
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 85.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -1112,14 +1436,22 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 36,
         "videoSeconds": 75,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 87.0
       },
       "additionalReferences": [
         {
           "name": "ASRA · Local anesthetic systemic toxicity checklist",
           "url": "https://asra.com/docs/default-source/guidelines-articles/local-anesthetic-systemic-toxicity-rgb.pdf"
         }
-      ]
+      ],
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 87.0,
+        "cognitiveLevel": "CRITICAL THINKING"
+      }
     },
     {
       "id": "MEAZURE-037",
@@ -1147,7 +1479,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 37,
         "videoSeconds": 76,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 90.0
+      },
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 90.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -1176,7 +1516,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 38,
         "videoSeconds": 78,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 92.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 92.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -1205,7 +1553,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 39,
         "videoSeconds": 79,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 94.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 94.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -1234,7 +1590,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 40,
         "videoSeconds": 81,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 97.0
+      },
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 97.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -1263,7 +1627,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 41,
         "videoSeconds": 82,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 99.0
+      },
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 99.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -1292,7 +1664,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 42,
         "videoSeconds": 84,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 102.0
+      },
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 102.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -1321,7 +1701,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 43,
         "videoSeconds": 86,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 104.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 104.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -1350,7 +1738,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 44,
         "videoSeconds": 87,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 107.0
+      },
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 107.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -1379,14 +1775,22 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 45,
         "videoSeconds": 89,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 110.0
       },
       "additionalReferences": [
         {
           "name": "OpenAnesthesia · Laryngospasm",
           "url": "https://www.openanesthesia.org/keywords/laryngospasm/"
         }
-      ]
+      ],
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 110.0,
+        "cognitiveLevel": "KNOWLEDGE/COMPREHENSION"
+      }
     },
     {
       "id": "MEAZURE-046",
@@ -1414,14 +1818,22 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 46,
         "videoSeconds": 90,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 112.0
       },
       "additionalReferences": [
         {
           "name": "ASRA · Local anesthetic systemic toxicity checklist",
           "url": "https://asra.com/docs/default-source/guidelines-articles/local-anesthetic-systemic-toxicity-rgb.pdf"
         }
-      ]
+      ],
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 112.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-047",
@@ -1449,7 +1861,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 47,
         "videoSeconds": 92,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 115.0
+      },
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 115.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -1478,7 +1898,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 48,
         "videoSeconds": 93,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 117.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 117.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -1507,7 +1935,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 49,
         "videoSeconds": 95,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 120.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 120.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -1536,14 +1972,23 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 50,
         "videoSeconds": 96,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 123.0
       },
       "additionalReferences": [
         {
           "name": "Vancouver Coastal Health · Needlestick first aid",
           "url": "https://www.vch.ca/en/used-needles-and-condoms-disposal"
         }
-      ]
+      ],
+      "currentGuidance": "Some displayed distractor feedback mentions squeezing the puncture wound. Current needlestick first aid is to wash with soap and water, avoid squeezing, and obtain urgent occupational exposure assessment. The selected answer's prompt wound care and workplace response remain appropriate.",
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 123.0,
+        "cognitiveLevel": "CRITICAL THINKING"
+      }
     },
     {
       "id": "MEAZURE-051",
@@ -1571,7 +2016,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 51,
         "videoSeconds": 98,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 125.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 125.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -1600,7 +2053,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 52,
         "videoSeconds": 100,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 127.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 127.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -1629,7 +2090,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 53,
         "videoSeconds": 102,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 130.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 130.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -1649,7 +2118,7 @@
       "optionExplanations": [
         "Preserves evidence and initiates both clinical documentation and safety investigation.",
         "Discarding the pad destroys potentially important evidence.",
-        "An incident report number should not be inserted into the clinical record; record clinical facts instead.",
+        "Omits preserving the actual equipment and adds an incident-report identifier to the clinical record. Disclosure still follows the organizational process; see the note.",
         "Lot information and handoff help but do not replace preserving the actual device and complete incident management."
       ],
       "collection": "recording",
@@ -1658,7 +2127,16 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 54,
         "videoSeconds": 103,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 132.0
+      },
+      "currentGuidance": "Preserving evidence and submitting a safety report do not remove duties to communicate harm. ORNAC §5.2 describes the organization's disclosure process and education for each team member's role. Participate according to that process; the review's statement should not be read as a blanket exemption from disclosure responsibilities.",
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 132.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -1687,7 +2165,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 55,
         "videoSeconds": 105,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 135.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 135.0,
+        "cognitiveLevel": "KNOWLEDGE/COMPREHENSION"
       }
     },
     {
@@ -1716,7 +2202,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 56,
         "videoSeconds": 106,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 137.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 137.0,
+        "cognitiveLevel": "KNOWLEDGE/COMPREHENSION"
       }
     },
     {
@@ -1734,7 +2228,7 @@
       "explanation": "Read the device-specific instructions and complete the required education and competency preparation before trial use. Similar appearance does not establish equivalent application or compatibility.",
       "concept": "recording-energy",
       "optionExplanations": [
-        "A properly evaluated, supervised trial can be appropriate.",
+        "A supervised, adequately prepared trial may be appropriate. Raise safety concerns and obtain training rather than assuming the new device is safe or unsafe without evaluation.",
         "Assumes equivalent instructions without verification.",
         "Is the best listed starting point; required training and competency still apply.",
         "Surgeon preference alone does not establish safe device use."
@@ -1745,7 +2239,16 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 57,
         "videoSeconds": 108,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 140.0
+      },
+      "currentGuidance": "Reading instructions is the best listed starting point, but it does not replace required education, competency, supervision, and safe evaluation of a new device. Raise unresolved safety concerns before patient use; the review's wording does not authorize use without adequate preparation.",
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 140.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -1774,7 +2277,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 58,
         "videoSeconds": 110,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 142.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 142.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -1788,14 +2299,14 @@
         "Apply oxygen and notify the surgeon.",
         "Increase the IV rate and tell Mr. Butler to relax."
       ],
-      "answer": 2,
-      "explanation": "Coughing, pruritus, and restlessness soon after medication or exposure need prompt assessment for an allergic reaction and oxygenation support. Notify the surgeon immediately and escalate if anaphylaxis is suspected.",
+      "answer": 0,
+      "explanation": "Notify the surgeon promptly and continue close assessment: restlessness, coughing, and itching after an exposure may signal a developing allergic reaction. The recorded review prioritizes communication and monitoring in the absence of stated respiratory compromise; escalation depends on the patient's findings.",
       "concept": "recording-allergy",
       "optionExplanations": [
-        "Notification is appropriate, but ongoing observation alone omits immediate oxygenation support.",
-        "Reassurance alone risks overlooking a developing reaction.",
-        "Addresses oxygenation and alerts the responsible clinician.",
-        "Increasing fluids without alerting the clinician and assessing the reaction is incomplete."
+        "Matches the review's first action: communicate the change and closely monitor the patient.",
+        "Reassurance alone may miss a developing adverse reaction.",
+        "Notifying the surgeon is appropriate, but the review does not consider oxygen the first intervention in the findings given. Oxygen remains indicated when the clinical assessment warrants it.",
+        "Increasing the IV rate and offering reassurance do not replace assessment, prompt notification, and a reaction-management plan."
       ],
       "collection": "recording",
       "reviewOnly": false,
@@ -1803,7 +2314,16 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 59,
         "videoSeconds": 112,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 144.0
+      },
+      "currentGuidance": "Do not interpret the recorded key as a rule to withhold oxygen or delay treatment in anaphylaxis. Assess airway, breathing, circulation, oxygen saturation, and the evolving reaction, and activate the appropriate emergency response when indicated.",
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 144.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -1817,14 +2337,14 @@
         "Left flank",
         "Right flank"
       ],
-      "answer": 1,
-      "explanation": "For a left knee operation, a suitable left-thigh return-electrode site keeps the current path near the operative field and away from the chest device. Confirm the pacemaker plan, suitable perfused skin, and the energy-device instructions.",
+      "answer": 0,
+      "explanation": "The recorded key selects the right lateral thigh. Its explanation avoids the left operative field and the more proximal flank sites near the pacemaker. Actual return-electrode placement also requires an assessment of skin, perfusion, the operative field, any tourniquet, the implanted device, and the equipment instructions.",
       "concept": "recording-energy",
       "optionExplanations": [
-        "Crosses a longer path than the available ipsilateral thigh.",
-        "Offers the best listed nearby well-muscled site away from the chest device.",
-        "Creates a more proximal current path than the left thigh.",
-        "Creates a longer, less targeted return path."
+        "The review's intended site is away from the left knee operative field and the chest pacemaker.",
+        "The review considers this site too close to the left operative field; suitability cannot be determined from laterality alone.",
+        "The review rejects this more proximal site because of its relation to the pacemaker and current pathway.",
+        "The review similarly rejects the flank site in favor of the thigh."
       ],
       "collection": "recording",
       "reviewOnly": false,
@@ -1832,7 +2352,16 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 60,
         "videoSeconds": 114,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 147.0
+      },
+      "currentGuidance": "ORNAC §§3.41.25–3.41.28 require a suitable well-muscled, clean, dry, perfused site near the operative area, avoidance of compromised skin/prostheses, and positioning proximal to a tourniquet and away from implanted electronic devices. The key's single location is not a universal rule for every knee operation or pacemaker patient.",
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 147.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -1861,14 +2390,23 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 61,
         "videoSeconds": 116,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 150.0
       },
       "additionalReferences": [
         {
           "name": "RCoA · Rapid sequence induction statement (2026)",
           "url": "https://www.rcoa.ac.uk/sites/default/files/documents/2026-07/RSI%20statement-%20FINAL%20version%20100626.pdf"
         }
-      ]
+      ],
+      "currentGuidance": "Cricoid pressure is the review's intended answer. Its use follows the anesthesia provider's individualized rapid-sequence plan; it is not a universal requirement. Release it if directed when it impedes ventilation or intubation.",
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 150.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-062",
@@ -1896,7 +2434,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 62,
         "videoSeconds": 118,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 152.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 152.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -1925,7 +2471,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 63,
         "videoSeconds": 119,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 155.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 155.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -1954,7 +2508,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 64,
         "videoSeconds": 121,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 158.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 158.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -1983,7 +2545,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 65,
         "videoSeconds": 123,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 161.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 161.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -2012,14 +2582,22 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 66,
         "videoSeconds": 125,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 164.0
       },
       "additionalReferences": [
         {
           "name": "OpenAnesthesia · Laryngospasm",
           "url": "https://www.openanesthesia.org/keywords/laryngospasm/"
         }
-      ]
+      ],
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 164.0,
+        "cognitiveLevel": "CRITICAL THINKING"
+      }
     },
     {
       "id": "MEAZURE-067",
@@ -2047,7 +2625,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 67,
         "videoSeconds": 126,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 166.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 166.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -2076,7 +2662,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 68,
         "videoSeconds": 128,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 169.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 169.0,
+        "cognitiveLevel": "KNOWLEDGE/COMPREHENSION"
       }
     },
     {
@@ -2105,7 +2699,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 69,
         "videoSeconds": 130,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 172.0
+      },
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 172.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -2134,7 +2736,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 70,
         "videoSeconds": 132,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 174.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 174.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -2163,7 +2773,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 71,
         "videoSeconds": 133,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 177.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 177.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -2192,7 +2810,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 72,
         "videoSeconds": 135,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 181.0
+      },
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 181.0,
+        "cognitiveLevel": "KNOWLEDGE/COMPREHENSION"
       }
     },
     {
@@ -2221,7 +2847,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 73,
         "videoSeconds": 136,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 183.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 183.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -2250,7 +2884,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 74,
         "videoSeconds": 138,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 188.0
+      },
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 188.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -2264,29 +2906,38 @@
         "Droplet precautions",
         "Contact precautions"
       ],
-      "answer": null,
-      "explanation": "This item is not scored because 'positive for tuberculosis' does not distinguish active infectious pulmonary or laryngeal TB from latent infection or an isolated positive screening test. Suspected or confirmed infectious pulmonary TB requires airborne precautions in addition to routine practices. Latent TB alone does not. The missing clinical distinction must be clarified.",
+      "answer": 0,
+      "explanation": "The recorded key selects airborne precautions, treating the patient as having infectious tuberculosis. Suspected or confirmed infectious pulmonary or laryngeal TB requires airborne precautions in addition to routine practices. The screening-versus-active-disease distinction is explained below.",
       "concept": "recording-priority",
       "optionExplanations": [
-        "Required when active infectious pulmonary or laryngeal TB is suspected or confirmed.",
-        "Always applies; routine practices alone may be sufficient for latent infection without another transmission risk.",
-        "Not the appropriate additional route-based control for infectious pulmonary TB.",
-        "Not the primary route-based control for infectious pulmonary TB."
+        "Matches the key's assumption of infectious TB requiring airborne precautions.",
+        "Routine practices alone do not address airborne transmission when infectious respiratory TB is suspected or confirmed.",
+        "Droplet precautions alone do not provide the airborne protection required for infectious respiratory TB.",
+        "Contact precautions alone do not address airborne TB transmission."
       ],
       "collection": "recording",
-      "reviewOnly": true,
+      "reviewOnly": false,
       "origin": {
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 75,
         "videoSeconds": 140,
-        "answerStatus": "Review only — insufficient detail"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 189.0
       },
       "additionalReferences": [
         {
           "name": "CDC · TB transmission and latent infection",
           "url": "https://www.cdc.gov/tb/causes/index.html"
         }
-      ]
+      ],
+      "currentGuidance": "'Positive for tuberculosis' does not distinguish latent infection or a positive screening test from infectious respiratory disease. Latent TB alone is not infectious. Clarify the clinical status and follow the indicated precautions; the key assumes the infectious form.",
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 189.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-076",
@@ -2314,7 +2965,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 76,
         "videoSeconds": 142,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 192.0
+      },
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 192.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -2343,7 +3002,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 77,
         "videoSeconds": 144,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 195.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 195.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -2357,14 +3024,14 @@
         "Report his anxiety during induction, point out the red mark on his thigh and provide related documentation.",
         "Report that he was crying and upset prior to induction."
       ],
-      "answer": 1,
-      "explanation": "Identify the new skin finding, its location and assessment, the operative wound, and relevant documentation at handoff so PACU can assess and follow up. Do not attribute the mark to anxiety without evidence.",
+      "answer": 2,
+      "explanation": "Report both the distress during induction and the new red mark, with relevant documentation. The review expects PACU to anticipate emotional distress on emergence and assess the skin finding. Include the operative wound and other routine handoff information as well.",
       "concept": "recording-incident",
       "optionExplanations": [
-        "Omits the new skin finding.",
-        "Provides the relevant local findings and their documentation.",
-        "Mentions the mark but gives anxiety priority over the operative-site information; a full handoff can include both.",
-        "Omits the skin injury and operative-site assessment."
+        "Reporting a successful procedure alone omits the distress and the new skin finding.",
+        "Conveys the skin finding but omits the induction distress that may affect emergence and recovery.",
+        "Conveys both the emotional state during induction and the new skin finding requiring follow-up.",
+        "Conveys the distress but omits the new red mark and the related assessment/documentation."
       ],
       "collection": "recording",
       "reviewOnly": false,
@@ -2372,7 +3039,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 78,
         "videoSeconds": 146,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 198.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 198.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -2401,7 +3076,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 79,
         "videoSeconds": 149,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 201.0
+      },
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 201.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -2422,7 +3105,7 @@
         "Important for anemia and bleeding assessment, but not the listed measure of anticoagulant effect.",
         "Provides relevant coagulation information for neuraxial safety.",
         "May inform infection assessment, but does not evaluate coagulation.",
-        "Important to general assessment, but does not directly evaluate neuraxial bleeding risk."
+        "Electrolytes affect overall anesthetic assessment, but INR is the listed measure addressing coagulation and neuraxial bleeding risk."
       ],
       "collection": "recording",
       "reviewOnly": false,
@@ -2430,7 +3113,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 80,
         "videoSeconds": 150,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 204.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 204.0,
+        "cognitiveLevel": "KNOWLEDGE/COMPREHENSION"
       }
     },
     {
@@ -2444,29 +3135,38 @@
         "Call for the cardiac arrest cart.",
         "Continue to carefully observe the ECG."
       ],
-      "answer": null,
-      "explanation": "This item is retained without scoring because HR 180 after epinephrine does not specify the rhythm, blood pressure, perfusion, or duration. Assess the patient and rhythm, alert and assist the anesthesia provider, and prepare emergency equipment if instability develops. The recording provides no official key to settle the priority between these incomplete choices.",
+      "answer": 1,
+      "explanation": "Go to the head of the bed to assist the anesthesia provider. The review tests active preparation and coordinated assistance for a potential cardiac event; simply watching the ECG is insufficient. Treatment and further escalation depend on rhythm, perfusion, and stability.",
       "concept": "recording-priority",
       "optionExplanations": [
-        "Atropine can increase heart rate further; these drugs are not justified by HR 180 alone.",
-        "Immediate assistance and assessment may be appropriate, especially if the provider needs help.",
-        "Appropriate readiness when serious instability is suspected, but the stem does not establish arrest or instability.",
-        "Monitoring is essential, but passive observation alone is inadequate if the patient is deteriorating."
+        "Preparing these drugs without a provider-directed plan is not the appropriate initial response to the tachycardia.",
+        "Provides immediate, active assistance to assess and manage the developing cardiac problem.",
+        "Emergency equipment may be needed, but the key prioritizes immediate assistance to the anesthesia provider.",
+        "Passive observation alone does not provide the assistance and preparation the situation requires."
       ],
       "collection": "recording",
-      "reviewOnly": true,
+      "reviewOnly": false,
       "origin": {
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 81,
         "videoSeconds": 153,
-        "answerStatus": "Review only — insufficient detail"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 208.0
       },
       "additionalReferences": [
         {
           "name": "AHA · Tachyarrhythmia with a pulse algorithm (2025)",
           "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Tachycardia-250514.pdf?sc_lang=en"
         }
-      ]
+      ],
+      "currentGuidance": "The stem does not provide blood pressure, perfusion, or the exact tachyarrhythmia. Immediate assistance is the intended nursing priority, while urgency, equipment, and treatment depend on assessment of stability and rhythm. Do not infer a particular drug treatment from the heart rate alone.",
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 208.0,
+        "cognitiveLevel": "APPLICATION"
+      }
     },
     {
       "id": "MEAZURE-082",
@@ -2494,7 +3194,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 82,
         "videoSeconds": 154,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 210.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 210.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -2523,7 +3231,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 83,
         "videoSeconds": 155,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 213.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 213.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -2552,7 +3268,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 84,
         "videoSeconds": 157,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 218.0
+      },
+      "examReview": {
+        "answer": 2,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 218.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -2566,14 +3290,14 @@
         "Cover the set-up with a sterile drape until the patient is ready.",
         "Dismantle the set-up, flash the instrumentation and order new medical-surgical supplies."
       ],
-      "answer": 2,
-      "explanation": "Under the 17th-edition ORNAC guidance, an unexpected delay is a reason an intact sterile setup may be covered using the proper method and continuously monitored. Covering is never a substitute for observation. If monitoring cannot be maintained or contamination occurs, dismantle and reprocess affected items.",
+      "answer": 0,
+      "explanation": "The recorded key expects dismantling the setup and returning the instruments for reprocessing after the anticipated delay. The review's older explanation rejects covering as assurance of sterility. Your 17th-edition guideline allows covering in defined circumstances with continuous monitoring; see the current-guideline note below.",
       "concept": "recording-sterile",
       "optionExplanations": [
-        "Needed if sterility cannot be assured, but delay alone does not mandate dismantling under the current guideline.",
-        "Closed doors and tape cannot replace continuous monitoring.",
-        "Permitted for an intact field during a delay only with proper covering, continuous monitoring, and local policy.",
-        "IUSS is not a scheduling workaround or a method for routinely reprocessing an entire set."
+        "Matches the recorded review's intended answer for the delayed setup.",
+        "Closed doors and tape cannot establish or preserve sterility without continuous observation.",
+        "The older review rejects this option. ORNAC 17th edition permits proper covering of an intact field in specified circumstances with continuous monitoring and local policy.",
+        "IUSS is not a scheduling workaround, routine reprocessing method, or a method for sterilizing an entire set or implants."
       ],
       "collection": "recording",
       "reviewOnly": false,
@@ -2581,7 +3305,16 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 85,
         "videoSeconds": 159,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 221.0
+      },
+      "currentGuidance": "ORNAC 17th edition §§2.17.8–2.17.11 (PDF pp. 116–117) permits proper covering of an intact sterile setup for specified circumstances, including an unexpected delay, while continuous monitoring continues. Covering never substitutes for observation. If sterility or monitoring cannot be assured, dismantle and reprocess affected supplies. The recorded key reflects the older review, not an unconditional current rule for all delays.",
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 221.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -2610,7 +3343,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 86,
         "videoSeconds": 161,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 225.0
+      },
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 225.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -2639,7 +3380,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 87,
         "videoSeconds": 162,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 228.0
+      },
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 228.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -2658,7 +3407,7 @@
       "concept": "recording-sterile",
       "optionExplanations": [
         "Directly prevents and removes pooled flammable solution.",
-        "Waste disposal matters but does not control liquid trapped near the patient.",
+        "Waste disposal does not directly prevent pooling or ensure drying; dispose of used material according to contamination and local policy.",
         "Knowledge of flammability is necessary but does not physically control pooling.",
         "A retained dry sponge can become saturated and does not provide the complete pooling-control strategy."
       ],
@@ -2668,7 +3417,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 88,
         "videoSeconds": 163,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 231.0
+      },
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 231.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -2697,7 +3454,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 89,
         "videoSeconds": 165,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 234.0
+      },
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 234.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -2726,7 +3491,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 90,
         "videoSeconds": 167,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 236.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 236.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -2755,7 +3528,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 91,
         "videoSeconds": 169,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 239.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 239.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -2784,7 +3565,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 92,
         "videoSeconds": 171,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 242.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 242.0,
+        "cognitiveLevel": "KNOWLEDGE/COMPREHENSION"
       }
     },
     {
@@ -2804,7 +3593,7 @@
       "optionExplanations": [
         "Overstates what a single BI result can prove about every item.",
         "Overstates assurance for every implant and ignores the full release process.",
-        "Air-removal assessment is the role of the applicable Bowie-Dick test.",
+        "Air-removal performance is assessed separately with the appropriate test, such as a Bowie-Dick test in applicable sterilizers; it is not what a BI measures.",
         "Is the closest listed purpose: checking the efficacy of the sterilization process, rather than guaranteeing each item's sterility."
       ],
       "collection": "recording",
@@ -2813,7 +3602,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 93,
         "videoSeconds": 173,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 245.0
+      },
+      "examReview": {
+        "answer": 3,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 245.0,
+        "cognitiveLevel": "KNOWLEDGE/COMPREHENSION"
       }
     },
     {
@@ -2842,7 +3639,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 94,
         "videoSeconds": 175,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 247.0
+      },
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 247.0,
+        "cognitiveLevel": "KNOWLEDGE/COMPREHENSION"
       }
     },
     {
@@ -2871,7 +3676,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 95,
         "videoSeconds": 176,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 250.0
+      },
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 250.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -2900,7 +3713,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 96,
         "videoSeconds": 178,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 253.0
+      },
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 253.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -2929,7 +3750,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 97,
         "videoSeconds": 179,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 256.0
+      },
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 256.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     },
     {
@@ -2958,7 +3787,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 98,
         "videoSeconds": 182,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 258.0
+      },
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 258.0,
+        "cognitiveLevel": "KNOWLEDGE/COMPREHENSION"
       }
     },
     {
@@ -2987,7 +3824,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 99,
         "videoSeconds": 183,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 262.0
+      },
+      "examReview": {
+        "answer": 0,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 262.0,
+        "cognitiveLevel": "APPLICATION"
       }
     },
     {
@@ -3016,7 +3861,15 @@
         "name": "CNA Practice Test — Perioperative (Meazure Learning recording)",
         "questionNumber": 100,
         "videoSeconds": 185,
-        "answerStatus": "Independently assessed study answer; official key not shown"
+        "answerStatus": "Correct option verified in the recorded exam review",
+        "reviewVideoSeconds": 265.0
+      },
+      "examReview": {
+        "answer": 1,
+        "verified": true,
+        "sourceRecording": "Screen Recording 2026-10-08 154422.mp4",
+        "videoSeconds": 265.0,
+        "cognitiveLevel": "CRITICAL THINKING"
       }
     }
   ],

@@ -182,6 +182,7 @@ function renderQuestion() {
   $("#session-answered").textContent = s.answers.length;
   $("#question-meta").textContent = q.category.toUpperCase() + (q.origin ? ` · RECORDED PRACTICE #${q.origin.questionNumber}` : "");
   $("#review-only-notice").classList.toggle("hidden", !q.reviewOnly);
+  $("#recorded-key-notice").classList.toggle("hidden", !q.currentGuidance);
   $("#question-note").value = state.progress[q.id]?.note || "";
   $("#question-text").textContent = q.prompt;
   $("#case-box").classList.toggle("hidden", !q.case);
@@ -236,7 +237,7 @@ function renderAnswer(record) {
   const feedback = $("#feedback");
   feedback.replaceChildren();
   const title = document.createElement("strong");
-  title.textContent = q.reviewOnly ? "Review the reasoning · not scored." : correct ? "That's right." : "A point to revisit.";
+  title.textContent = q.reviewOnly ? "Review the reasoning · not scored." : q.examReview?.verified ? (correct ? "Correct for the recorded key." : "Doesn't match the recorded key.") : correct ? "That's right." : "A point to revisit.";
   const explanation = document.createElement("p");
   explanation.textContent = q.explanation;
   const source = document.createElement("a");
@@ -246,9 +247,15 @@ function renderAnswer(record) {
   const printedPages = reference.pages.map(page => page.printedPage).join(", ");
   source.href = state.bank.document.url;
   source.target = "_blank"; source.rel = "noopener";
-  source.textContent = `Guideline reference: ORNAC Guidelines, 17th ed. (2025), ${sections} · PDF ${reference.pages.length === 1 ? "p." : "pp."} ${pdfPages} (printed ${printedPages}) ↗`;
+  source.textContent = `${q.examReview?.verified ? "Current-guideline reference" : "Guideline reference"}: ORNAC Guidelines, 17th ed. (2025), ${sections} · PDF ${reference.pages.length === 1 ? "p." : "pp."} ${pdfPages} (printed ${printedPages}) ↗`;
   source.title = `Open your Drive copy, then enter PDF page ${reference.pages[0].pdfPage} in the viewer’s page box.`;
   feedback.append(title, explanation, source);
+  if (q.currentGuidance) {
+    const note = document.createElement("div"); note.className = "guidance-note";
+    const heading = document.createElement("strong"); heading.textContent = "Current-guideline note";
+    const body = document.createElement("p"); body.textContent = q.currentGuidance;
+    note.append(heading, body); feedback.append(note);
+  }
   if (q.origin) {
     const origin = document.createElement("p"); origin.className = "answer-provenance";
     origin.textContent = `Recorded practice #${q.origin.questionNumber} · ${q.origin.answerStatus}.`;
@@ -264,7 +271,7 @@ function renderAnswer(record) {
   const why = document.createElement("details");
   why.className = "learning-detail";
   const whySummary = document.createElement("summary");
-  whySummary.textContent = q.reviewOnly ? "How to evaluate each answer" : "Why the other answers are incorrect";
+  whySummary.textContent = q.reviewOnly ? "How to evaluate each answer" : q.examReview?.verified ? "Why the other choices do not match the recorded key" : "Why the other answers are incorrect";
   const wrongList = document.createElement("ul");
   wrongList.className = "wrong-list";
   q.displayed.forEach((option, displayedIndex) => {
@@ -412,7 +419,7 @@ function bind() {
 async function init() {
   bind();
   try {
-    const response = await fetch("./bank.json?v=ORNAC-17-2025-r4-recording");
+    const response = await fetch("./bank.json?v=ORNAC-17-2025-r5-reviewed-key");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.bank = await response.json();
     if (!Array.isArray(state.bank.questions) || !state.bank.questions.length) throw new Error("Question bank is empty");

@@ -179,6 +179,10 @@ for q in recording['questions']:
     assert len(q['optionExplanations']) == 4 and all(q['optionExplanations'])
     assert (q['answer'] is None) == q['reviewOnly']
     assert q['answer'] is None or q['answer'] in range(4)
+    if recording['metadata'].get('officialAnswerKeyShown'):
+        assert q['examReview']['verified'] and q['examReview']['answer'] == q['answer']
+        assert not q['reviewOnly'], q['id']
+        assert q['examReview']['cognitiveLevel'] in {'KNOWLEDGE/COMPREHENSION', 'APPLICATION', 'CRITICAL THINKING'}
     assert q['concept'] in recording['concepts']
     assert not q.get('case') or q['case'] in recording['cases']
     questions.append(q)
