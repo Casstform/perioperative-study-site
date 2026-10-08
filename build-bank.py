@@ -170,6 +170,19 @@ for case_id, group in groups.items():
 assert 0.15 <= len(seen_case_ids) / len(questions) <= 0.25
 assert len(questions) >= 300, len(questions)
 assert len(sections) >= 120, len(sections)
+recording = json.loads((ROOT / 'recorded-practice.json').read_text())
+assert len(recording['questions']) == 100
+assert [q['origin']['questionNumber'] for q in recording['questions']] == list(range(1, 101))
+for q in recording['questions']:
+    assert q['category'] in CATEGORIES.values()
+    assert len(q['options']) == 4 and len(set(q['options'])) == 4
+    assert len(q['optionExplanations']) == 4 and all(q['optionExplanations'])
+    assert (q['answer'] is None) == q['reviewOnly']
+    assert q['answer'] is None or q['answer'] in range(4)
+    assert q['concept'] in recording['concepts']
+    assert not q.get('case') or q['case'] in recording['cases']
+    questions.append(q)
+assert len({q['id'] for q in questions}) == len(questions)
 page_map = json.loads((ROOT / 'question-page-map.json').read_text())
 document = page_map['document']
 assert set(page_map['questions']) == {q['id'] for q in questions}, 'Every question needs a PDF reference'
@@ -188,9 +201,12 @@ sources.update({s: {'name': f'ORNAC Guidelines, 17th ed. (2025), §{s}', 'url': 
                'note': 'Relevant guideline discussion in the owner’s Drive PDF; individual questions identify PDF and printed pages.'}
            for s in sorted(sections, key=lambda s: tuple(map(int, s.split('.'))))})
 concepts = {key: {'title': title, 'text': body} for key, (title, body) in CONCEPTS.items()}
+concepts.update(recording['concepts'])
 bank = {'version': 'ORNAC-17-2025', 'questions': questions, 'cases': {key: value['context'] for key, value in groups.items()},
         'sources': sources, 'document': document, 'concepts': concepts, 'categories': list(CATEGORIES.values()),
         'blueprintWeights': WEIGHTS}
+bank['cases'].update(recording['cases'])
+bank['recording'] = recording['metadata']
 (ROOT / 'bank.json').write_text(json.dumps(bank, ensure_ascii=False, separators=(',', ':')) + '\n')
-print(len(questions), 'questions covering', len(sections), 'subsections;', len(seen_case_ids), 'case questions')
+print(len(questions), 'questions covering', len(sections), 'subsections;', sum(bool(q.get('case')) for q in questions), 'case questions')
 print(Counter(q['category'] for q in questions))

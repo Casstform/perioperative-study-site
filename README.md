@@ -3,16 +3,15 @@
 A static, independent CPN(C) practice site at
 https://casstform.github.io/perioperative-study-site/.
 
-The current bank has 304 original multiple-choice questions based on the
+The current bank has 404 questions: 304 original multiple-choice questions based on the
 user-supplied ORNAC *Guidelines for Perioperative Practice in Canada*, 17th
-edition (April 2025). It covers every numbered subsection, with 60 questions
-in 15 four-part cases. CNA's 2020 perioperative exam blueprint informs the
+edition (April 2025), plus all 100 questions from the user-supplied Meazure Learning recording of “CNA Practice Test – Perioperative”. The original bank covers every numbered subsection, with 60 questions in 15 four-part cases. The recording adds 21 case questions across five cases, for 81 questions in 20 cases overall. CNA's 2020 perioperative exam blueprint informs the
 six domain weights and case proportion. No ORNAC PDF or extracted text is
 published in this repository.
 
 ## Maintain the bank
 
-Edit `ornac-questions.txt`, `case-groups.json`, and `question-page-map.json`, then run
+Edit `ornac-questions.txt`, `case-groups.json`, `recorded-practice.json`, and `question-page-map.json`, then run
 `python3 build-bank.py`. The pipe-delimited question fields are:
 
 `section|domain|prompt|correct|wrong1|wrong2|wrong3|rationale`
@@ -30,6 +29,9 @@ PDF page numbers and printed page labels. `question-page-map.json` stores the
 reference for every stable question ID. Its pagination is specific to the
 548-page `ORNAC Print to PDF Trial.pdf`; remap the references if the PDF changes.
 The PDF remains in Drive with its existing permissions and is not included here.
-Questions and learning notes are
-original paraphrases, not copied guideline passages or official exam items.
+The original ORNAC questions and explanatory notes are original paraphrases, not copied guideline passages. The recorded collection preserves questions supplied by the user; no official answer key appears in that recording. Scored answers are independent clinical assessments. Four ambiguous items (recorded #8, #16, #75, #81) have `answer: null` and `reviewOnly: true`, and do not change accuracy or missed-question status.
+
+`MEAZURE-001` through `MEAZURE-100` are stable recording IDs. Original `ORNAC17-*` IDs and their existing progress key are preserved. Each recorded item has original-number provenance, a video timestamp, four specific choice explanations, and mapped PDF pages. Additional references distinguish clinical drug/emergency details from related ORNAC discussion. Keep the recording, session URLs, user account details, and extracted guideline text out of the public repository.
+
+Choose Recorded practice / All to reproduce the recorded sequence. Mixed exams use blueprint targets and can group complete cases of different lengths. Navigation restores the selected answer and explanation without recording another attempt. Per-question notes and text-size preferences stay in browser storage. Keyboard shortcuts ignore editable fields.
 This project is not endorsed by CNA or ORNAC.

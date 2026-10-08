@@ -1,9 +1,10 @@
 const $ = (selector) => document.querySelector(selector);
 const STORAGE_KEY = "perioperative-ornac17-v1";
 const THEME_KEY = "perioperative-study-lab-theme";
+const TEXT_SIZE_KEY = "perioperative-study-text-size";
 const icons = ["✧", "⊕", "✳", "◌", "⌁", "◈"];
 const state = {
-  bank: null, pool: "all", length: 20, categories: new Set(),
+  bank: null, pool: "all", collection: "all", length: 20, categories: new Set(), navFilter: "all",
   progress: loadProgress(), session: null
 };
 
@@ -33,6 +34,8 @@ function categorySelection() {
 }
 function poolQuestions() {
   return state.bank.questions.filter(q => {
+    if (state.collection === "recording" && q.collection !== "recording") return false;
+    if (state.collection === "ornac" && q.collection === "recording") return false;
     if (!categorySelection().has(q.category)) return false;
     const p = state.progress[q.id];
     if (state.pool === "missed") return Boolean(p?.missed);
@@ -41,6 +44,9 @@ function poolQuestions() {
   });
 }
 function sampleWeighted(pool, count) {
+  if (state.collection === "recording" && count >= pool.length) {
+    return [...pool].sort((a, b) => a.origin.questionNumber - b.origin.questionNumber);
+  }
   if (count >= pool.length) {
     const grouped = new Map();
     const blocks = [];
@@ -54,15 +60,16 @@ function sampleWeighted(pool, count) {
   if (state.pool !== "all" || state.categories.size) return shuffle(pool).slice(0, count);
   const selected = [];
   const available = [...pool];
-  // Full-bank sessions include complete four-part clinical cases.
+  // Full-bank sessions include complete clinical cases when they fit the target.
   const caseMap = new Map();
   for (const q of available.filter(q => q.case)) {
     if (!caseMap.has(q.case)) caseMap.set(q.case, []);
     caseMap.get(q.case).push(q);
   }
-  const caseGroups = [...caseMap.values()].filter(group => group.length === 4);
-  const caseTarget = Math.min(caseGroups.length, Math.round(count * 0.2 / 4));
-  for (const group of shuffle(caseGroups).slice(0, caseTarget)) {
+  const caseGroups = [...caseMap.values()];
+  const caseTarget = Math.round(count * 0.2);
+  for (const group of shuffle(caseGroups)) {
+    if (selected.length + group.length > caseTarget) continue;
     selected.push(...group);
     for (const q of group) available.splice(available.indexOf(q), 1);
   }
@@ -96,13 +103,16 @@ function sampleWeighted(pool, count) {
 function updateDashboard() {
   if (!state.bank) return;
   const records = Object.values(state.progress);
-  $("#bank-size").textContent = state.bank.questions.length;
+  $("#bank-size").textContent = state.bank.questions.filter(q => state.collection === "all" || (state.collection === "recording" ? q.collection === "recording" : q.collection !== "recording")).length;
   $("#missed-count").textContent = records.filter(p => p.missed).length;
   $("#saved-count").textContent = records.filter(p => p.saved).length;
   const pool = poolQuestions();
+  $("#recording-note").classList.toggle("hidden", state.collection !== "recording");
   const count = state.length === "all" ? pool.length : Math.min(Number(state.length), pool.length);
-  $("#session-description").textContent = `${count} ${state.pool === "all" ? "mixed" : state.pool} question${count === 1 ? "" : "s"}`;
-  $("#session-detail").textContent = state.pool === "all" && !state.categories.size
+  $("#session-description").textContent = `${count} ${state.collection === "recording" ? "recorded practice" : state.pool === "all" ? "mixed" : state.pool} question${count === 1 ? "" : "s"}`;
+  $("#session-detail").textContent = state.collection === "recording" && state.length === "all"
+    ? "Recorded question order, shared cases, and linked explanations."
+    : state.pool === "all" && !state.categories.size
     ? "Blueprint-aware mix with linked explanations."
     : `${pool.length} available in your selected pool and domains.`;
 }
@@ -116,7 +126,7 @@ function renderHome() {
     button.setAttribute("aria-pressed", state.categories.has(category));
     button.innerHTML = `<span class="pill-icon">${icons[i]}</span><span></span><span class="pill-count"></span>`;
     button.children[1].textContent = category;
-    button.children[2].textContent = state.bank.questions.filter(q => q.category === category).length;
+    button.children[2].textContent = state.bank.questions.filter(q => q.category === category && (state.collection === "all" || (state.collection === "recording" ? q.collection === "recording" : q.collection !== "recording"))).length;
     button.addEventListener("click", () => {
       state.categories.has(category) ? state.categories.delete(category) : state.categories.add(category);
       button.setAttribute("aria-pressed", state.categories.has(category));
@@ -128,6 +138,7 @@ function renderHome() {
   updateDashboard();
 }
 function syncControls() {
+  $("#question-set").value = state.collection;
   document.querySelectorAll("[data-pool]").forEach(button => {
     const yes = button.dataset.pool === state.pool;
     button.classList.toggle("selected", yes);
@@ -149,10 +160,11 @@ function startSession() {
   }
   $("#setup-message").textContent = "";
   const count = state.length === "all" ? pool.length : Math.min(Number(state.length), pool.length);
+  state.navFilter = "all";
   state.session = {
     questions: sampleWeighted(pool, count).map(q => {
       const order = shuffle([0, 1, 2, 3]);
-      return {...q, displayed: order.map(i => q.options[i]), displayOrder: order, correctIndex: order.indexOf(q.answer)};
+      return {...q, displayed: order.map(i => q.options[i]), displayOrder: order, correctIndex: q.reviewOnly ? null : order.indexOf(q.answer)};
     }),
     index: 0, answers: [], revealed: false
   };
@@ -161,12 +173,16 @@ function startSession() {
 function renderQuestion() {
   const s = state.session, q = s.questions[s.index];
   s.revealed = false;
+  $("#navigation-message").textContent = "";
+  $("#previous-question").disabled = s.index === 0;
   $("#quiz-progress-label").textContent = `QUESTION ${String(s.index + 1).padStart(2, "0")} / ${s.questions.length}`;
   $("#progress-fill").style.width = `${s.index / s.questions.length * 100}%`;
   $("#aside-number").innerHTML = `${String(s.index + 1).padStart(2, "0")}<span> / ${s.questions.length}</span>`;
   $("#session-correct").textContent = s.answers.filter(a => a.correct).length;
   $("#session-answered").textContent = s.answers.length;
-  $("#question-meta").textContent = q.category.toUpperCase();
+  $("#question-meta").textContent = q.category.toUpperCase() + (q.origin ? ` · RECORDED PRACTICE #${q.origin.questionNumber}` : "");
+  $("#review-only-notice").classList.toggle("hidden", !q.reviewOnly);
+  $("#question-note").value = state.progress[q.id]?.note || "";
   $("#question-text").textContent = q.prompt;
   $("#case-box").classList.toggle("hidden", !q.case);
   if (q.case) $("#case-box").textContent = `CLINICAL CASE · ${state.bank.cases[q.case]}`;
@@ -187,27 +203,40 @@ function renderQuestion() {
   const saved = Boolean(state.progress[q.id]?.saved);
   $("#bookmark").textContent = saved ? "★ Saved" : "☆ Save";
   $("#bookmark").setAttribute("aria-pressed", String(saved));
+  const previous = s.answers.find(record => record.id === q.id);
+  if (previous) renderAnswer(previous);
+  renderNavigator();
 }
 function answer(index) {
   const s = state.session;
-  if (!s || s.revealed) return;
-  const q = s.questions[s.index], correct = index === q.correctIndex;
-  s.revealed = true;
-  s.answers.push({id: q.id, category: q.category, correct});
+  if (!s || s.revealed || !Number.isInteger(index) || index < 0 || index > 3) return;
+  const q = s.questions[s.index], correct = q.reviewOnly ? null : index === q.correctIndex;
+  const record = {id: q.id, category: q.category, correct, choice: index};
+  s.answers.push(record);
   const p = entry(q.id);
-  p.attempts++; if (correct) p.correct++;
-  p.missed = !correct;
+  if (!q.reviewOnly) {
+    p.attempts++; if (correct) p.correct++;
+    p.missed = !correct;
+  }
   saveProgress();
+  renderAnswer(record);
+  renderNavigator();
+}
+function renderAnswer(record) {
+  const s = state.session, q = s.questions[s.index];
+  const index = record.choice, correct = record.correct;
+  s.revealed = true;
   [...$("#answer-options").children].forEach((button, i) => {
     button.disabled = true;
-    if (i === q.correctIndex) {button.classList.add("correct"); button.querySelector(".option-check").textContent = "✓";}
+    if (q.reviewOnly && i === index) { button.classList.add("review-choice"); button.querySelector(".option-check").textContent = "•"; }
+    else if (i === q.correctIndex) {button.classList.add("correct"); button.querySelector(".option-check").textContent = "✓";}
     else if (i === index) {button.classList.add("incorrect"); button.querySelector(".option-check").textContent = "×";}
     else button.classList.add("dimmed");
   });
   const feedback = $("#feedback");
   feedback.replaceChildren();
   const title = document.createElement("strong");
-  title.textContent = correct ? "That's right." : "A point to revisit.";
+  title.textContent = q.reviewOnly ? "Review the reasoning · not scored." : correct ? "That's right." : "A point to revisit.";
   const explanation = document.createElement("p");
   explanation.textContent = q.explanation;
   const source = document.createElement("a");
@@ -220,11 +249,22 @@ function answer(index) {
   source.textContent = `Guideline reference: ORNAC Guidelines, 17th ed. (2025), ${sections} · PDF ${reference.pages.length === 1 ? "p." : "pp."} ${pdfPages} (printed ${printedPages}) ↗`;
   source.title = `Open your Drive copy, then enter PDF page ${reference.pages[0].pdfPage} in the viewer’s page box.`;
   feedback.append(title, explanation, source);
+  if (q.origin) {
+    const origin = document.createElement("p"); origin.className = "answer-provenance";
+    origin.textContent = `Recorded practice #${q.origin.questionNumber} · ${q.origin.answerStatus}.`;
+    feedback.append(origin);
+  }
+  for (const reference of q.additionalReferences || []) {
+    const link = document.createElement("a");
+    link.href = reference.url; link.target = "_blank"; link.rel = "noopener";
+    link.textContent = `Clinical reference: ${reference.name} ↗`;
+    feedback.append(link);
+  }
 
   const why = document.createElement("details");
   why.className = "learning-detail";
   const whySummary = document.createElement("summary");
-  whySummary.textContent = "Why the other answers are incorrect";
+  whySummary.textContent = q.reviewOnly ? "How to evaluate each answer" : "Why the other answers are incorrect";
   const wrongList = document.createElement("ul");
   wrongList.className = "wrong-list";
   q.displayed.forEach((option, displayedIndex) => {
@@ -234,7 +274,7 @@ function answer(index) {
     const optionLabel = document.createElement("strong");
     optionLabel.textContent = option;
     const reason = document.createElement("span");
-    reason.textContent = q.whyOthers[originalIndex - 1];
+    reason.textContent = q.optionExplanations ? q.optionExplanations[originalIndex] : q.whyOthers[originalIndex - 1];
     item.append(optionLabel, reason);
     wrongList.append(item);
   });
@@ -257,7 +297,7 @@ function answer(index) {
   }
 
   feedback.append(why, basics);
-  feedback.className = `feedback ${correct ? "good" : "needs-review"}`;
+  feedback.className = `feedback ${q.reviewOnly ? "review-only" : correct ? "good" : "needs-review"}`;
   $("#session-correct").textContent = s.answers.filter(a => a.correct).length;
   $("#session-answered").textContent = s.answers.length;
   $("#keyboard-hint").textContent = "Press Enter for next";
@@ -266,31 +306,64 @@ function answer(index) {
 function nextQuestion() {
   const s = state.session;
   if (!s?.revealed) return;
-  if (++s.index >= s.questions.length) { showResults(); return; }
+  if (s.index === s.questions.length - 1) {
+    const unanswered = s.questions.findIndex(q => !s.answers.some(a => a.id === q.id));
+    if (unanswered !== -1) {
+      s.index = unanswered; renderQuestion();
+      $("#navigation-message").textContent = "Answer the remaining questions before viewing your results.";
+      return;
+    }
+    showResults(); return;
+  }
+  s.index++;
   renderQuestion();
+}
+function renderNavigator() {
+  const s = state.session;
+  const holder = $("#question-navigator"); holder.replaceChildren();
+  $("#navigator-status").textContent = `· ${s.answers.length} / ${s.questions.length} answered`;
+  document.querySelectorAll("[data-nav-filter]").forEach(button => button.setAttribute("aria-pressed", String(state.navFilter === button.dataset.navFilter)));
+  s.questions.forEach((q, index) => {
+    const answered = s.answers.some(a => a.id === q.id), saved = Boolean(state.progress[q.id]?.saved);
+    if (state.navFilter === "unanswered" && answered || state.navFilter === "saved" && !saved) return;
+    const button = document.createElement("button"); button.type = "button";
+    button.textContent = `${index + 1}${saved ? " ★" : ""}${q.reviewOnly ? " R" : ""}`;
+    button.className = `navigator-question${answered ? " answered" : ""}${index === s.index ? " current" : ""}`;
+    button.setAttribute("aria-label", `Question ${index + 1}${answered ? ", answered" : ", unanswered"}${saved ? ", saved" : ""}${q.reviewOnly ? ", review only" : ""}`);
+    if (index === s.index) button.setAttribute("aria-current", "step");
+    button.addEventListener("click", () => { s.index = index; renderQuestion(); });
+    holder.append(button);
+  });
+  if (!holder.children.length) { const p = document.createElement("p"); p.textContent = "No questions match this filter."; holder.append(p); }
 }
 function showResults() {
   const s = state.session;
   const correct = s.answers.filter(a => a.correct).length;
-  const percent = Math.round(correct / s.questions.length * 100);
+  const scored = s.answers.filter(a => a.correct !== null);
+  const reviewCount = s.answers.length - scored.length;
+  const percent = scored.length ? Math.round(correct / scored.length * 100) : null;
   $("#result-headline").textContent = percent >= 80 ? "Strong work." : percent >= 60 ? "Keep building." : "Keep practicing.";
-  $("#result-summary").textContent = `You answered ${correct} of ${s.questions.length} questions correctly. Every missed question is ready for another pass.`;
-  $("#result-percent").textContent = `${percent}%`;
+  $("#result-summary").textContent = `You answered ${correct} of ${scored.length} scored questions correctly.${reviewCount ? ` ${reviewCount} review-only item${reviewCount === 1 ? " was" : "s were"} excluded from scoring.` : ""} Every missed question is ready for another pass.`;
+  $("#result-percent").textContent = percent === null ? "—" : `${percent}%`;
   const list = $("#result-domains"); list.replaceChildren();
   state.bank.categories.forEach(category => {
-    const items = s.answers.filter(a => a.category === category);
+    const items = scored.filter(a => a.category === category);
     if (!items.length) return;
     const row = document.createElement("div");
     const label = document.createElement("span"); label.textContent = category;
     const value = document.createElement("strong"); value.textContent = `${items.filter(a => a.correct).length} / ${items.length}`;
     row.append(label, value); list.append(row);
   });
-  $("#retry-missed").disabled = !s.answers.some(a => !a.correct);
+  $("#retry-missed").disabled = !s.answers.some(a => a.correct === false);
   updateDashboard(); show("results");
 }
 function bind() {
   $("#start-custom").addEventListener("click", () => startSession());
   $("#next-question").addEventListener("click", nextQuestion);
+  $("#previous-question").addEventListener("click", () => { if (state.session.index > 0) { state.session.index--; renderQuestion(); } });
+  $("#question-set").addEventListener("change", event => { state.collection = event.target.value; renderHome(); });
+  $("#question-note").addEventListener("input", event => { const q = state.session.questions[state.session.index]; entry(q.id).note = event.target.value; saveProgress(); });
+  document.querySelectorAll("[data-nav-filter]").forEach(button => button.addEventListener("click", () => { state.navFilter = button.dataset.navFilter; renderNavigator(); }));
   $("#exit-quiz").addEventListener("click", () => {state.session = null; updateDashboard(); show("home");});
   $("#bookmark").addEventListener("click", () => {
     const id = state.session.questions[state.session.index].id;
@@ -298,8 +371,10 @@ function bind() {
     const saved = entry(id).saved;
     $("#bookmark").textContent = saved ? "★ Saved" : "☆ Save";
     $("#bookmark").setAttribute("aria-pressed", String(saved));
+    renderNavigator();
   });
   $("#home-button").addEventListener("click", () => show("home"));
+  $("#review-answers").addEventListener("click", () => { state.session.index = 0; show("quiz"); renderQuestion(); });
   $("#retry-missed").addEventListener("click", () => {
     state.pool = "missed"; state.categories.clear(); state.length = 20;
     syncControls(); startSession();
@@ -312,9 +387,20 @@ function bind() {
     syncControls(); updateDashboard();
   }));
   document.addEventListener("keydown", event => {
+    if (event.target?.closest("input, textarea, select, [contenteditable='true']")) return;
     if ($("#quiz").classList.contains("hidden") || event.altKey || event.ctrlKey || event.metaKey) return;
     if (/^[1-4]$/.test(event.key)) answer(Number(event.key) - 1);
     if (event.key === "Enter" && state.session?.revealed) nextQuestion();
+  });
+  let textSize = "1";
+  try { textSize = localStorage.getItem(TEXT_SIZE_KEY) || "1"; } catch {}
+  if (!["1", "1.15", "1.3"].includes(textSize)) textSize = "1";
+  $("#text-size").value = textSize;
+  document.documentElement.style.setProperty("--study-text-scale", textSize);
+  $("#text-size").addEventListener("change", event => {
+    const value = event.target.value;
+    document.documentElement.style.setProperty("--study-text-scale", value);
+    try { localStorage.setItem(TEXT_SIZE_KEY, value); } catch {}
   });
   const initialTheme = localStorage.getItem(THEME_KEY);
   if (initialTheme === "light") document.documentElement.classList.add("light");
@@ -326,7 +412,7 @@ function bind() {
 async function init() {
   bind();
   try {
-    const response = await fetch("./bank.json?v=ORNAC-17-2025-r3-pages");
+    const response = await fetch("./bank.json?v=ORNAC-17-2025-r4-recording");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.bank = await response.json();
     if (!Array.isArray(state.bank.questions) || !state.bank.questions.length) throw new Error("Question bank is empty");
