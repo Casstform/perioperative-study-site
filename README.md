@@ -3,7 +3,7 @@
 A static, independent CPN(C) practice site at
 https://casstform.github.io/perioperative-study-site/.
 
-The current bank has 404 questions: 304 challenging original multiple-choice questions based on the
+The current bank has 430 questions: 330 challenging original multiple-choice questions based on the
 user-supplied ORNAC *Guidelines for Perioperative Practice in Canada*, 17th
 edition (April 2025), plus all 100 questions from the user-supplied Meazure Learning recording of “CNA Practice Test – Perioperative”. The original bank covers every numbered subsection, with 60 questions in 15 four-part cases. The recording adds 21 case questions across five cases, for 81 questions in 20 cases overall. CNA's 2020 perioperative exam blueprint informs the
 six domain weights and case proportion. No ORNAC PDF or extracted text is
@@ -39,3 +39,7 @@ This project is not endorsed by CNA or ORNAC.
 The checked key is in `recorded-practice.json`; edit it directly rather than regenerating it from the initial, unkeyed transcription. The build verifies every recorded answer agrees with its checked review entry. Preserve historical progress and stable IDs when updating a key; only subsequent attempts use changed scoring.
 
 All 304 original questions were rewritten for harder application and judgment practice on October 10, 2026, retaining IDs, domains, and case membership. The difficulty field is an editorial target, not a calibrated CNA classification. The 100 recorded question objects and references are unchanged by this revision. Saved marks and notes remain attached to stable IDs. Earlier attempt totals are preserved historical results, not recalculated against the rewritten content.
+
+## Classification and precautions focus
+
+26 additional challenging original questions cover all four wound classes, common precaution examples, and device-specific Spaulding decisions. The bank now contains 330 originals and 100 unchanged recorded items. New questions link to the owner’s ORNAC PDF pages, with a PHAC reference for combined varicella precautions.

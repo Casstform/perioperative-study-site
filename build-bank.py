@@ -79,6 +79,8 @@ def concept_for(section):
     if sub <= 9: return 'emergency'
     return 'pandemic'
 
+CONCEPTS['wound_classes'] = ('Surgical wound classes I–IV', 'Class I (clean): an uninfected operative wound with no relevant tract entry or sterile breach. Class II (clean-contaminated): controlled respiratory, urinary, genital, or alimentary tract entry without prior infection or a sterile breach. Class III (contaminated): fresh open accidental wounds, major sterile breaches, GI spillage, or nonpurulent inflammation. Class IV (dirty or infected): old traumatic wounds, existing clinical infection, or perforated viscera. Confirm the final class with the surgeon at the conclusion of surgery using the organization’s IPAC definitions; booking does not determine the final class.')
+CONCEPTS['precaution_examples'] = ('Common precaution examples', 'Routine practices continue for all patients. ORNAC lists TB and measles (rubeola) as airborne examples; influenza, pertussis, mumps, and rubella as droplet examples; and MRSA/VRE, C. difficile, norovirus, and scabies as contact examples. RSV appears in both droplet and contact lists. Varicella requires airborne and contact measures, as clarified by PHAC. These categories can overlap. Suspected infection or colonization, exposure tasks, airway procedures, and local IPAC direction determine the actual plan.')
 questions = []
 seen_prompts = set()
 sections = set()
@@ -116,8 +118,10 @@ for case_id, group in groups.items():
         questions[number - 1]['case'] = case_id
         seen_case_ids.add(number)
 assert 0.15 <= len(seen_case_ids) / len(questions) <= 0.25
-assert len(questions) == 304, len(questions)
+assert len(questions) == 330, len(questions)
 assert len(sections) >= 120, len(sections)
+for q in questions[304:]:
+    q['concept'] = 'wound_classes' if int(q['id'][-3:]) <= 312 else 'precaution_examples' if int(q['id'][-3:]) <= 324 else 'devices'
 clinical_references = json.loads((ROOT / 'original-clinical-references.json').read_text())
 assert set(clinical_references) <= {q['id'] for q in questions}
 for question in questions:
@@ -165,7 +169,7 @@ bank = {'version': 'ORNAC-17-2025', 'questions': questions, 'cases': {key: value
         'blueprintWeights': WEIGHTS}
 bank['cases'].update(recording['cases'])
 bank['recording'] = recording['metadata']
-bank['originalPractice'] = {'questionCount': 304, 'difficulty': 'hard', 'revised': '2026-10-10',
+bank['originalPractice'] = {'questionCount': 330, 'difficulty': 'hard', 'revised': '2026-10-10',
     'note': 'Original questions were rewritten as challenging application and judgment practice. Difficulty is an editorial target, not a calibrated exam classification. Stable IDs preserve saved items and notes; prior attempt totals are not recalculated.'}
 (ROOT / 'bank.json').write_text(json.dumps(bank, ensure_ascii=False, separators=(',', ':')) + '\n')
 print(len(questions), 'questions covering', len(sections), 'subsections;', sum(bool(q.get('case')) for q in questions), 'case questions')
