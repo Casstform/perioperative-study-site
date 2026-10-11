@@ -3,7 +3,7 @@
 A static, independent CPN(C) practice site at
 https://casstform.github.io/perioperative-study-site/.
 
-The current bank has 404 questions: 304 original multiple-choice questions based on the
+The current bank has 404 questions: 304 challenging original multiple-choice questions based on the
 user-supplied ORNAC *Guidelines for Perioperative Practice in Canada*, 17th
 edition (April 2025), plus all 100 questions from the user-supplied Meazure Learning recording of “CNA Practice Test – Perioperative”. The original bank covers every numbered subsection, with 60 questions in 15 four-part cases. The recording adds 21 case questions across five cases, for 81 questions in 20 cases overall. CNA's 2020 perioperative exam blueprint informs the
 six domain weights and case proportion. No ORNAC PDF or extracted text is
@@ -14,13 +14,13 @@ published in this repository.
 Edit `ornac-questions.txt`, `case-groups.json`, `recorded-practice.json`, and `question-page-map.json`, then run
 `python3 build-bank.py`. The pipe-delimited question fields are:
 
-`section|domain|prompt|correct|wrong1|wrong2|wrong3|rationale`
+`section|domain|prompt|correct|wrong1|wrong2|wrong3|rationale|why1|why2|why3`
 
 Domains are `E` (ethical/professional), `S` (safety), `I` (infection
 prevention), `P` (perioperative phases/anesthesia), `X` (exceptional events),
 and `M` (resources). Each item has four distinct choices and a reference to
 its ORNAC subsection. The build script checks field counts, unique prompts,
-case groups, source sections, and the generated explanation fields. The site
+case groups, source sections, and three distinct question-specific distractor explanations. `why1` through `why3` correspond to `wrong1` through `wrong3`; the app preserves that mapping when choices are shuffled. Optional clinical sources for original questions are in `original-clinical-references.json`. The site
 shuffles answer choices and keeps attempts, missed status, and saved items in
 browser storage under a 17th-edition key.
 
@@ -37,3 +37,5 @@ Choose Recorded practice / All to reproduce the recorded sequence. Mixed exams u
 This project is not endorsed by CNA or ORNAC.
 
 The checked key is in `recorded-practice.json`; edit it directly rather than regenerating it from the initial, unkeyed transcription. The build verifies every recorded answer agrees with its checked review entry. Preserve historical progress and stable IDs when updating a key; only subsequent attempts use changed scoring.
+
+All 304 original questions were rewritten for harder application and judgment practice on October 10, 2026, retaining IDs, domains, and case membership. The difficulty field is an editorial target, not a calibrated CNA classification. The 100 recorded question objects and references are unchanged by this revision. Saved marks and notes remain attached to stable IDs. Earlier attempt totals are preserved historical results, not recalculated against the rewritten content.

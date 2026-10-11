@@ -180,7 +180,7 @@ function renderQuestion() {
   $("#aside-number").innerHTML = `${String(s.index + 1).padStart(2, "0")}<span> / ${s.questions.length}</span>`;
   $("#session-correct").textContent = s.answers.filter(a => a.correct).length;
   $("#session-answered").textContent = s.answers.length;
-  $("#question-meta").textContent = q.category.toUpperCase() + (q.origin ? ` · RECORDED PRACTICE #${q.origin.questionNumber}` : "");
+  $("#question-meta").textContent = q.category.toUpperCase() + (q.origin ? ` · RECORDED PRACTICE #${q.origin.questionNumber}` : q.difficulty === "hard" ? " · HARD PRACTICE" : "");
   $("#review-only-notice").classList.toggle("hidden", !q.reviewOnly);
   $("#recorded-key-notice").classList.toggle("hidden", !q.currentGuidance);
   $("#question-note").value = state.progress[q.id]?.note || "";
@@ -419,7 +419,7 @@ function bind() {
 async function init() {
   bind();
   try {
-    const response = await fetch("./bank.json?v=ORNAC-17-2025-r5-reviewed-key");
+    const response = await fetch("./bank.json?v=ORNAC-17-2025-r6-hard-originals");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.bank = await response.json();
     if (!Array.isArray(state.bank.questions) || !state.bank.questions.length) throw new Error("Question bank is empty");

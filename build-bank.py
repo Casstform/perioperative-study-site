@@ -79,71 +79,19 @@ def concept_for(section):
     if sub <= 9: return 'emergency'
     return 'pandemic'
 
-def wrong_reason(wrong, correct, rationale):
-    first = wrong.split()[0].lower().rstrip(',')
-    leads = {
-        'assume': 'The assumption is unverified and could miss the relevant risk.',
-        'only': 'Focusing on just one detail omits other needed checks or controls.',
-        'use': 'The proposed substitute does not establish the required safe process.',
-        'wait': 'Waiting delays a step that is needed before the risk develops.',
-        'ignore': 'Ignoring the finding leaves the possible problem unassessed.',
-        'treat': 'That applies the wrong classification or care process.',
-        'leave': 'Leaving the condition unresolved allows the hazard to persist.',
-        'skip': 'Skipping the step removes an important check or safeguard.',
-        'remove': 'Removing it in this way loses a needed barrier, record, or control.',
-        'rely': 'Relying on that alone cannot verify the actual condition.',
-        'discard': 'Discarding it in this way loses needed traceability or safe handling.',
-        'ask': 'That person or step cannot replace the responsible clinical process.',
-        'let': 'Allowing that to continue leaves the safety issue uncorrected.',
-        'keep': 'Keeping the current practice preserves the risk rather than addressing it.',
-        'place': 'That placement can compromise the barrier, patient, or equipment.',
-        'move': 'Moving it this way bypasses separation or verification controls.',
-        'continue': 'Continuing before assessment may expose the patient to further harm.',
-        'cover': 'Covering a problem does not restore sterility or correct its cause.',
-        'open': 'Opening at that point can extend exposure or compromise sterility.',
-        'increase': 'Increasing the setting before evaluation can amplify the hazard.',
-        'allow': 'Unrestricted access or activity does not maintain the needed controls.',
-        'proceed': 'Proceeding before reconciliation leaves a known discrepancy unresolved.',
-        'give': 'Giving treatment without the preceding checks can create a new risk.',
-        'avoid': 'Avoiding this step omits relevant patient care or communication.',
-        'tell': 'This does not ensure that the responsible team addresses the finding.',
-        'document': 'Documentation alone cannot replace the required clinical action.',
-        'choose': 'That choice does not account for the patient or procedure factors.',
-        'apply': 'Applying it without the required checks can compromise safety.',
-        'reuse': 'Reuse requires a validated and authorized process, not an informal decision.',
-        'omit': 'Omitting it leaves a required concern uncommunicated or unverified.',
-        'dismiss': 'Dismissing the concern prevents its assessment and resolution.',
-        'share': 'Sharing beyond those who need the information can breach privacy.',
-        'replace': 'Substitution must be verified rather than assumed equivalent.',
-        'assign': 'Assignment must account for competence and patient needs.',
-        'record': 'A record must reflect observed facts rather than a prediction.',
-        'stop': 'Stopping without a coordinated plan can leave care incomplete.',
-        'change': 'Changing a record or setting without verification hides the actual issue.',
-        'send': 'Sending it before verification or safe handling can propagate an error.',
-        'erase': 'Erasing the entry destroys an accurate audit trail.',
-        'silence': 'Silencing a warning does not correct its underlying cause.',
-    }
-    lead = leads.get(first)
-    if lead is None:
-        low = wrong.lower()
-        if any(x in low for x in ('only ', 'solely', 'alone ', 'just ')):
-            lead = 'That single measure leaves other necessary controls unaddressed.'
-        elif any(x in low for x in ('untrained', 'unapproved', 'unlabeled', 'unverified')):
-            lead = 'An unverified or unauthorized approach cannot establish safe care.'
-        else:
-            lead = 'That choice does not address the central safety requirement.'
-    return f'{lead} {rationale}'
-
 questions = []
 seen_prompts = set()
 sections = set()
 for line_number, line in enumerate((ROOT / 'ornac-questions.txt').read_text().splitlines(), 1):
     if not line or line.startswith('#'): continue
     bits = line.split('|')
-    assert len(bits) == 8, (line_number, len(bits))
+    assert len(bits) == 11, (line_number, len(bits))
     section, domain, prompt, correct, *tail = bits
     wrong = tail[:3]
     rationale = tail[3]
+    why = tail[4:]
+    assert len(why) == 3 and len(set(why)) == 3, line_number
+    assert all(len(reason) > 15 and reason.endswith('.') for reason in why), line_number
     assert section == 'F' or re.fullmatch(r'[1-5]\.\d{1,2}', section), (line_number, section)
     assert domain in CATEGORIES, (line_number, domain)
     assert len(prompt) >= 25 and prompt.endswith('?'), (line_number, prompt)
@@ -157,7 +105,7 @@ for line_number, line in enumerate((ROOT / 'ornac-questions.txt').read_text().sp
         'id': f'ORNAC17-{len(questions)+1:03d}', 'category': CATEGORIES[domain],
         'source': section, 'prompt': prompt, 'options': [correct, *wrong],
         'answer': 0, 'explanation': rationale, 'concept': concept_for(section),
-        'whyOthers': [wrong_reason(o, correct, rationale) for o in wrong]
+        'whyOthers': why, 'difficulty': 'hard', 'revision': '2026-10-10-hard'
     })
 groups = json.loads((ROOT / 'case-groups.json').read_text())
 seen_case_ids = set()
@@ -168,8 +116,14 @@ for case_id, group in groups.items():
         questions[number - 1]['case'] = case_id
         seen_case_ids.add(number)
 assert 0.15 <= len(seen_case_ids) / len(questions) <= 0.25
-assert len(questions) >= 300, len(questions)
+assert len(questions) == 304, len(questions)
 assert len(sections) >= 120, len(sections)
+clinical_references = json.loads((ROOT / 'original-clinical-references.json').read_text())
+assert set(clinical_references) <= {q['id'] for q in questions}
+for question in questions:
+    if question['id'] in clinical_references:
+        question['additionalReferences'] = clinical_references[question['id']]
+
 recording = json.loads((ROOT / 'recorded-practice.json').read_text())
 assert len(recording['questions']) == 100
 assert [q['origin']['questionNumber'] for q in recording['questions']] == list(range(1, 101))
@@ -211,6 +165,8 @@ bank = {'version': 'ORNAC-17-2025', 'questions': questions, 'cases': {key: value
         'blueprintWeights': WEIGHTS}
 bank['cases'].update(recording['cases'])
 bank['recording'] = recording['metadata']
+bank['originalPractice'] = {'questionCount': 304, 'difficulty': 'hard', 'revised': '2026-10-10',
+    'note': 'Original questions were rewritten as challenging application and judgment practice. Difficulty is an editorial target, not a calibrated exam classification. Stable IDs preserve saved items and notes; prior attempt totals are not recalculated.'}
 (ROOT / 'bank.json').write_text(json.dumps(bank, ensure_ascii=False, separators=(',', ':')) + '\n')
 print(len(questions), 'questions covering', len(sections), 'subsections;', sum(bool(q.get('case')) for q in questions), 'case questions')
 print(Counter(q['category'] for q in questions))

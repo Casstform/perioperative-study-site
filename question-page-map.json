@@ -284,6 +284,10 @@
         {
           "pdfPage": 102,
           "printedPage": "2-44"
+        },
+        {
+          "pdfPage": 103,
+          "printedPage": "2-45"
         }
       ]
     },
@@ -332,6 +336,14 @@
         {
           "pdfPage": 115,
           "printedPage": "2-57"
+        },
+        {
+          "pdfPage": 116,
+          "printedPage": "2-58"
+        },
+        {
+          "pdfPage": 117,
+          "printedPage": "2-59"
         }
       ]
     },
@@ -402,6 +414,10 @@
         {
           "pdfPage": 122,
           "printedPage": "2-64"
+        },
+        {
+          "pdfPage": 123,
+          "printedPage": "2-65"
         }
       ]
     },
@@ -490,12 +506,17 @@
     },
     "ORNAC17-040": {
       "sections": [
-        "2.25"
+        "2.25",
+        "2.30"
       ],
       "pages": [
         {
           "pdfPage": 141,
           "printedPage": "2-83"
+        },
+        {
+          "pdfPage": 154,
+          "printedPage": "2-96"
         }
       ]
     },
@@ -1100,6 +1121,10 @@
         {
           "pdfPage": 256,
           "printedPage": "3-80"
+        },
+        {
+          "pdfPage": 257,
+          "printedPage": "3-81"
         }
       ]
     },
@@ -1189,6 +1214,10 @@
         {
           "pdfPage": 272,
           "printedPage": "3-96"
+        },
+        {
+          "pdfPage": 273,
+          "printedPage": "3-97"
         }
       ]
     },
@@ -1751,12 +1780,17 @@
     },
     "ORNAC17-140": {
       "sections": [
-        "F"
+        "F",
+        "1.6"
       ],
       "pages": [
         {
           "pdfPage": 15,
           "printedPage": "xiii"
+        },
+        {
+          "pdfPage": 26,
+          "printedPage": "1-6"
         }
       ]
     },
@@ -1922,9 +1956,18 @@
     },
     "ORNAC17-153": {
       "sections": [
-        "4.3"
+        "4.3",
+        "2.35"
       ],
       "pages": [
+        {
+          "pdfPage": 160,
+          "printedPage": "2-102"
+        },
+        {
+          "pdfPage": 161,
+          "printedPage": "2-103"
+        },
         {
           "pdfPage": 379,
           "printedPage": "4-15"
@@ -2540,6 +2583,10 @@
           "printedPage": "5-40"
         },
         {
+          "pdfPage": 489,
+          "printedPage": "5-41"
+        },
+        {
           "pdfPage": 490,
           "printedPage": "5-42"
         }
@@ -2564,6 +2611,10 @@
         {
           "pdfPage": 492,
           "printedPage": "5-44"
+        },
+        {
+          "pdfPage": 493,
+          "printedPage": "5-45"
         }
       ]
     },
@@ -2614,12 +2665,17 @@
     },
     "ORNAC17-209": {
       "sections": [
-        "F"
+        "F",
+        "1.6"
       ],
       "pages": [
         {
           "pdfPage": 15,
           "printedPage": "xiii"
+        },
+        {
+          "pdfPage": 26,
+          "printedPage": "1-6"
         }
       ]
     },
@@ -3158,9 +3214,18 @@
     },
     "ORNAC17-251": {
       "sections": [
-        "3.34"
+        "3.34",
+        "3.7"
       ],
       "pages": [
+        {
+          "pdfPage": 212,
+          "printedPage": "3-36"
+        },
+        {
+          "pdfPage": 213,
+          "printedPage": "3-37"
+        },
         {
           "pdfPage": 315,
           "printedPage": "3-139"
@@ -3191,9 +3256,18 @@
     },
     "ORNAC17-254": {
       "sections": [
-        "3.38"
+        "3.38",
+        "3.20"
       ],
       "pages": [
+        {
+          "pdfPage": 276,
+          "printedPage": "3-100"
+        },
+        {
+          "pdfPage": 277,
+          "printedPage": "3-101"
+        },
         {
           "pdfPage": 328,
           "printedPage": "3-152"
@@ -3264,6 +3338,10 @@
         {
           "pdfPage": 460,
           "printedPage": "5-12"
+        },
+        {
+          "pdfPage": 462,
+          "printedPage": "5-14"
         }
       ]
     },
@@ -3316,6 +3394,10 @@
         {
           "pdfPage": 477,
           "printedPage": "5-29"
+        },
+        {
+          "pdfPage": 478,
+          "printedPage": "5-30"
         }
       ]
     },
@@ -3454,9 +3536,18 @@
     "ORNAC17-276": {
       "sections": [
         "5.14",
-        "4.17"
+        "4.17",
+        "2.11"
       ],
       "pages": [
+        {
+          "pdfPage": 94,
+          "printedPage": "2-36"
+        },
+        {
+          "pdfPage": 95,
+          "printedPage": "2-37"
+        },
         {
           "pdfPage": 444,
           "printedPage": "4-80"
@@ -3588,9 +3679,14 @@
     },
     "ORNAC17-284": {
       "sections": [
-        "3.16"
+        "3.16",
+        "3.15"
       ],
       "pages": [
+        {
+          "pdfPage": 271,
+          "printedPage": "3-95"
+        },
         {
           "pdfPage": 272,
           "printedPage": "3-96"
