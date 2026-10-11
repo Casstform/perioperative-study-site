@@ -419,7 +419,7 @@ function bind() {
 async function init() {
   bind();
   try {
-    const response = await fetch("./bank.json?v=ORNAC-17-2025-r6-hard-originals");
+    const response = await fetch("./bank.json?v=ORNAC-17-2025-r6-hard-originals-final");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.bank = await response.json();
     if (!Array.isArray(state.bank.questions) || !state.bank.questions.length) throw new Error("Question bank is empty");
