@@ -1,0 +1,4744 @@
+{
+  "metadata": {
+    "title": "AORN CNOR · Canadian review",
+    "sourceCount": 200,
+    "questionCount": 180,
+    "scoredCount": 159,
+    "reviewOnlyCount": 21,
+    "excludedCount": 19,
+    "needsRecaptureCount": 1,
+    "reviewed": "2026-10-22",
+    "note": "Recorded questions with edited explanatory summaries and Canadian cross-references. US policy items excluded. Review-only items do not affect scores. ORNAC does not cover every clinical fact."
+  },
+  "questions": [
+    {
+      "id": "AORN-CNOR-001",
+      "number": 1,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 0.875,
+      "explanationTimeSeconds": 1.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "4.8"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 398,
+          "printedPage": "4-34"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-002",
+      "number": 2,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 6.875,
+      "explanationTimeSeconds": 3.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-003",
+      "number": 3,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 9.25,
+      "explanationTimeSeconds": 9.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-004",
+      "number": 4,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 14.0,
+      "explanationTimeSeconds": 11.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.18"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 119,
+          "printedPage": "2-61"
+        },
+        {
+          "pdfPage": 120,
+          "printedPage": "2-62"
+        },
+        {
+          "pdfPage": 121,
+          "printedPage": "2-63"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-005",
+      "number": 5,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 16.25,
+      "explanationTimeSeconds": 17.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-006",
+      "number": 6,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 20.0,
+      "explanationTimeSeconds": 19.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.25"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 295,
+          "printedPage": "3-119"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-007",
+      "number": 7,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 21.375,
+      "explanationTimeSeconds": 22.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-008",
+      "number": 8,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 26.0,
+      "explanationTimeSeconds": 25.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-009",
+      "number": 9,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 27.25,
+      "explanationTimeSeconds": 27.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-010",
+      "number": 10,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 30.25,
+      "explanationTimeSeconds": 29.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-011",
+      "number": 11,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 31.375,
+      "explanationTimeSeconds": 32.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-012",
+      "number": 12,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 34.625,
+      "explanationTimeSeconds": 33.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-013",
+      "number": 13,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 36.125,
+      "explanationTimeSeconds": 37.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-014",
+      "number": 14,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 39.375,
+      "explanationTimeSeconds": 38.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "See the corrected explanation and linked clinical reference."
+    },
+    {
+      "id": "AORN-CNOR-015",
+      "number": 15,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 40.5,
+      "explanationTimeSeconds": 41.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-016",
+      "number": 16,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 44.25,
+      "explanationTimeSeconds": 43.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-017",
+      "number": 17,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 45.5,
+      "explanationTimeSeconds": 46.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-018",
+      "number": 18,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 49.125,
+      "explanationTimeSeconds": 47.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "See the corrected explanation and linked clinical reference."
+    },
+    {
+      "id": "AORN-CNOR-019",
+      "number": 19,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 50.125,
+      "explanationTimeSeconds": 50.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-020",
+      "number": 20,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 53.875,
+      "explanationTimeSeconds": 52.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-021",
+      "number": 21,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 54.875,
+      "explanationTimeSeconds": 55.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.25"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 141,
+          "printedPage": "2-83"
+        },
+        {
+          "pdfPage": 142,
+          "printedPage": "2-84"
+        },
+        {
+          "pdfPage": 143,
+          "printedPage": "2-85"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-022",
+      "number": 22,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 58.875,
+      "explanationTimeSeconds": 57.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.13"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 261,
+          "printedPage": "3-85"
+        },
+        {
+          "pdfPage": 262,
+          "printedPage": "3-86"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-023",
+      "number": 23,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 60.0,
+      "explanationTimeSeconds": 60.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "4.9"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 399,
+          "printedPage": "4-35"
+        },
+        {
+          "pdfPage": 400,
+          "printedPage": "4-36"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-024",
+      "number": 24,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 63.5,
+      "explanationTimeSeconds": 62.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "Joint Commission event definition"
+    },
+    {
+      "id": "AORN-CNOR-025",
+      "number": 25,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 64.625,
+      "explanationTimeSeconds": 65.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "Joint Commission accreditation requirement"
+    },
+    {
+      "id": "AORN-CNOR-026",
+      "number": 26,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 68.375,
+      "explanationTimeSeconds": 67.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "CMS financial penalties"
+    },
+    {
+      "id": "AORN-CNOR-027",
+      "number": 27,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 69.5,
+      "explanationTimeSeconds": 70.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "HIPAA"
+    },
+    {
+      "id": "AORN-CNOR-028",
+      "number": 28,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 72.875,
+      "explanationTimeSeconds": 71.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "4.10"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 402,
+          "printedPage": "4-38"
+        },
+        {
+          "pdfPage": 403,
+          "printedPage": "4-39"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-029",
+      "number": 29,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 74.125,
+      "explanationTimeSeconds": 75.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.7"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 88,
+          "printedPage": "2-30"
+        },
+        {
+          "pdfPage": 89,
+          "printedPage": "2-31"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-030",
+      "number": 30,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 78.0,
+      "explanationTimeSeconds": 76.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.14"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 101,
+          "printedPage": "2-43"
+        },
+        {
+          "pdfPage": 104,
+          "printedPage": "2-46"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-031",
+      "number": 31,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 79.0,
+      "explanationTimeSeconds": 79.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "FDA-approved scrub agents"
+    },
+    {
+      "id": "AORN-CNOR-032",
+      "number": 32,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 82.5,
+      "explanationTimeSeconds": 81.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.6"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 80,
+          "printedPage": "2-22"
+        },
+        {
+          "pdfPage": 81,
+          "printedPage": "2-23"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-033",
+      "number": 33,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 83.625,
+      "explanationTimeSeconds": 84.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "US Facility Guidelines Institute handwashing-water temperature recommendation"
+    },
+    {
+      "id": "AORN-CNOR-034",
+      "number": 34,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 87.125,
+      "explanationTimeSeconds": 86.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "core-aligned",
+      "ornacSections": [
+        "2.15"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 111,
+          "printedPage": "2-53"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-035",
+      "number": 35,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 88.25,
+      "explanationTimeSeconds": 88.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "core-aligned",
+      "ornacSections": [
+        "2.18"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 122,
+          "printedPage": "2-64"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-036",
+      "number": 36,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 91.875,
+      "explanationTimeSeconds": 90.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.18"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 119,
+          "printedPage": "2-61"
+        },
+        {
+          "pdfPage": 120,
+          "printedPage": "2-62"
+        },
+        {
+          "pdfPage": 121,
+          "printedPage": "2-63"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-037",
+      "number": 37,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 93.25,
+      "explanationTimeSeconds": 94.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.18"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 119,
+          "printedPage": "2-61"
+        },
+        {
+          "pdfPage": 120,
+          "printedPage": "2-62"
+        },
+        {
+          "pdfPage": 121,
+          "printedPage": "2-63"
+        }
+      ],
+      "note": "Partial alignment: ORNAC supports indicated hair removal near surgery, outside the OR, without razors and with single-use clipper heads. It does not establish the depilatory alternative in the recorded option."
+    },
+    {
+      "id": "AORN-CNOR-038",
+      "number": 38,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 96.875,
+      "explanationTimeSeconds": 95.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "core-aligned",
+      "ornacSections": [
+        "2.38"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 168,
+          "printedPage": "2-110"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-039",
+      "number": 39,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 97.875,
+      "explanationTimeSeconds": 98.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.6"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 80,
+          "printedPage": "2-22"
+        },
+        {
+          "pdfPage": 81,
+          "printedPage": "2-23"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-040",
+      "number": 40,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 101.625,
+      "explanationTimeSeconds": 100.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.25"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 141,
+          "printedPage": "2-83"
+        },
+        {
+          "pdfPage": 142,
+          "printedPage": "2-84"
+        },
+        {
+          "pdfPage": 143,
+          "printedPage": "2-85"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-041",
+      "number": 41,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 102.75,
+      "explanationTimeSeconds": 103.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-established",
+      "ornacSections": [
+        "2.3"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 73,
+          "printedPage": "2-15"
+        },
+        {
+          "pdfPage": 74,
+          "printedPage": "2-16"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-042",
+      "number": 42,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 106.625,
+      "explanationTimeSeconds": 105.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "explanation-conflict",
+      "ornacSections": [
+        "2.2"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 69,
+          "printedPage": "2-11"
+        }
+      ],
+      "note": "Explanation conflict: ORNAC §§2.2.8–2.2.9 require appropriate respirators for personnel in contact with a known or suspected airborne-infectious patient. Keep the correct patient-transport answer, but do not adopt the recording’s staff no-respirator statement."
+    },
+    {
+      "id": "AORN-CNOR-043",
+      "number": 43,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 107.75,
+      "explanationTimeSeconds": 108.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.2"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 68,
+          "printedPage": "2-10"
+        },
+        {
+          "pdfPage": 69,
+          "printedPage": "2-11"
+        }
+      ],
+      "note": "Scope addition: airborne is the recorded answer, but varicella also requires contact precautions. See the linked PHAC organism-specific guidance."
+    },
+    {
+      "id": "AORN-CNOR-044",
+      "number": 44,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 111.375,
+      "explanationTimeSeconds": 110.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "core-aligned",
+      "ornacSections": [
+        "2.2"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 71,
+          "printedPage": "2-13"
+        }
+      ],
+      "note": "Related threshold: ORNAC §2.2.25 uses 2 m for staff masking. The source explanation discusses three-foot bed separation; these are different measures and should not be substituted for one another."
+    },
+    {
+      "id": "AORN-CNOR-045",
+      "number": 45,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 112.375,
+      "explanationTimeSeconds": 112.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.25"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 141,
+          "printedPage": "2-83"
+        },
+        {
+          "pdfPage": 142,
+          "printedPage": "2-84"
+        },
+        {
+          "pdfPage": 143,
+          "printedPage": "2-85"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-046",
+      "number": 46,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 115.75,
+      "explanationTimeSeconds": 114.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.30"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 153,
+          "printedPage": "2-95"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-047",
+      "number": 47,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 116.875,
+      "explanationTimeSeconds": 117.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "FDA gown regulation"
+    },
+    {
+      "id": "AORN-CNOR-048",
+      "number": 48,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 120.125,
+      "explanationTimeSeconds": 119.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "FDA third-party reprocessing requirement"
+    },
+    {
+      "id": "AORN-CNOR-049",
+      "number": 49,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 121.25,
+      "explanationTimeSeconds": 121.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.25"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 141,
+          "printedPage": "2-83"
+        },
+        {
+          "pdfPage": 142,
+          "printedPage": "2-84"
+        },
+        {
+          "pdfPage": 143,
+          "printedPage": "2-85"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-050",
+      "number": 50,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 125.375,
+      "explanationTimeSeconds": 123.5,
+      "explanationObserved": true,
+      "captureComplete": false,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "OSHA instrument-transport requirement"
+    },
+    {
+      "id": "AORN-CNOR-051",
+      "number": 51,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 126.625,
+      "explanationTimeSeconds": 127.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "different-criteria",
+      "ornacSections": [
+        "2.35"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 161,
+          "printedPage": "2-103"
+        }
+      ],
+      "note": "Different criteria: ORNAC §2.35.11 gives optimal storage at 18–23°C and 30–60% RH, while the course gives a maximum of 75°F and 60% RH. No choice gives the complete Canadian range."
+    },
+    {
+      "id": "AORN-CNOR-052",
+      "number": 52,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 130.0,
+      "explanationTimeSeconds": 128.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-established",
+      "ornacSections": [
+        "2.28"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 150,
+          "printedPage": "2-92"
+        },
+        {
+          "pdfPage": 151,
+          "printedPage": "2-93"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-053",
+      "number": 53,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 131.0,
+      "explanationTimeSeconds": 131.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.25"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 141,
+          "printedPage": "2-83"
+        },
+        {
+          "pdfPage": 142,
+          "printedPage": "2-84"
+        },
+        {
+          "pdfPage": 143,
+          "printedPage": "2-85"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-054",
+      "number": 54,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 134.375,
+      "explanationTimeSeconds": 133.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.25"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 141,
+          "printedPage": "2-83"
+        },
+        {
+          "pdfPage": 142,
+          "printedPage": "2-84"
+        },
+        {
+          "pdfPage": 143,
+          "printedPage": "2-85"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-055",
+      "number": 55,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 135.5,
+      "explanationTimeSeconds": 136.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "answer-conflict",
+      "ornacSections": [
+        "2.26"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 147,
+          "printedPage": "2-89"
+        }
+      ],
+      "note": "Answer conflict: ORNAC §2.26.4 requires daily BI testing when each sterilizer is used, with a validated indicator for the cycle. Weekly is not the Canadian minimum."
+    },
+    {
+      "id": "AORN-CNOR-056",
+      "number": 56,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 138.875,
+      "explanationTimeSeconds": 137.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.26"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 147,
+          "printedPage": "2-89"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-057",
+      "number": 57,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 139.875,
+      "explanationTimeSeconds": 140.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.26"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 147,
+          "printedPage": "2-89"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-058",
+      "number": 58,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 143.375,
+      "explanationTimeSeconds": 142.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.26"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 147,
+          "printedPage": "2-89"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-059",
+      "number": 59,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 144.625,
+      "explanationTimeSeconds": 145.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.31"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 155,
+          "printedPage": "2-97"
+        },
+        {
+          "pdfPage": 156,
+          "printedPage": "2-98"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-060",
+      "number": 60,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 148.5,
+      "explanationTimeSeconds": 146.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.26"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 147,
+          "printedPage": "2-89"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-061",
+      "number": 61,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 149.75,
+      "explanationTimeSeconds": 150.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.16"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 112,
+          "printedPage": "2-54"
+        },
+        {
+          "pdfPage": 113,
+          "printedPage": "2-55"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-062",
+      "number": 62,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 153.25,
+      "explanationTimeSeconds": 151.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.26"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 147,
+          "printedPage": "2-89"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-063",
+      "number": 63,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 154.25,
+      "explanationTimeSeconds": 154.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.26"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 147,
+          "printedPage": "2-89"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-064",
+      "number": 64,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 157.875,
+      "explanationTimeSeconds": 156.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.26"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 147,
+          "printedPage": "2-89"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-065",
+      "number": 65,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 159.125,
+      "explanationTimeSeconds": 159.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-established",
+      "ornacSections": [
+        "2.28"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 150,
+          "printedPage": "2-92"
+        },
+        {
+          "pdfPage": 151,
+          "printedPage": "2-93"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-066",
+      "number": 66,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 162.5,
+      "explanationTimeSeconds": 161.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.16"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 112,
+          "printedPage": "2-54"
+        },
+        {
+          "pdfPage": 113,
+          "printedPage": "2-55"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-067",
+      "number": 67,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 163.5,
+      "explanationTimeSeconds": 164.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.22"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 136,
+          "printedPage": "2-78"
+        },
+        {
+          "pdfPage": 137,
+          "printedPage": "2-79"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-068",
+      "number": 68,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 167.125,
+      "explanationTimeSeconds": 165.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.30"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 153,
+          "printedPage": "2-95"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-069",
+      "number": 69,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 168.125,
+      "explanationTimeSeconds": 168.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-established",
+      "ornacSections": [
+        "2.28"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 150,
+          "printedPage": "2-92"
+        },
+        {
+          "pdfPage": 151,
+          "printedPage": "2-93"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-070",
+      "number": 70,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 171.5,
+      "explanationTimeSeconds": 170.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-established",
+      "ornacSections": [
+        "2.28"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 150,
+          "printedPage": "2-92"
+        },
+        {
+          "pdfPage": 151,
+          "printedPage": "2-93"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-071",
+      "number": 71,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 172.875,
+      "explanationTimeSeconds": 173.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "core-aligned",
+      "ornacSections": [
+        "2.25"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 141,
+          "printedPage": "2-83"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-072",
+      "number": 72,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 176.0,
+      "explanationTimeSeconds": 175.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "core-aligned",
+      "ornacSections": [
+        "2.25"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 141,
+          "printedPage": "2-83"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-073",
+      "number": 73,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 177.125,
+      "explanationTimeSeconds": 177.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "core-aligned",
+      "ornacSections": [
+        "2.25"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 141,
+          "printedPage": "2-83"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-074",
+      "number": 74,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 180.75,
+      "explanationTimeSeconds": 179.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.1"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 181,
+          "printedPage": "3-5"
+        },
+        {
+          "pdfPage": 182,
+          "printedPage": "3-6"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-075",
+      "number": 75,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 182.25,
+      "explanationTimeSeconds": 183.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.36"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 320,
+          "printedPage": "3-144"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-076",
+      "number": 76,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 186.125,
+      "explanationTimeSeconds": 185.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "answer-conflict",
+      "ornacSections": [
+        "3.35"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 318,
+          "printedPage": "3-142"
+        },
+        {
+          "pdfPage": 319,
+          "printedPage": "3-143"
+        }
+      ],
+      "note": "Answer conflict: ORNAC §§3.35.5–3.35.7 prohibit competing duties for the sedation-monitoring nurse and describe a second nurse for circulating duties."
+    },
+    {
+      "id": "AORN-CNOR-077",
+      "number": 77,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 187.375,
+      "explanationTimeSeconds": 188.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "US state board nursing scope"
+    },
+    {
+      "id": "AORN-CNOR-078",
+      "number": 78,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 191.25,
+      "explanationTimeSeconds": 190.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.1"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 181,
+          "printedPage": "3-5"
+        },
+        {
+          "pdfPage": 182,
+          "printedPage": "3-6"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-079",
+      "number": 79,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 192.375,
+      "explanationTimeSeconds": 193.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.1"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 181,
+          "printedPage": "3-5"
+        },
+        {
+          "pdfPage": 182,
+          "printedPage": "3-6"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-080",
+      "number": 80,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 195.625,
+      "explanationTimeSeconds": 194.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.35"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 317,
+          "printedPage": "3-141"
+        },
+        {
+          "pdfPage": 318,
+          "printedPage": "3-142"
+        },
+        {
+          "pdfPage": 319,
+          "printedPage": "3-143"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-081",
+      "number": 81,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 196.75,
+      "explanationTimeSeconds": 197.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.35"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 317,
+          "printedPage": "3-141"
+        },
+        {
+          "pdfPage": 318,
+          "printedPage": "3-142"
+        },
+        {
+          "pdfPage": 319,
+          "printedPage": "3-143"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-082",
+      "number": 82,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 200.0,
+      "explanationTimeSeconds": 199.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "NIOSH nitrous-oxide exposure limit"
+    },
+    {
+      "id": "AORN-CNOR-083",
+      "number": 83,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 201.125,
+      "explanationTimeSeconds": 201.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "NIOSH halogenated-agent exposure limit"
+    },
+    {
+      "id": "AORN-CNOR-084",
+      "number": 84,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 204.375,
+      "explanationTimeSeconds": 203.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "core-aligned",
+      "ornacSections": [
+        "3.29"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 307,
+          "printedPage": "3-131"
+        },
+        {
+          "pdfPage": 308,
+          "printedPage": "3-132"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-085",
+      "number": 85,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 205.375,
+      "explanationTimeSeconds": 205.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-086",
+      "number": 86,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 208.625,
+      "explanationTimeSeconds": 207.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.34"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 314,
+          "printedPage": "3-138"
+        },
+        {
+          "pdfPage": 315,
+          "printedPage": "3-139"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-087",
+      "number": 87,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 209.625,
+      "explanationTimeSeconds": 210.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-088",
+      "number": 88,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 212.875,
+      "explanationTimeSeconds": 211.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.28"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 304,
+          "printedPage": "3-128"
+        },
+        {
+          "pdfPage": 305,
+          "printedPage": "3-129"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-089",
+      "number": 89,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 213.75,
+      "explanationTimeSeconds": 214.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.28"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 304,
+          "printedPage": "3-128"
+        },
+        {
+          "pdfPage": 305,
+          "printedPage": "3-129"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-090",
+      "number": 90,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 217.25,
+      "explanationTimeSeconds": 216.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.36"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 320,
+          "printedPage": "3-144"
+        },
+        {
+          "pdfPage": 321,
+          "printedPage": "3-145"
+        },
+        {
+          "pdfPage": 322,
+          "printedPage": "3-146"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-091",
+      "number": 91,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 218.5,
+      "explanationTimeSeconds": 219.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.28"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 304,
+          "printedPage": "3-128"
+        },
+        {
+          "pdfPage": 305,
+          "printedPage": "3-129"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-092",
+      "number": 92,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 221.875,
+      "explanationTimeSeconds": 220.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.35"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 317,
+          "printedPage": "3-141"
+        },
+        {
+          "pdfPage": 318,
+          "printedPage": "3-142"
+        },
+        {
+          "pdfPage": 319,
+          "printedPage": "3-143"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-093",
+      "number": 93,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 223.0,
+      "explanationTimeSeconds": 223.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.28"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 304,
+          "printedPage": "3-128"
+        },
+        {
+          "pdfPage": 305,
+          "printedPage": "3-129"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-094",
+      "number": 94,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 226.125,
+      "explanationTimeSeconds": 225.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.28"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 304,
+          "printedPage": "3-128"
+        },
+        {
+          "pdfPage": 305,
+          "printedPage": "3-129"
+        }
+      ],
+      "note": "See the corrected explanation and linked clinical reference."
+    },
+    {
+      "id": "AORN-CNOR-095",
+      "number": 95,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 227.125,
+      "explanationTimeSeconds": 227.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.28"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 304,
+          "printedPage": "3-128"
+        },
+        {
+          "pdfPage": 305,
+          "printedPage": "3-129"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-096",
+      "number": 96,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 230.25,
+      "explanationTimeSeconds": 229.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.28"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 304,
+          "printedPage": "3-128"
+        },
+        {
+          "pdfPage": 305,
+          "printedPage": "3-129"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-097",
+      "number": 97,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 231.25,
+      "explanationTimeSeconds": 231.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.28"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 304,
+          "printedPage": "3-128"
+        },
+        {
+          "pdfPage": 305,
+          "printedPage": "3-129"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-098",
+      "number": 98,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 235.25,
+      "explanationTimeSeconds": 233.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.28"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 304,
+          "printedPage": "3-128"
+        },
+        {
+          "pdfPage": 305,
+          "printedPage": "3-129"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-099",
+      "number": 99,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 237.25,
+      "explanationTimeSeconds": 237.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.36"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 320,
+          "printedPage": "3-144"
+        },
+        {
+          "pdfPage": 321,
+          "printedPage": "3-145"
+        },
+        {
+          "pdfPage": 322,
+          "printedPage": "3-146"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-100",
+      "number": 100,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 240.75,
+      "explanationTimeSeconds": 239.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.35"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 317,
+          "printedPage": "3-141"
+        },
+        {
+          "pdfPage": 318,
+          "printedPage": "3-142"
+        },
+        {
+          "pdfPage": 319,
+          "printedPage": "3-143"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-101",
+      "number": 101,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 241.75,
+      "explanationTimeSeconds": 242.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.35"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 317,
+          "printedPage": "3-141"
+        },
+        {
+          "pdfPage": 318,
+          "printedPage": "3-142"
+        },
+        {
+          "pdfPage": 319,
+          "printedPage": "3-143"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-102",
+      "number": 102,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 244.625,
+      "explanationTimeSeconds": 243.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.35"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 317,
+          "printedPage": "3-141"
+        },
+        {
+          "pdfPage": 318,
+          "printedPage": "3-142"
+        },
+        {
+          "pdfPage": 319,
+          "printedPage": "3-143"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-103",
+      "number": 103,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 245.5,
+      "explanationTimeSeconds": 246.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.1"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 182,
+          "printedPage": "3-6"
+        },
+        {
+          "pdfPage": 183,
+          "printedPage": "3-7"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-104",
+      "number": 104,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 248.25,
+      "explanationTimeSeconds": 247.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.32"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 312,
+          "printedPage": "3-136"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-105",
+      "number": 105,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 249.125,
+      "explanationTimeSeconds": 249.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.36"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 320,
+          "printedPage": "3-144"
+        },
+        {
+          "pdfPage": 321,
+          "printedPage": "3-145"
+        },
+        {
+          "pdfPage": 322,
+          "printedPage": "3-146"
+        }
+      ],
+      "note": "",
+      "supplementalCapture": "Full stem, choices, and green answer confirmed in user-supplied screenshot, 22 October 2026."
+    },
+    {
+      "id": "AORN-CNOR-106",
+      "number": 106,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 252.375,
+      "explanationTimeSeconds": 251.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.28"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 304,
+          "printedPage": "3-128"
+        },
+        {
+          "pdfPage": 305,
+          "printedPage": "3-129"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-107",
+      "number": 107,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 253.5,
+      "explanationTimeSeconds": 254.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.28"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 304,
+          "printedPage": "3-128"
+        },
+        {
+          "pdfPage": 305,
+          "printedPage": "3-129"
+        }
+      ],
+      "note": "See the corrected explanation and linked clinical reference."
+    },
+    {
+      "id": "AORN-CNOR-108",
+      "number": 108,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 256.5,
+      "explanationTimeSeconds": 255.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "5.8"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 477,
+          "printedPage": "5-29"
+        },
+        {
+          "pdfPage": 478,
+          "printedPage": "5-30"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-109",
+      "number": 109,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 257.5,
+      "explanationTimeSeconds": 258.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "5.8"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 477,
+          "printedPage": "5-29"
+        },
+        {
+          "pdfPage": 478,
+          "printedPage": "5-30"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-110",
+      "number": 110,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 260.375,
+      "explanationTimeSeconds": 259.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.5"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 202,
+          "printedPage": "3-26"
+        },
+        {
+          "pdfPage": 203,
+          "printedPage": "3-27"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-111",
+      "number": 111,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 261.5,
+      "explanationTimeSeconds": 262.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.5"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 202,
+          "printedPage": "3-26"
+        },
+        {
+          "pdfPage": 203,
+          "printedPage": "3-27"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-112",
+      "number": 112,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 264.875,
+      "explanationTimeSeconds": 263.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "4.14"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 424,
+          "printedPage": "4-60"
+        },
+        {
+          "pdfPage": 425,
+          "printedPage": "4-61"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-113",
+      "number": 113,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 266.0,
+      "explanationTimeSeconds": 266.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.9"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 235,
+          "printedPage": "3-59"
+        },
+        {
+          "pdfPage": 236,
+          "printedPage": "3-60"
+        },
+        {
+          "pdfPage": 237,
+          "printedPage": "3-61"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-114",
+      "number": 114,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 269.375,
+      "explanationTimeSeconds": 268.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.9"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 235,
+          "printedPage": "3-59"
+        },
+        {
+          "pdfPage": 236,
+          "printedPage": "3-60"
+        },
+        {
+          "pdfPage": 237,
+          "printedPage": "3-61"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-115",
+      "number": 115,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 270.625,
+      "explanationTimeSeconds": 271.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.9"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 235,
+          "printedPage": "3-59"
+        },
+        {
+          "pdfPage": 236,
+          "printedPage": "3-60"
+        },
+        {
+          "pdfPage": 237,
+          "printedPage": "3-61"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-116",
+      "number": 116,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 273.75,
+      "explanationTimeSeconds": 272.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.9"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 235,
+          "printedPage": "3-59"
+        },
+        {
+          "pdfPage": 236,
+          "printedPage": "3-60"
+        },
+        {
+          "pdfPage": 237,
+          "printedPage": "3-61"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-117",
+      "number": 117,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 274.625,
+      "explanationTimeSeconds": 275.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.9"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 235,
+          "printedPage": "3-59"
+        },
+        {
+          "pdfPage": 236,
+          "printedPage": "3-60"
+        },
+        {
+          "pdfPage": 237,
+          "printedPage": "3-61"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-118",
+      "number": 118,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 277.75,
+      "explanationTimeSeconds": 276.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.7"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 214,
+          "printedPage": "3-38"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-119",
+      "number": 119,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 278.75,
+      "explanationTimeSeconds": 279.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.7"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 212,
+          "printedPage": "3-36"
+        },
+        {
+          "pdfPage": 213,
+          "printedPage": "3-37"
+        },
+        {
+          "pdfPage": 214,
+          "printedPage": "3-38"
+        },
+        {
+          "pdfPage": 217,
+          "printedPage": "3-41"
+        },
+        {
+          "pdfPage": 218,
+          "printedPage": "3-42"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-120",
+      "number": 120,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 282.875,
+      "explanationTimeSeconds": 281.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "4.14"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 427,
+          "printedPage": "4-63"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-121",
+      "number": 121,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 284.5,
+      "explanationTimeSeconds": 285.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "boundary-difference",
+      "ornacSections": [
+        "3.7"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 213,
+          "printedPage": "3-37"
+        }
+      ],
+      "note": "Boundary difference: ORNAC §3.7.28 says less than 90° of abduction. The recording says 90° or less. Use the ORNAC wording for your Canadian review."
+    },
+    {
+      "id": "AORN-CNOR-122",
+      "number": 122,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 288.375,
+      "explanationTimeSeconds": 287.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.7"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 212,
+          "printedPage": "3-36"
+        },
+        {
+          "pdfPage": 213,
+          "printedPage": "3-37"
+        },
+        {
+          "pdfPage": 214,
+          "printedPage": "3-38"
+        },
+        {
+          "pdfPage": 217,
+          "printedPage": "3-41"
+        },
+        {
+          "pdfPage": 218,
+          "printedPage": "3-42"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-123",
+      "number": 123,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 289.625,
+      "explanationTimeSeconds": 290.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.7"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 212,
+          "printedPage": "3-36"
+        },
+        {
+          "pdfPage": 213,
+          "printedPage": "3-37"
+        },
+        {
+          "pdfPage": 214,
+          "printedPage": "3-38"
+        },
+        {
+          "pdfPage": 217,
+          "printedPage": "3-41"
+        },
+        {
+          "pdfPage": 218,
+          "printedPage": "3-42"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-124",
+      "number": 124,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 294.125,
+      "explanationTimeSeconds": 292.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.7"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 212,
+          "printedPage": "3-36"
+        },
+        {
+          "pdfPage": 213,
+          "printedPage": "3-37"
+        },
+        {
+          "pdfPage": 214,
+          "printedPage": "3-38"
+        },
+        {
+          "pdfPage": 217,
+          "printedPage": "3-41"
+        },
+        {
+          "pdfPage": 218,
+          "printedPage": "3-42"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-125",
+      "number": 125,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 295.125,
+      "explanationTimeSeconds": 295.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "core-aligned",
+      "ornacSections": [
+        "3.8"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 230,
+          "printedPage": "3-54"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-126",
+      "number": 126,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 299.125,
+      "explanationTimeSeconds": 297.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "core-aligned",
+      "ornacSections": [
+        "3.8"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 232,
+          "printedPage": "3-56"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-127",
+      "number": 127,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 300.25,
+      "explanationTimeSeconds": 300.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "core-aligned",
+      "ornacSections": [
+        "3.7"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 214,
+          "printedPage": "3-38"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-128",
+      "number": 128,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 303.375,
+      "explanationTimeSeconds": 302.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.7"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 221,
+          "printedPage": "3-45"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-129",
+      "number": 129,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 304.5,
+      "explanationTimeSeconds": 305.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "core-aligned",
+      "ornacSections": [
+        "3.7"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 222,
+          "printedPage": "3-46"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-130",
+      "number": 130,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 307.875,
+      "explanationTimeSeconds": 306.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.7"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 212,
+          "printedPage": "3-36"
+        },
+        {
+          "pdfPage": 213,
+          "printedPage": "3-37"
+        },
+        {
+          "pdfPage": 214,
+          "printedPage": "3-38"
+        },
+        {
+          "pdfPage": 217,
+          "printedPage": "3-41"
+        },
+        {
+          "pdfPage": 218,
+          "printedPage": "3-42"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-131",
+      "number": 131,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 308.875,
+      "explanationTimeSeconds": 309.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "core-aligned",
+      "ornacSections": [
+        "3.7"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 217,
+          "printedPage": "3-41"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-132",
+      "number": 132,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 311.875,
+      "explanationTimeSeconds": 310.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.7"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 212,
+          "printedPage": "3-36"
+        },
+        {
+          "pdfPage": 213,
+          "printedPage": "3-37"
+        },
+        {
+          "pdfPage": 214,
+          "printedPage": "3-38"
+        },
+        {
+          "pdfPage": 217,
+          "printedPage": "3-41"
+        },
+        {
+          "pdfPage": 218,
+          "printedPage": "3-42"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-133",
+      "number": 133,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 313.0,
+      "explanationTimeSeconds": 313.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.7"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 219,
+          "printedPage": "3-43"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-134",
+      "number": 134,
+      "status": "needs-recapture",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 316.875,
+      "explanationTimeSeconds": 315.25,
+      "explanationObserved": true,
+      "captureComplete": false,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.7"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 219,
+          "printedPage": "3-43"
+        }
+      ],
+      "note": "Scroll the explanation below the final visible line beginning “7.11 Elevate the patient’s toes …”; its bottom is outside the recording."
+    },
+    {
+      "id": "AORN-CNOR-135",
+      "number": 135,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 317.875,
+      "explanationTimeSeconds": 318.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "NFPA extinguisher recommendation"
+    },
+    {
+      "id": "AORN-CNOR-136",
+      "number": 136,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 321.25,
+      "explanationTimeSeconds": 320.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "FDA approval requirement in the keyed laser-airway option"
+    },
+    {
+      "id": "AORN-CNOR-137",
+      "number": 137,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 322.25,
+      "explanationTimeSeconds": 322.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.41"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 341,
+          "printedPage": "3-165"
+        },
+        {
+          "pdfPage": 342,
+          "printedPage": "3-166"
+        },
+        {
+          "pdfPage": 343,
+          "printedPage": "3-167"
+        },
+        {
+          "pdfPage": 344,
+          "printedPage": "3-168"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-138",
+      "number": 138,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 325.875,
+      "explanationTimeSeconds": 324.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "4.14"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 424,
+          "printedPage": "4-60"
+        },
+        {
+          "pdfPage": 425,
+          "printedPage": "4-61"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-139",
+      "number": 139,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 326.875,
+      "explanationTimeSeconds": 327.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.42"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 349,
+          "printedPage": "3-173"
+        },
+        {
+          "pdfPage": 350,
+          "printedPage": "3-174"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-140",
+      "number": 140,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 330.25,
+      "explanationTimeSeconds": 329.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "4.14"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 424,
+          "printedPage": "4-60"
+        },
+        {
+          "pdfPage": 425,
+          "printedPage": "4-61"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-141",
+      "number": 141,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 331.5,
+      "explanationTimeSeconds": 332.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.41"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 341,
+          "printedPage": "3-165"
+        },
+        {
+          "pdfPage": 342,
+          "printedPage": "3-166"
+        },
+        {
+          "pdfPage": 343,
+          "printedPage": "3-167"
+        },
+        {
+          "pdfPage": 344,
+          "printedPage": "3-168"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-142",
+      "number": 142,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 334.875,
+      "explanationTimeSeconds": 333.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "NIOSH smoke-capture distance recommendation"
+    },
+    {
+      "id": "AORN-CNOR-143",
+      "number": 143,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 336.0,
+      "explanationTimeSeconds": 336.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.23"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 283,
+          "printedPage": "3-107"
+        },
+        {
+          "pdfPage": 284,
+          "printedPage": "3-108"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-144",
+      "number": 144,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 338.75,
+      "explanationTimeSeconds": 338.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "4.14"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 424,
+          "printedPage": "4-60"
+        },
+        {
+          "pdfPage": 425,
+          "printedPage": "4-61"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-145",
+      "number": 145,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 339.75,
+      "explanationTimeSeconds": 340.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "4.14"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 421,
+          "printedPage": "4-57"
+        },
+        {
+          "pdfPage": 422,
+          "printedPage": "4-58"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-146",
+      "number": 146,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 342.875,
+      "explanationTimeSeconds": 342.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "4.20"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 445,
+          "printedPage": "4-81"
+        },
+        {
+          "pdfPage": 446,
+          "printedPage": "4-82"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-147",
+      "number": 147,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 344.0,
+      "explanationTimeSeconds": 344.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "4.14"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 421,
+          "printedPage": "4-57"
+        },
+        {
+          "pdfPage": 422,
+          "printedPage": "4-58"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-148",
+      "number": 148,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 347.375,
+      "explanationTimeSeconds": 346.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.41"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 341,
+          "printedPage": "3-165"
+        },
+        {
+          "pdfPage": 342,
+          "printedPage": "3-166"
+        },
+        {
+          "pdfPage": 343,
+          "printedPage": "3-167"
+        },
+        {
+          "pdfPage": 344,
+          "printedPage": "3-168"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-149",
+      "number": 149,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 348.375,
+      "explanationTimeSeconds": 349.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "4.13"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 418,
+          "printedPage": "4-54"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-150",
+      "number": 150,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 351.625,
+      "explanationTimeSeconds": 350.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.25"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 292,
+          "printedPage": "3-116"
+        },
+        {
+          "pdfPage": 293,
+          "printedPage": "3-117"
+        },
+        {
+          "pdfPage": 294,
+          "printedPage": "3-118"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-151",
+      "number": 151,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 352.625,
+      "explanationTimeSeconds": 353.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.25"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 292,
+          "printedPage": "3-116"
+        },
+        {
+          "pdfPage": 293,
+          "printedPage": "3-117"
+        },
+        {
+          "pdfPage": 294,
+          "printedPage": "3-118"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-152",
+      "number": 152,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 355.75,
+      "explanationTimeSeconds": 354.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "4.13"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 418,
+          "printedPage": "4-54"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-153",
+      "number": 153,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 356.625,
+      "explanationTimeSeconds": 357.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "core-aligned",
+      "ornacSections": [
+        "4.12"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 410,
+          "printedPage": "4-46"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-154",
+      "number": 154,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 359.5,
+      "explanationTimeSeconds": 358.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "US employer PPE-payment regulatory requirement"
+    },
+    {
+      "id": "AORN-CNOR-155",
+      "number": 155,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 360.5,
+      "explanationTimeSeconds": 361.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "2.24"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 140,
+          "printedPage": "2-82"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-156",
+      "number": 156,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 364.125,
+      "explanationTimeSeconds": 363.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "OSHA radiation regulator"
+    },
+    {
+      "id": "AORN-CNOR-157",
+      "number": 157,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 365.125,
+      "explanationTimeSeconds": 365.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "4.14"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 419,
+          "printedPage": "4-55"
+        },
+        {
+          "pdfPage": 420,
+          "printedPage": "4-56"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-158",
+      "number": 158,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 368.375,
+      "explanationTimeSeconds": 367.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "answer-conflict",
+      "ornacSections": [
+        "4.14"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 420,
+          "printedPage": "4-56"
+        }
+      ],
+      "note": "Answer conflict: ORNAC §4.14.11 describes at least 2 m from the patient for those unable to leave, with appropriate lead protection and a screen where possible. The source’s six feet from the source is not the same instruction."
+    },
+    {
+      "id": "AORN-CNOR-159",
+      "number": 159,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 369.625,
+      "explanationTimeSeconds": 370.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "4.14"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 419,
+          "printedPage": "4-55"
+        },
+        {
+          "pdfPage": 420,
+          "printedPage": "4-56"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-160",
+      "number": 160,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 374.125,
+      "explanationTimeSeconds": 372.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "core-aligned",
+      "ornacSections": [
+        "3.14"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 268,
+          "printedPage": "3-92"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-161",
+      "number": 161,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 375.25,
+      "explanationTimeSeconds": 375.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "wording-note",
+      "ornacSections": [
+        "3.14"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 268,
+          "printedPage": "3-92"
+        }
+      ],
+      "note": "Wording note: ORNAC §3.14.12 says resume at the end of the last recorded item after interruption. The recording says restart the item type being counted. Do not interpret either as permitting an undocumented partial count or a one-person count."
+    },
+    {
+      "id": "AORN-CNOR-162",
+      "number": 162,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 378.375,
+      "explanationTimeSeconds": 377.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "core-aligned",
+      "ornacSections": [
+        "3.6"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 207,
+          "printedPage": "3-31"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-163",
+      "number": 163,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 379.75,
+      "explanationTimeSeconds": 392.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.24"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 288,
+          "printedPage": "3-112"
+        },
+        {
+          "pdfPage": 289,
+          "printedPage": "3-113"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-164",
+      "number": 164,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 381.5,
+      "explanationTimeSeconds": 394.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.24"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 288,
+          "printedPage": "3-112"
+        },
+        {
+          "pdfPage": 289,
+          "printedPage": "3-113"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-165",
+      "number": 165,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 397.75,
+      "explanationTimeSeconds": 398.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.24"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 288,
+          "printedPage": "3-112"
+        },
+        {
+          "pdfPage": 289,
+          "printedPage": "3-113"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-166",
+      "number": 166,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 401.125,
+      "explanationTimeSeconds": 399.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.24"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 288,
+          "printedPage": "3-112"
+        },
+        {
+          "pdfPage": 289,
+          "printedPage": "3-113"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-167",
+      "number": 167,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 402.375,
+      "explanationTimeSeconds": 403.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.24"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 288,
+          "printedPage": "3-112"
+        },
+        {
+          "pdfPage": 289,
+          "printedPage": "3-113"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-168",
+      "number": 168,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 405.625,
+      "explanationTimeSeconds": 404.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.27"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 298,
+          "printedPage": "3-122"
+        },
+        {
+          "pdfPage": 299,
+          "printedPage": "3-123"
+        },
+        {
+          "pdfPage": 300,
+          "printedPage": "3-124"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-169",
+      "number": 169,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 406.75,
+      "explanationTimeSeconds": 407.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.27"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 298,
+          "printedPage": "3-122"
+        },
+        {
+          "pdfPage": 299,
+          "printedPage": "3-123"
+        },
+        {
+          "pdfPage": 300,
+          "printedPage": "3-124"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-170",
+      "number": 170,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 410.0,
+      "explanationTimeSeconds": 409.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "4.14"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 419,
+          "printedPage": "4-55"
+        },
+        {
+          "pdfPage": 420,
+          "printedPage": "4-56"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-171",
+      "number": 171,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 410.875,
+      "explanationTimeSeconds": 411.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.27"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 298,
+          "printedPage": "3-122"
+        },
+        {
+          "pdfPage": 299,
+          "printedPage": "3-123"
+        },
+        {
+          "pdfPage": 300,
+          "printedPage": "3-124"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-172",
+      "number": 172,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 414.0,
+      "explanationTimeSeconds": 412.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.27"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 298,
+          "printedPage": "3-122"
+        },
+        {
+          "pdfPage": 299,
+          "printedPage": "3-123"
+        },
+        {
+          "pdfPage": 300,
+          "printedPage": "3-124"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-173",
+      "number": 173,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 415.0,
+      "explanationTimeSeconds": 415.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "FDA tissue-establishment registration"
+    },
+    {
+      "id": "AORN-CNOR-174",
+      "number": 174,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 418.125,
+      "explanationTimeSeconds": 416.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-175",
+      "number": 175,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 419.125,
+      "explanationTimeSeconds": 419.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.13"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 261,
+          "printedPage": "3-85"
+        },
+        {
+          "pdfPage": 262,
+          "printedPage": "3-86"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-176",
+      "number": 176,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 422.125,
+      "explanationTimeSeconds": 421.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-177",
+      "number": 177,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 423.125,
+      "explanationTimeSeconds": 423.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.13"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 261,
+          "printedPage": "3-85"
+        },
+        {
+          "pdfPage": 262,
+          "printedPage": "3-86"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-178",
+      "number": 178,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 426.25,
+      "explanationTimeSeconds": 425.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-179",
+      "number": 179,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 427.25,
+      "explanationTimeSeconds": 427.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "See the corrected explanation and linked clinical reference."
+    },
+    {
+      "id": "AORN-CNOR-180",
+      "number": 180,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 430.375,
+      "explanationTimeSeconds": 429.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.13"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 261,
+          "printedPage": "3-85"
+        },
+        {
+          "pdfPage": 262,
+          "printedPage": "3-86"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-181",
+      "number": 181,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 431.5,
+      "explanationTimeSeconds": 432.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-182",
+      "number": 182,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 434.5,
+      "explanationTimeSeconds": 433.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-183",
+      "number": 183,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 435.375,
+      "explanationTimeSeconds": 436.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.5"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 202,
+          "printedPage": "3-26"
+        },
+        {
+          "pdfPage": 203,
+          "printedPage": "3-27"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-184",
+      "number": 184,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 438.75,
+      "explanationTimeSeconds": 437.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-185",
+      "number": 185,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 439.625,
+      "explanationTimeSeconds": 440.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-186",
+      "number": 186,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 442.875,
+      "explanationTimeSeconds": 442.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-187",
+      "number": 187,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 444.0,
+      "explanationTimeSeconds": 444.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "5.3"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 455,
+          "printedPage": "5-7"
+        },
+        {
+          "pdfPage": 456,
+          "printedPage": "5-8"
+        },
+        {
+          "pdfPage": 457,
+          "printedPage": "5-9"
+        },
+        {
+          "pdfPage": 458,
+          "printedPage": "5-10"
+        },
+        {
+          "pdfPage": 459,
+          "printedPage": "5-11"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-188",
+      "number": 188,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 446.875,
+      "explanationTimeSeconds": 446.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "5.3"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 455,
+          "printedPage": "5-7"
+        },
+        {
+          "pdfPage": 456,
+          "printedPage": "5-8"
+        },
+        {
+          "pdfPage": 457,
+          "printedPage": "5-9"
+        },
+        {
+          "pdfPage": 458,
+          "printedPage": "5-10"
+        },
+        {
+          "pdfPage": 459,
+          "printedPage": "5-11"
+        }
+      ],
+      "note": "See the corrected explanation and linked clinical reference."
+    },
+    {
+      "id": "AORN-CNOR-189",
+      "number": 189,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 448.0,
+      "explanationTimeSeconds": 448.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "5.3"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 455,
+          "printedPage": "5-7"
+        },
+        {
+          "pdfPage": 456,
+          "printedPage": "5-8"
+        },
+        {
+          "pdfPage": 457,
+          "printedPage": "5-9"
+        },
+        {
+          "pdfPage": 458,
+          "printedPage": "5-10"
+        },
+        {
+          "pdfPage": 459,
+          "printedPage": "5-11"
+        }
+      ],
+      "note": "See the corrected explanation and linked clinical reference."
+    },
+    {
+      "id": "AORN-CNOR-190",
+      "number": 190,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 450.875,
+      "explanationTimeSeconds": 449.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "5.3"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 455,
+          "printedPage": "5-7"
+        },
+        {
+          "pdfPage": 456,
+          "printedPage": "5-8"
+        },
+        {
+          "pdfPage": 457,
+          "printedPage": "5-9"
+        },
+        {
+          "pdfPage": 458,
+          "printedPage": "5-10"
+        },
+        {
+          "pdfPage": 459,
+          "printedPage": "5-11"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-191",
+      "number": 191,
+      "status": "excluded-us",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 451.875,
+      "explanationTimeSeconds": 452.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": "American Red Cross platelet-storage rule"
+    },
+    {
+      "id": "AORN-CNOR-192",
+      "number": 192,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 455.75,
+      "explanationTimeSeconds": 454.5,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "5.3"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 455,
+          "printedPage": "5-7"
+        },
+        {
+          "pdfPage": 456,
+          "printedPage": "5-8"
+        },
+        {
+          "pdfPage": 457,
+          "printedPage": "5-9"
+        },
+        {
+          "pdfPage": 458,
+          "printedPage": "5-10"
+        },
+        {
+          "pdfPage": 459,
+          "printedPage": "5-11"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-193",
+      "number": 193,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 456.625,
+      "explanationTimeSeconds": 457.0,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.5"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 201,
+          "printedPage": "3-25"
+        },
+        {
+          "pdfPage": 202,
+          "printedPage": "3-26"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-194",
+      "number": 194,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 2,
+      "answerTimeSeconds": 459.625,
+      "explanationTimeSeconds": 458.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-195",
+      "number": 195,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 460.75,
+      "explanationTimeSeconds": 461.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-196",
+      "number": 196,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 464.0,
+      "explanationTimeSeconds": 462.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-197",
+      "number": 197,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 3,
+      "answerTimeSeconds": 465.125,
+      "explanationTimeSeconds": 465.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-198",
+      "number": 198,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 0,
+      "answerTimeSeconds": 468.375,
+      "explanationTimeSeconds": 467.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "3.13"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 261,
+          "printedPage": "3-85"
+        },
+        {
+          "pdfPage": 262,
+          "printedPage": "3-86"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-199",
+      "number": 199,
+      "status": "review-only",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 469.375,
+      "explanationTimeSeconds": 469.75,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "related",
+      "ornacSections": [
+        "5.10"
+      ],
+      "ornacPages": [
+        {
+          "pdfPage": 487,
+          "printedPage": "5-39"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "AORN-CNOR-200",
+      "number": 200,
+      "status": "included",
+      "answerChoicesObserved": 4,
+      "sourceAnswerIndex": 1,
+      "answerTimeSeconds": 473.0,
+      "explanationTimeSeconds": 471.25,
+      "explanationObserved": true,
+      "captureComplete": true,
+      "ornacComparison": "not-addressed",
+      "ornacSections": [],
+      "ornacPages": [],
+      "note": ""
+    }
+  ]
+}

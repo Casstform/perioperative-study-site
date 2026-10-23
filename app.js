@@ -32,10 +32,12 @@ function entry(id) {
 function categorySelection() {
   return state.categories.size ? state.categories : new Set(state.bank.categories);
 }
+function inCollection(q) {
+  return state.collection === "all" || (q.collection || "ornac") === state.collection;
+}
 function poolQuestions() {
   return state.bank.questions.filter(q => {
-    if (state.collection === "recording" && q.collection !== "recording") return false;
-    if (state.collection === "ornac" && q.collection === "recording") return false;
+    if (!inCollection(q)) return false;
     if (!categorySelection().has(q.category)) return false;
     const p = state.progress[q.id];
     if (state.pool === "missed") return Boolean(p?.missed);
@@ -44,7 +46,7 @@ function poolQuestions() {
   });
 }
 function sampleWeighted(pool, count) {
-  if (state.collection === "recording" && count >= pool.length) {
+  if (["recording", "aorn"].includes(state.collection) && count >= pool.length) {
     return [...pool].sort((a, b) => a.origin.questionNumber - b.origin.questionNumber);
   }
   if (count >= pool.length) {
@@ -103,14 +105,15 @@ function sampleWeighted(pool, count) {
 function updateDashboard() {
   if (!state.bank) return;
   const records = Object.values(state.progress);
-  $("#bank-size").textContent = state.bank.questions.filter(q => state.collection === "all" || (state.collection === "recording" ? q.collection === "recording" : q.collection !== "recording")).length;
+  $("#bank-size").textContent = state.bank.questions.filter(q => inCollection(q)).length;
   $("#missed-count").textContent = records.filter(p => p.missed).length;
   $("#saved-count").textContent = records.filter(p => p.saved).length;
   const pool = poolQuestions();
   $("#recording-note").classList.toggle("hidden", state.collection !== "recording");
+  $("#aorn-note").classList.toggle("hidden", state.collection !== "aorn");
   const count = state.length === "all" ? pool.length : Math.min(Number(state.length), pool.length);
-  $("#session-description").textContent = `${count} ${state.collection === "recording" ? "recorded practice" : state.pool === "all" ? "mixed" : state.pool} question${count === 1 ? "" : "s"}`;
-  $("#session-detail").textContent = state.collection === "recording" && state.length === "all"
+  $("#session-description").textContent = `${count} ${state.collection === "aorn" ? "AORN Canadian review" : state.collection === "recording" ? "recorded practice" : state.pool === "all" ? "mixed" : state.pool} question${count === 1 ? "" : "s"}`;
+  $("#session-detail").textContent = ["recording", "aorn"].includes(state.collection) && state.length === "all"
     ? "Recorded question order, shared cases, and linked explanations."
     : state.pool === "all" && !state.categories.size
     ? "Blueprint-aware mix with linked explanations."
@@ -126,7 +129,7 @@ function renderHome() {
     button.setAttribute("aria-pressed", state.categories.has(category));
     button.innerHTML = `<span class="pill-icon">${icons[i]}</span><span></span><span class="pill-count"></span>`;
     button.children[1].textContent = category;
-    button.children[2].textContent = state.bank.questions.filter(q => q.category === category && (state.collection === "all" || (state.collection === "recording" ? q.collection === "recording" : q.collection !== "recording"))).length;
+    button.children[2].textContent = state.bank.questions.filter(q => q.category === category && (inCollection(q))).length;
     button.addEventListener("click", () => {
       state.categories.has(category) ? state.categories.delete(category) : state.categories.add(category);
       button.setAttribute("aria-pressed", state.categories.has(category));
@@ -180,9 +183,9 @@ function renderQuestion() {
   $("#aside-number").innerHTML = `${String(s.index + 1).padStart(2, "0")}<span> / ${s.questions.length}</span>`;
   $("#session-correct").textContent = s.answers.filter(a => a.correct).length;
   $("#session-answered").textContent = s.answers.length;
-  $("#question-meta").textContent = q.category.toUpperCase() + (q.origin ? ` · RECORDED PRACTICE #${q.origin.questionNumber}` : q.difficulty === "hard" ? " · HARD PRACTICE" : "");
+  $("#question-meta").textContent = q.category.toUpperCase() + (q.origin ? ` · ${q.collection === "aorn" ? "AORN CNOR" : "RECORDED PRACTICE"} #${q.origin.questionNumber}` : q.difficulty === "hard" ? " · HARD PRACTICE" : "");
   $("#review-only-notice").classList.toggle("hidden", !q.reviewOnly);
-  $("#recorded-key-notice").classList.toggle("hidden", !q.currentGuidance);
+  $("#recorded-key-notice").classList.toggle("hidden", !q.currentGuidance || q.reviewOnly);
   $("#question-note").value = state.progress[q.id]?.note || "";
   $("#question-text").textContent = q.prompt;
   $("#case-box").classList.toggle("hidden", !q.case);
@@ -240,16 +243,19 @@ function renderAnswer(record) {
   title.textContent = q.reviewOnly ? "Review the reasoning · not scored." : q.examReview?.verified ? (correct ? "Correct for the recorded key." : "Doesn't match the recorded key.") : correct ? "That's right." : "A point to revisit.";
   const explanation = document.createElement("p");
   explanation.textContent = q.explanation;
-  const source = document.createElement("a");
+  feedback.append(title, explanation);
   const reference = q.reference;
-  const sections = reference.sections.map(section => section === "F" ? "Foreword" : `§${section}`).join(", ");
-  const pdfPages = reference.pages.map(page => page.pdfPage).join(", ");
-  const printedPages = reference.pages.map(page => page.printedPage).join(", ");
-  source.href = state.bank.document.url;
-  source.target = "_blank"; source.rel = "noopener";
-  source.textContent = `${q.examReview?.verified ? "Current-guideline reference" : "Guideline reference"}: ORNAC Guidelines, 17th ed. (2025), ${sections} · PDF ${reference.pages.length === 1 ? "p." : "pp."} ${pdfPages} (printed ${printedPages}) ↗`;
-  source.title = `Open your Drive copy, then enter PDF page ${reference.pages[0].pdfPage} in the viewer’s page box.`;
-  feedback.append(title, explanation, source);
+  if (reference?.pages?.length) {
+    const source = document.createElement("a");
+    const sections = reference.sections.map(section => section === "F" ? "Foreword" : `§${section}`).join(", ");
+    const pdfPages = reference.pages.map(page => page.pdfPage).join(", ");
+    const printedPages = reference.pages.map(page => page.printedPage).join(", ");
+    source.href = state.bank.document.url;
+    source.target = "_blank"; source.rel = "noopener";
+    source.textContent = `${q.referenceLabel || (q.examReview?.verified ? "Current-guideline reference" : "Guideline reference")}: ORNAC Guidelines, 17th ed. (2025), ${sections} · PDF ${reference.pages.length === 1 ? "p." : "pp."} ${pdfPages} (printed ${printedPages}) ↗`;
+    source.title = `Open your Drive copy, then enter PDF page ${reference.pages[0].pdfPage} in the viewer’s page box.`;
+    feedback.append(source);
+  }
   if (q.currentGuidance) {
     const note = document.createElement("div"); note.className = "guidance-note";
     const heading = document.createElement("strong"); heading.textContent = "Current-guideline note";
@@ -258,7 +264,7 @@ function renderAnswer(record) {
   }
   if (q.origin) {
     const origin = document.createElement("p"); origin.className = "answer-provenance";
-    origin.textContent = `Recorded practice #${q.origin.questionNumber} · ${q.origin.answerStatus}.`;
+    origin.textContent = `${q.collection === "aorn" ? "AORN CNOR" : "Recorded practice"} #${q.origin.questionNumber} · ${q.origin.answerStatus}.`;
     feedback.append(origin);
   }
   for (const reference of q.additionalReferences || []) {
@@ -276,7 +282,7 @@ function renderAnswer(record) {
   wrongList.className = "wrong-list";
   q.displayed.forEach((option, displayedIndex) => {
     const originalIndex = q.displayOrder[displayedIndex];
-    if (originalIndex === q.answer) return;
+    if (originalIndex === q.answer || (!q.optionExplanations && !q.whyOthers)) return;
     const item = document.createElement("li");
     const optionLabel = document.createElement("strong");
     optionLabel.textContent = option;
@@ -303,7 +309,8 @@ function renderAnswer(record) {
     basics.append(basicsSource);
   }
 
-  feedback.append(why, basics);
+  if (q.optionExplanations || q.whyOthers) feedback.append(why);
+  feedback.append(basics);
   feedback.className = `feedback ${q.reviewOnly ? "review-only" : correct ? "good" : "needs-review"}`;
   $("#session-correct").textContent = s.answers.filter(a => a.correct).length;
   $("#session-answered").textContent = s.answers.length;
@@ -419,7 +426,7 @@ function bind() {
 async function init() {
   bind();
   try {
-    const response = await fetch("./bank.json?v=ORNAC-17-2025-r7-classification-topics");
+    const response = await fetch("./bank.json?v=ORNAC-17-2025-r8-aorn-review");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.bank = await response.json();
     if (!Array.isArray(state.bank.questions) || !state.bank.questions.length) throw new Error("Question bank is empty");
@@ -432,3 +439,4 @@ async function init() {
   }
 }
 init();
+
