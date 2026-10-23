@@ -171,6 +171,25 @@ bank['cases'].update(recording['cases'])
 bank['recording'] = recording['metadata']
 bank['originalPractice'] = {'questionCount': 330, 'difficulty': 'hard', 'revised': '2026-10-10',
     'note': 'Original questions were rewritten as challenging application and judgment practice. Difficulty is an editorial target, not a calibrated exam classification. Stable IDs preserve saved items and notes; prior attempt totals are not recalculated.'}
+aorn = json.loads((ROOT / 'aorn-practice.json').read_text())
+assert len(aorn['questions']) == aorn['metadata']['questionCount']
+for q in aorn['questions']:
+    assert q['collection'] == 'aorn'
+    assert len(q['options']) == 4 and all(q['options']) and len(set(q['options'])) == 4, q['id']
+    assert q['category'] in CATEGORIES.values()
+    assert q['examReview']['verified'] and q['examReview']['answer'] in range(4)
+    assert q['reviewOnly'] == (q['answer'] is None)
+    assert q['reviewOnly'] or q['answer'] == q['examReview']['answer']
+    assert q['explanation'] and q['currentGuidance']
+    assert all(1 <= p['pdfPage'] <= document['pdfPageCount'] for p in q['reference']['pages'])
+questions.extend(aorn['questions'])
+assert len({q['id'] for q in questions}) == len(questions)
+bank['aorn'] = aorn['metadata']
+bank['concepts']['aorn-source-review'] = {
+    'title': 'Reading the Canadian comparison',
+    'text': 'The marked source answer and Canadian guidance are separate evidence. A related ORNAC section does not validate every numerical threshold, drug detail, or distractor. Read the comparison note; use the cited ORNAC requirement where it differs. Review-only items are excluded from scoring. Explanations are edited study summaries of the supplied recording and cross-check, not verbatim course quotations.'
+}
 (ROOT / 'bank.json').write_text(json.dumps(bank, ensure_ascii=False, separators=(',', ':')) + '\n')
 print(len(questions), 'questions covering', len(sections), 'subsections;', sum(bool(q.get('case')) for q in questions), 'case questions')
 print(Counter(q['category'] for q in questions))
+

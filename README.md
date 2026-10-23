@@ -3,7 +3,7 @@
 A static, independent CPN(C) practice site at
 https://casstform.github.io/perioperative-study-site/.
 
-The current bank has 430 questions: 330 challenging original multiple-choice questions based on the
+The original two collections have 430 questions: 330 challenging original multiple-choice questions based on the
 user-supplied ORNAC *Guidelines for Perioperative Practice in Canada*, 17th
 edition (April 2025), plus all 100 questions from the user-supplied Meazure Learning recording of “CNA Practice Test – Perioperative”. The original bank covers every numbered subsection, with 60 questions in 15 four-part cases. The recording adds 21 case questions across five cases, for 81 questions in 20 cases overall. CNA's 2020 perioperative exam blueprint informs the
 six domain weights and case proportion. No ORNAC PDF or extracted text is
@@ -43,3 +43,13 @@ All 304 original questions were rewritten for harder application and judgment pr
 ## Classification and precautions focus
 
 26 additional challenging original questions cover all four wound classes, common precaution examples, and device-specific Spaulding decisions. The bank now contains 330 originals and 100 unchanged recorded items. New questions link to the owner’s ORNAC PDF pages, with a PHAC reference for combined varicella precautions.
+
+
+
+## AORN CNOR Canadian review — 22 October 2026
+
+The full bank now contains 610 items. The AORN collection adds 180 items (159 scored against the recorded key, 21 review-only) from the supplied 200-question review. Nineteen US-policy questions are excluded and one item awaits recapture. All source numbers and all 200 keys are accounted for; the previous 109-explanation automated count was corrected.
+
+See [the complete audit](aorn-review/README.md), [the browser audit](aorn-review.html), and `aorn-review/manifest.json` for capture gaps, source errors, Canadian conflicts, per-question timestamps, and the limits of the ORNAC comparison. `aorn-practice.json` holds reviewed text and edited explanations. “Verified” keys mean visible in the recording; they do not imply independent clinical validation. All new IDs use `AORN-CNOR-*`. Review-only items are excluded from accuracy and attempt counts.
+
+Choose AORN CNOR / All to review in original number order, with excluded and withheld questions omitted. Rebuild with `python3 build-bank.py`. The existing 430 question objects and progress IDs are preserved.
