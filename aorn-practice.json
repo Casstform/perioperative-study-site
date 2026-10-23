@@ -2,11 +2,11 @@
   "metadata": {
     "title": "AORN CNOR · Canadian review",
     "sourceCount": 200,
-    "questionCount": 180,
-    "scoredCount": 159,
+    "questionCount": 181,
+    "scoredCount": 160,
     "reviewOnlyCount": 21,
     "excludedCount": 19,
-    "needsRecaptureCount": 1,
+    "needsRecaptureCount": 0,
     "reviewed": "2026-10-22",
     "note": "Recorded questions with edited explanatory summaries and Canadian cross-references. US policy items excluded. Review-only items do not affect scores. ORNAC does not cover every clinical fact."
   },
@@ -5540,6 +5540,53 @@
       "examReview": {
         "verified": true,
         "answer": 2,
+        "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
+      },
+      "additionalReferences": [],
+      "ornacComparison": "related"
+    },
+    {
+      "id": "AORN-CNOR-134",
+      "collection": "aorn",
+      "category": "Safety",
+      "source": "3.7",
+      "prompt": "Which of the following best describes proper prone positioning technique?",
+      "options": [
+        "Position the head in a neutral position without excessive flexion, extension, or rotation.",
+        "Position the patient's arms by placing them on arms boards positioned perpendicular to the OR bed with elbows extended straight.",
+        "Position the patient's chest in a manner that inhibits full lung and abdominal expansion.",
+        "Position the patient’s toes so they touch the OR bed for additional support."
+      ],
+      "answer": 0,
+      "reviewOnly": false,
+      "explanation": "The recorded answer is to keep the head neutral without excessive flexion, extension, or rotation. The completed explanation also calls for chest supports that permit lung and abdominal expansion and padding under the shins to keep the toes clear of the bed. ORNAC §§3.7.69 and 3.7.75–3.7.76 support chest and abdominal expansion, supported lower legs, and toes free from bed contact. For prone armboards, §3.7.74 specifies abduction and elbow flexion each less than 90°, with padding; straight elbows on perpendicular armboards are not the described technique. The source’s expansion of IOP as “intraoperative pressure” is an editorial error; in this eye-pressure context, it means intraocular pressure.",
+      "concept": "aorn-source-review",
+      "reference": {
+        "sections": [
+          "3.7"
+        ],
+        "pages": [
+          {
+            "pdfPage": 219,
+            "printedPage": "3-43"
+          },
+          {
+            "pdfPage": 220,
+            "printedPage": "3-44"
+          }
+        ]
+      },
+      "referenceLabel": "ORNAC cross-reference (see comparison note)",
+      "currentGuidance": "ORNAC cross-check: the related section addresses this topic but does not independently establish every detail or distractor in the recorded item.",
+      "origin": {
+        "questionNumber": 134,
+        "answerStatus": "scored against the visible course key; Canadian comparison below",
+        "videoTimeSeconds": 316.875,
+        "explanationTimeSeconds": 315.25
+      },
+      "examReview": {
+        "verified": true,
+        "answer": 0,
         "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
       },
       "additionalReferences": [],

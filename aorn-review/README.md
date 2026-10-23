@@ -7,22 +7,17 @@ The earlier Work audit and Continue CNOR Review draft PR have been reconciled. T
 ## Capture result
 
 - All 200 numbered questions appear; all four choices and the marked course answer are visible for each question.
-- An explanation view is present for every question. Question 134’s explanation continues below the recording.
+- An explanation view is present for every question. Question 134’s remaining explanation is now captured in two supplemental screenshots.
 - 199 stems can be read completely, including faint third lines and the later expanded view of question 163. Question 105 was completed using the supplemental screenshot. Only question 50 has a hidden ending; it is excluded as US policy.
-- 180 items are included: 159 scored against the visible course key and 21 review-only. Nineteen US-policy items are excluded. Question 134 is withheld.
+- 181 items are included: 160 scored against the visible course key and 21 review-only. Nineteen US-policy items are excluded. No included item awaits recapture.
 
-## Recapture request
+## Capture completion
 
-| Question | What to capture |
-|---|---|
-| 134 | Open Explanation and scroll to capture everything below “7.11 Elevate the patient’s toes …”, through the end. |
-| 50 | Hidden question ending also exists, but no recapture is needed for this Canadian set because the item tests a US agency requirement. |
-
-Existing answer choices and keys do not need recapturing. If convenient, a still screenshot of each requested portion is enough.
+Question 105’s full stem and question 134’s complete explanation were supplied in supplemental screenshots. No further captures are needed for the Canadian set. Question 50 still has a hidden stem ending, but it is excluded because it tests a US agency requirement.
 
 ## ORNAC differences and limits
 
-The table distinguishes actual conflicts, narrower Canadian wording, and matters not established by this guideline. A related section is not evidence that every course statement is correct. General anatomy, detailed pharmacology, and other textbook facts are often outside ORNAC’s scope. The 159 scored items follow the visible course key; they are not represented as 158 independently ORNAC-validated answers.
+The table distinguishes actual conflicts, narrower Canadian wording, and matters not established by this guideline. A related section is not evidence that every course statement is correct. General anatomy, detailed pharmacology, and other textbook facts are often outside ORNAC’s scope. The 160 scored items follow the visible course key; they are not represented as 160 independently ORNAC-validated answers.
 
 | Question | Finding | ORNAC PDF page (printed page) |
 |---|---|---|
@@ -90,7 +85,7 @@ The ASA physical-status questions (100–101) are retained because ORNAC §3.35.
 
 ## Evidence and editorial method
 
-Question numbers and choice order are preserved, and the green correct-answer indicator is distinguished from the learner’s selected answer. OCR was corrected using the recording, including faint text and later repeated views. Explanations are edited study summaries, with source errors corrected or flagged; they are not verbatim transcripts. No missing text is invented for the withheld item.
+Question numbers and choice order are preserved, and the green correct-answer indicator is distinguished from the learner’s selected answer. OCR was corrected using the recording, including faint text and later repeated views. Explanations are edited study summaries, with source errors corrected or flagged; they are not verbatim transcripts. The supplemental captures complete the previously withheld items.
 
 The supplied ORNAC PDF is the comparison authority. Printed-page labels are included because PDF page numbers differ. Specific clinical corrections also use the following primary sources:
 
@@ -241,7 +236,7 @@ Times are positions in the supplied video (minutes:seconds). “Core aligned” 
 | 131 | included | 5:08.88 | 5:09.25 | core-aligned | 217 |
 | 132 | included | 5:11.88 | 5:10.75 | related | 212, 213, 214, 217, 218 |
 | 133 | included | 5:13.00 | 5:13.50 | related | 219 |
-| 134 | needs-recapture | 5:16.88 | 5:15.25 | related | 219 |
+| 134 | included | 5:16.88 | 5:15.25 | related | 219, 220 |
 | 135 | excluded-us | 5:17.88 | 5:18.50 | not-addressed | — |
 | 136 | excluded-us | 5:21.25 | 5:20.25 | not-addressed | — |
 | 137 | included | 5:22.25 | 5:22.75 | related | 341, 342, 343, 344 |
