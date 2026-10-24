@@ -48,7 +48,7 @@ All 304 original questions were rewritten for harder application and judgment pr
 
 ## AORN CNOR Canadian review — 22 October 2026
 
-The full bank now contains 611 items. The AORN collection adds 181 items (160 scored against the recorded key, 21 review-only) from the supplied 200-question review. Nineteen US-policy questions are excluded and no included items await recapture. All source numbers and all 200 keys are accounted for; the previous 109-explanation automated count was corrected.
+The full bank now contains 609 items. The AORN collection adds 179 items (159 scored against the recorded key, 20 review-only) from the supplied 200-question review. Nineteen US-policy questions are excluded and no included items await recapture. All source numbers and all 200 keys are accounted for; the previous 109-explanation automated count was corrected.
 
 See [the complete audit](aorn-review/README.md), [the browser audit](aorn-review.html), and `aorn-review/manifest.json` for capture gaps, source errors, Canadian conflicts, per-question timestamps, and the limits of the ORNAC comparison. `aorn-practice.json` holds reviewed text and edited explanations. “Verified” keys mean visible in the recording; they do not imply independent clinical validation. All new IDs use `AORN-CNOR-*`. Review-only items are excluded from accuracy and attempt counts.
 

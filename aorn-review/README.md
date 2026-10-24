@@ -9,7 +9,9 @@ The earlier Work audit and Continue CNOR Review draft PR have been reconciled. T
 - All 200 numbered questions appear; all four choices and the marked course answer are visible for each question.
 - An explanation view is present for every question. Question 134’s remaining explanation is now captured in two supplemental screenshots.
 - 199 stems can be read completely, including faint third lines and the later expanded view of question 163. Question 105 was completed using the supplemental screenshot. Only question 50 has a hidden ending; it is excluded as US policy.
-- 181 items are included: 160 scored against the visible course key and 21 review-only. Nineteen US-policy items are excluded. No included item awaits recapture.
+- 179 items are included: 159 scored against the visible course key and 20 review-only. Nineteen US-policy items are excluded. No included item awaits recapture.
+
+Questions 14 and 35 were removed from active practice at the user’s request. Their original evidence remains in this audit.
 
 ## Capture completion
 
@@ -17,7 +19,7 @@ Question 105’s full stem and question 134’s complete explanation were suppli
 
 ## ORNAC differences and limits
 
-The table distinguishes actual conflicts, narrower Canadian wording, and matters not established by this guideline. A related section is not evidence that every course statement is correct. General anatomy, detailed pharmacology, and other textbook facts are often outside ORNAC’s scope. The 160 scored items follow the visible course key; they are not represented as 160 independently ORNAC-validated answers.
+The table distinguishes actual conflicts, narrower Canadian wording, and matters not established by this guideline. A related section is not evidence that every course statement is correct. General anatomy, detailed pharmacology, and other textbook facts are often outside ORNAC’s scope. The 159 scored items follow the visible course key; they are not represented as 159 independently ORNAC-validated answers.
 
 | Question | Finding | ORNAC PDF page (printed page) |
 |---|---|---|
@@ -116,7 +118,7 @@ Times are positions in the supplied video (minutes:seconds). “Core aligned” 
 | 11 | included | 0:31.38 | 0:32.00 | not-addressed | — |
 | 12 | included | 0:34.62 | 0:33.50 | not-addressed | — |
 | 13 | included | 0:36.12 | 0:37.25 | not-addressed | — |
-| 14 | review-only | 0:39.38 | 0:38.50 | not-addressed | — |
+| 14 | removed-by-request | 0:39.38 | 0:38.50 | not-addressed | — |
 | 15 | included | 0:40.50 | 0:41.00 | not-addressed | — |
 | 16 | included | 0:44.25 | 0:43.00 | not-addressed | — |
 | 17 | included | 0:45.50 | 0:46.00 | not-addressed | — |
@@ -137,7 +139,7 @@ Times are positions in the supplied video (minutes:seconds). “Core aligned” 
 | 32 | included | 1:22.50 | 1:21.25 | related | 80, 81 |
 | 33 | excluded-us | 1:23.62 | 1:24.25 | not-addressed | — |
 | 34 | included | 1:27.12 | 1:26.00 | core-aligned | 111 |
-| 35 | included | 1:28.25 | 1:28.75 | core-aligned | 122 |
+| 35 | removed-by-request | 1:28.25 | 1:28.75 | core-aligned | 122 |
 | 36 | included | 1:31.88 | 1:30.50 | related | 119, 120, 121 |
 | 37 | included | 1:33.25 | 1:34.00 | related | 119, 120, 121 |
 | 38 | included | 1:36.88 | 1:35.50 | core-aligned | 168 |

@@ -2,13 +2,14 @@
   "metadata": {
     "title": "AORN CNOR · Canadian review",
     "sourceCount": 200,
-    "questionCount": 181,
-    "scoredCount": 160,
-    "reviewOnlyCount": 21,
+    "questionCount": 179,
+    "scoredCount": 159,
+    "reviewOnlyCount": 20,
     "excludedCount": 19,
     "needsRecaptureCount": 0,
     "reviewed": "2026-10-22",
-    "note": "Recorded questions with edited explanatory summaries and Canadian cross-references. US policy items excluded. Review-only items do not affect scores. ORNAC does not cover every clinical fact."
+    "note": "Recorded questions with edited explanatory summaries and Canadian cross-references. US policy items excluded. Review-only items do not affect scores. ORNAC does not cover every clinical fact.",
+    "removedByRequestCount": 2
   },
   "questions": [
     {
@@ -238,7 +239,7 @@
     {
       "id": "AORN-CNOR-014",
       "number": 14,
-      "status": "review-only",
+      "status": "removed-by-request",
       "answerChoicesObserved": 4,
       "sourceAnswerIndex": 0,
       "answerTimeSeconds": 39.375,
@@ -248,7 +249,7 @@
       "ornacComparison": "not-addressed",
       "ornacSections": [],
       "ornacPages": [],
-      "note": "See the corrected explanation and linked clinical reference."
+      "note": "Removed from active practice at the user's request. Original capture and source-key evidence retained for the audit."
     },
     {
       "id": "AORN-CNOR-015",
@@ -641,7 +642,7 @@
     {
       "id": "AORN-CNOR-035",
       "number": 35,
-      "status": "included",
+      "status": "removed-by-request",
       "answerChoicesObserved": 4,
       "sourceAnswerIndex": 2,
       "answerTimeSeconds": 88.25,
@@ -658,7 +659,7 @@
           "printedPage": "2-64"
         }
       ],
-      "note": ""
+      "note": "Removed from active practice at the user's request. Original capture and source-key evidence retained for the audit."
     },
     {
       "id": "AORN-CNOR-036",
