@@ -183,9 +183,9 @@ function renderQuestion() {
   $("#aside-number").innerHTML = `${String(s.index + 1).padStart(2, "0")}<span> / ${s.questions.length}</span>`;
   $("#session-correct").textContent = s.answers.filter(a => a.correct).length;
   $("#session-answered").textContent = s.answers.length;
-  $("#question-meta").textContent = q.category.toUpperCase() + (q.origin ? ` · ${q.collection === "aorn" ? "AORN CNOR" : "RECORDED PRACTICE"} #${q.origin.questionNumber}` : q.difficulty === "hard" ? " · HARD PRACTICE" : "");
+  $("#question-meta").textContent = q.category.toUpperCase() + (q.origin ? ` · ${q.guidelineAdapted ? "ORNAC ADAPTED" : q.collection === "aorn" ? "AORN CNOR" : "RECORDED PRACTICE"} #${q.origin.questionNumber}` : q.difficulty === "hard" ? " · HARD PRACTICE" : "");
   $("#review-only-notice").classList.toggle("hidden", !q.reviewOnly);
-  $("#recorded-key-notice").classList.toggle("hidden", !q.currentGuidance || q.reviewOnly);
+  $("#recorded-key-notice").classList.toggle("hidden", !q.currentGuidance || q.reviewOnly || q.guidelineAdapted);
   $("#question-note").value = state.progress[q.id]?.note || "";
   $("#question-text").textContent = q.prompt;
   $("#case-box").classList.toggle("hidden", !q.case);
@@ -240,7 +240,7 @@ function renderAnswer(record) {
   const feedback = $("#feedback");
   feedback.replaceChildren();
   const title = document.createElement("strong");
-  title.textContent = q.reviewOnly ? "Review the reasoning · not scored." : q.examReview?.verified ? (correct ? "Correct for the recorded key." : "Doesn't match the recorded key.") : correct ? "That's right." : "A point to revisit.";
+  title.textContent = q.reviewOnly ? "Review the reasoning · not scored." : (q.examReview?.verified && !q.guidelineAdapted) ? (correct ? "Correct for the recorded key." : "Doesn't match the recorded key.") : correct ? "That's right." : "A point to revisit.";
   const explanation = document.createElement("p");
   explanation.textContent = q.explanation;
   feedback.append(title, explanation);
@@ -252,7 +252,7 @@ function renderAnswer(record) {
     const printedPages = reference.pages.map(page => page.printedPage).join(", ");
     source.href = state.bank.document.url;
     source.target = "_blank"; source.rel = "noopener";
-    source.textContent = `${q.referenceLabel || (q.examReview?.verified ? "Current-guideline reference" : "Guideline reference")}: ORNAC Guidelines, 17th ed. (2025), ${sections} · PDF ${reference.pages.length === 1 ? "p." : "pp."} ${pdfPages} (printed ${printedPages}) ↗`;
+    source.textContent = `${q.referenceLabel || ((q.examReview?.verified && !q.guidelineAdapted) ? "Current-guideline reference" : "Guideline reference")}: ORNAC Guidelines, 17th ed. (2025), ${sections} · PDF ${reference.pages.length === 1 ? "p." : "pp."} ${pdfPages} (printed ${printedPages}) ↗`;
     source.title = `Open your Drive copy, then enter PDF page ${reference.pages[0].pdfPage} in the viewer’s page box.`;
     feedback.append(source);
   }
@@ -264,7 +264,7 @@ function renderAnswer(record) {
   }
   if (q.origin) {
     const origin = document.createElement("p"); origin.className = "answer-provenance";
-    origin.textContent = `${q.collection === "aorn" ? "AORN CNOR" : "Recorded practice"} #${q.origin.questionNumber} · ${q.origin.answerStatus}.`;
+    origin.textContent = `${q.guidelineAdapted ? "ORNAC adaptation of AORN CNOR" : q.collection === "aorn" ? "AORN CNOR" : "Recorded practice"} #${q.origin.questionNumber} · ${q.origin.answerStatus}.`;
     feedback.append(origin);
   }
   for (const reference of q.additionalReferences || []) {
@@ -277,7 +277,7 @@ function renderAnswer(record) {
   const why = document.createElement("details");
   why.className = "learning-detail";
   const whySummary = document.createElement("summary");
-  whySummary.textContent = q.reviewOnly ? "How to evaluate each answer" : q.examReview?.verified ? "Why the other choices do not match the recorded key" : "Why the other answers are incorrect";
+  whySummary.textContent = q.reviewOnly ? "How to evaluate each answer" : (q.examReview?.verified && !q.guidelineAdapted) ? "Why the other choices do not match the recorded key" : "Why the other answers are incorrect";
   const wrongList = document.createElement("ul");
   wrongList.className = "wrong-list";
   q.displayed.forEach((option, displayedIndex) => {
@@ -426,7 +426,7 @@ function bind() {
 async function init() {
   bind();
   try {
-    const response = await fetch("./bank.json?v=ORNAC-17-2025-r9-aorn-complete");
+    const response = await fetch("./bank.json?v=ORNAC-fresh-air-20261023");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.bank = await response.json();
     if (!Array.isArray(state.bank.questions) || !state.bank.questions.length) throw new Error("Question bank is empty");

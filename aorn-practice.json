@@ -166,7 +166,7 @@
       "origin": {
         "questionNumber": 4,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 14.0,
+        "videoTimeSeconds": 14,
         "explanationTimeSeconds": 11.75
       },
       "examReview": {
@@ -203,7 +203,7 @@
         "questionNumber": 5,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 16.25,
-        "explanationTimeSeconds": 17.0
+        "explanationTimeSeconds": 17
       },
       "examReview": {
         "verified": true,
@@ -245,8 +245,8 @@
       "origin": {
         "questionNumber": 6,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 20.0,
-        "explanationTimeSeconds": 19.0
+        "videoTimeSeconds": 20,
+        "explanationTimeSeconds": 19
       },
       "examReview": {
         "verified": true,
@@ -317,8 +317,8 @@
       "origin": {
         "questionNumber": 8,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 26.0,
-        "explanationTimeSeconds": 25.0
+        "videoTimeSeconds": 26,
+        "explanationTimeSeconds": 25
       },
       "examReview": {
         "verified": true,
@@ -426,7 +426,7 @@
         "questionNumber": 11,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 31.375,
-        "explanationTimeSeconds": 32.0
+        "explanationTimeSeconds": 32
       },
       "examReview": {
         "verified": true,
@@ -575,7 +575,7 @@
         "questionNumber": 15,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 40.5,
-        "explanationTimeSeconds": 41.0
+        "explanationTimeSeconds": 41
       },
       "examReview": {
         "verified": true,
@@ -611,7 +611,7 @@
         "questionNumber": 16,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 44.25,
-        "explanationTimeSeconds": 43.0
+        "explanationTimeSeconds": 43
       },
       "examReview": {
         "verified": true,
@@ -647,7 +647,7 @@
         "questionNumber": 17,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 45.5,
-        "explanationTimeSeconds": 46.0
+        "explanationTimeSeconds": 46
       },
       "examReview": {
         "verified": true,
@@ -908,7 +908,7 @@
       "origin": {
         "questionNumber": 23,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 60.0,
+        "videoTimeSeconds": 60,
         "explanationTimeSeconds": 60.5
       },
       "examReview": {
@@ -1003,7 +1003,7 @@
         "questionNumber": 29,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 74.125,
-        "explanationTimeSeconds": 75.0
+        "explanationTimeSeconds": 75
       },
       "examReview": {
         "verified": true,
@@ -1049,7 +1049,7 @@
       "origin": {
         "questionNumber": 30,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 78.0,
+        "videoTimeSeconds": 78,
         "explanationTimeSeconds": 76.75
       },
       "examReview": {
@@ -1112,17 +1112,17 @@
       "collection": "aorn",
       "category": "Infection prevention",
       "source": "2.15",
-      "prompt": "What is the recommended minimum total air changes per hour for an operating room?",
+      "prompt": "According to ORNAC, what is the minimum number of fresh-air exchanges per hour required in an operating room?",
       "options": [
         "4",
         "6",
         "10",
         "20"
       ],
-      "answer": 3,
+      "answer": 1,
       "reviewOnly": false,
-      "explanation": "The intended minimum is 20 total air changes per hour. ORNAC also specifies a minimum of six fresh-air changes per hour; total and fresh-air rates are different measures.",
-      "concept": "aorn-source-review",
+      "explanation": "ORNAC specifies a minimum of 6 fresh-air exchanges per hour in an operating room. Fresh-air exchanges refer to the fresh-air component of ventilation; they are distinct from total air changes.",
+      "concept": "environment",
       "reference": {
         "sections": [
           "2.15"
@@ -1134,13 +1134,13 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the core answer agrees with the cited guideline passage. The explanation is an edited study summary, not a verbatim guideline quotation.",
+      "referenceLabel": "Guideline reference",
+      "currentGuidance": "Adapted for Canadian study at your request. This question tests the ORNAC fresh-air requirement, rather than the original AORN question about total air changes. Reference: §2.15, PDF page 111 (printed 2-53).",
       "origin": {
         "questionNumber": 34,
-        "answerStatus": "scored against the visible course key; Canadian comparison below",
+        "answerStatus": "adapted to test ORNAC fresh-air exchanges; scored against the guideline answer of 6",
         "videoTimeSeconds": 87.125,
-        "explanationTimeSeconds": 86.0
+        "explanationTimeSeconds": 86
       },
       "examReview": {
         "verified": true,
@@ -1148,7 +1148,14 @@
         "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
       },
       "additionalReferences": [],
-      "ornacComparison": "core-aligned"
+      "ornacComparison": "core-aligned",
+      "guidelineAdapted": true,
+      "optionExplanations": [
+        "Four is below the ORNAC minimum of six fresh-air exchanges per hour.",
+        "This is the ORNAC minimum fresh-air exchange rate.",
+        "Ten exceeds six, but the question asks for the minimum fresh-air rate.",
+        "Twenty refers to total air changes in the original question, not the minimum fresh-air component."
+      ]
     },
     {
       "id": "AORN-CNOR-035",
@@ -1285,7 +1292,7 @@
         "questionNumber": 37,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 93.25,
-        "explanationTimeSeconds": 94.0
+        "explanationTimeSeconds": 94
       },
       "examReview": {
         "verified": true,
@@ -1516,7 +1523,7 @@
         "questionNumber": 42,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 106.625,
-        "explanationTimeSeconds": 105.0
+        "explanationTimeSeconds": 105
       },
       "examReview": {
         "verified": true,
@@ -1845,7 +1852,7 @@
       "origin": {
         "questionNumber": 52,
         "answerStatus": "source key visible; review only, not scored",
-        "videoTimeSeconds": 130.0,
+        "videoTimeSeconds": 130,
         "explanationTimeSeconds": 128.75
       },
       "examReview": {
@@ -1896,7 +1903,7 @@
       "origin": {
         "questionNumber": 53,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 131.0,
+        "videoTimeSeconds": 131,
         "explanationTimeSeconds": 131.5
       },
       "examReview": {
@@ -1991,7 +1998,7 @@
         "questionNumber": 55,
         "answerStatus": "source key visible; review only, not scored",
         "videoTimeSeconds": 135.5,
-        "explanationTimeSeconds": 136.0
+        "explanationTimeSeconds": 136
       },
       "examReview": {
         "verified": true,
@@ -2120,7 +2127,7 @@
         "questionNumber": 58,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 143.375,
-        "explanationTimeSeconds": 142.0
+        "explanationTimeSeconds": 142
       },
       "examReview": {
         "verified": true,
@@ -2527,7 +2534,7 @@
         "questionNumber": 67,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 163.5,
-        "explanationTimeSeconds": 164.0
+        "explanationTimeSeconds": 164
       },
       "examReview": {
         "verified": true,
@@ -2749,8 +2756,8 @@
       "origin": {
         "questionNumber": 72,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 176.0,
-        "explanationTimeSeconds": 175.0
+        "videoTimeSeconds": 176,
+        "explanationTimeSeconds": 175
       },
       "examReview": {
         "verified": true,
@@ -2930,7 +2937,7 @@
         "questionNumber": 76,
         "answerStatus": "source key visible; review only, not scored",
         "videoTimeSeconds": 186.125,
-        "explanationTimeSeconds": 185.0
+        "explanationTimeSeconds": 185
       },
       "examReview": {
         "verified": true,
@@ -3024,7 +3031,7 @@
         "questionNumber": 79,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 192.375,
-        "explanationTimeSeconds": 193.0
+        "explanationTimeSeconds": 193
       },
       "examReview": {
         "verified": true,
@@ -3292,7 +3299,7 @@
         "questionNumber": 87,
         "answerStatus": "source key visible; review only, not scored",
         "videoTimeSeconds": 209.625,
-        "explanationTimeSeconds": 210.0
+        "explanationTimeSeconds": 210
       },
       "examReview": {
         "verified": true,
@@ -3581,7 +3588,7 @@
       "origin": {
         "questionNumber": 93,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 223.0,
+        "videoTimeSeconds": 223,
         "explanationTimeSeconds": 223.5
       },
       "examReview": {
@@ -3629,7 +3636,7 @@
         "questionNumber": 94,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 226.125,
-        "explanationTimeSeconds": 225.0
+        "explanationTimeSeconds": 225
       },
       "examReview": {
         "verified": true,
@@ -4073,7 +4080,7 @@
         "questionNumber": 103,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 245.5,
-        "explanationTimeSeconds": 246.0
+        "explanationTimeSeconds": 246
       },
       "examReview": {
         "verified": true,
@@ -4261,7 +4268,7 @@
         "questionNumber": 107,
         "answerStatus": "source key visible; review only, not scored",
         "videoTimeSeconds": 253.5,
-        "explanationTimeSeconds": 254.0
+        "explanationTimeSeconds": 254
       },
       "examReview": {
         "verified": true,
@@ -4355,7 +4362,7 @@
         "questionNumber": 109,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 257.5,
-        "explanationTimeSeconds": 258.0
+        "explanationTimeSeconds": 258
       },
       "examReview": {
         "verified": true,
@@ -4449,7 +4456,7 @@
         "questionNumber": 111,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 261.5,
-        "explanationTimeSeconds": 262.0
+        "explanationTimeSeconds": 262
       },
       "examReview": {
         "verified": true,
@@ -4546,7 +4553,7 @@
       "origin": {
         "questionNumber": 113,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 266.0,
+        "videoTimeSeconds": 266,
         "explanationTimeSeconds": 266.75
       },
       "examReview": {
@@ -4896,7 +4903,7 @@
         "questionNumber": 120,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 282.875,
-        "explanationTimeSeconds": 281.0
+        "explanationTimeSeconds": 281
       },
       "examReview": {
         "verified": true,
@@ -5116,7 +5123,7 @@
         "questionNumber": 124,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 294.125,
-        "explanationTimeSeconds": 292.0
+        "explanationTimeSeconds": 292
       },
       "examReview": {
         "verified": true,
@@ -5331,7 +5338,7 @@
         "questionNumber": 129,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 304.5,
-        "explanationTimeSeconds": 305.0
+        "explanationTimeSeconds": 305
       },
       "examReview": {
         "verified": true,
@@ -5534,7 +5541,7 @@
       "origin": {
         "questionNumber": 133,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 313.0,
+        "videoTimeSeconds": 313,
         "explanationTimeSeconds": 313.5
       },
       "examReview": {
@@ -5778,7 +5785,7 @@
         "questionNumber": 140,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 330.25,
-        "explanationTimeSeconds": 329.0
+        "explanationTimeSeconds": 329
       },
       "examReview": {
         "verified": true,
@@ -5879,7 +5886,7 @@
       "origin": {
         "questionNumber": 143,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 336.0,
+        "videoTimeSeconds": 336,
         "explanationTimeSeconds": 336.75
       },
       "examReview": {
@@ -5927,7 +5934,7 @@
         "questionNumber": 144,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 338.75,
-        "explanationTimeSeconds": 338.0
+        "explanationTimeSeconds": 338
       },
       "examReview": {
         "verified": true,
@@ -6021,7 +6028,7 @@
         "questionNumber": 146,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 342.875,
-        "explanationTimeSeconds": 342.0
+        "explanationTimeSeconds": 342
       },
       "examReview": {
         "verified": true,
@@ -6067,7 +6074,7 @@
       "origin": {
         "questionNumber": 147,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 344.0,
+        "videoTimeSeconds": 344,
         "explanationTimeSeconds": 344.75
       },
       "examReview": {
@@ -6166,7 +6173,7 @@
         "questionNumber": 149,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 348.375,
-        "explanationTimeSeconds": 349.0
+        "explanationTimeSeconds": 349
       },
       "examReview": {
         "verified": true,
@@ -6268,7 +6275,7 @@
         "questionNumber": 151,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 352.625,
-        "explanationTimeSeconds": 353.0
+        "explanationTimeSeconds": 353
       },
       "examReview": {
         "verified": true,
@@ -6397,7 +6404,7 @@
         "questionNumber": 155,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 360.5,
-        "explanationTimeSeconds": 361.0
+        "explanationTimeSeconds": 361
       },
       "examReview": {
         "verified": true,
@@ -6577,7 +6584,7 @@
         "questionNumber": 160,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 374.125,
-        "explanationTimeSeconds": 372.0
+        "explanationTimeSeconds": 372
       },
       "examReview": {
         "verified": true,
@@ -6898,7 +6905,7 @@
         "questionNumber": 167,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 402.375,
-        "explanationTimeSeconds": 403.0
+        "explanationTimeSeconds": 403
       },
       "examReview": {
         "verified": true,
@@ -7046,8 +7053,8 @@
       "origin": {
         "questionNumber": 170,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 410.0,
-        "explanationTimeSeconds": 409.0
+        "videoTimeSeconds": 410,
+        "explanationTimeSeconds": 409
       },
       "examReview": {
         "verified": true,
@@ -7148,7 +7155,7 @@
       "origin": {
         "questionNumber": 172,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 414.0,
+        "videoTimeSeconds": 414,
         "explanationTimeSeconds": 412.75
       },
       "examReview": {
@@ -7268,7 +7275,7 @@
         "questionNumber": 176,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 422.125,
-        "explanationTimeSeconds": 421.0
+        "explanationTimeSeconds": 421
       },
       "examReview": {
         "verified": true,
@@ -7439,7 +7446,7 @@
         "questionNumber": 180,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 430.375,
-        "explanationTimeSeconds": 429.0
+        "explanationTimeSeconds": 429
       },
       "examReview": {
         "verified": true,
@@ -7558,7 +7565,7 @@
         "questionNumber": 183,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 435.375,
-        "explanationTimeSeconds": 436.0
+        "explanationTimeSeconds": 436
       },
       "examReview": {
         "verified": true,
@@ -7666,7 +7673,7 @@
         "questionNumber": 186,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 442.875,
-        "explanationTimeSeconds": 442.0
+        "explanationTimeSeconds": 442
       },
       "examReview": {
         "verified": true,
@@ -7724,7 +7731,7 @@
       "origin": {
         "questionNumber": 187,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 444.0,
+        "videoTimeSeconds": 444,
         "explanationTimeSeconds": 444.5
       },
       "examReview": {
@@ -7784,7 +7791,7 @@
         "questionNumber": 188,
         "answerStatus": "source key visible; review only, not scored",
         "videoTimeSeconds": 446.875,
-        "explanationTimeSeconds": 446.0
+        "explanationTimeSeconds": 446
       },
       "examReview": {
         "verified": true,
@@ -7847,7 +7854,7 @@
       "origin": {
         "questionNumber": 189,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 448.0,
+        "videoTimeSeconds": 448,
         "explanationTimeSeconds": 448.5
       },
       "examReview": {
@@ -8013,7 +8020,7 @@
         "questionNumber": 193,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 456.625,
-        "explanationTimeSeconds": 457.0
+        "explanationTimeSeconds": 457
       },
       "examReview": {
         "verified": true,
@@ -8120,7 +8127,7 @@
       "origin": {
         "questionNumber": 196,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 464.0,
+        "videoTimeSeconds": 464,
         "explanationTimeSeconds": 462.75
       },
       "examReview": {
@@ -8282,7 +8289,7 @@
       "origin": {
         "questionNumber": 200,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 473.0,
+        "videoTimeSeconds": 473,
         "explanationTimeSeconds": 471.25
       },
       "examReview": {

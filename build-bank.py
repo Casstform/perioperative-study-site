@@ -179,7 +179,7 @@ for q in aorn['questions']:
     assert q['category'] in CATEGORIES.values()
     assert q['examReview']['verified'] and q['examReview']['answer'] in range(4)
     assert q['reviewOnly'] == (q['answer'] is None)
-    assert q['reviewOnly'] or q['answer'] == q['examReview']['answer']
+    assert q.get('guidelineAdapted') or q['reviewOnly'] or q['answer'] == q['examReview']['answer']
     assert q['explanation'] and q['currentGuidance']
     assert all(1 <= p['pdfPage'] <= document['pdfPageCount'] for p in q['reference']['pages'])
 questions.extend(aorn['questions'])
