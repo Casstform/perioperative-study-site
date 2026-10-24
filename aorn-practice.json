@@ -1412,17 +1412,17 @@
       "collection": "aorn",
       "category": "Infection prevention",
       "source": "2.2",
-      "prompt": "Patient P has known tuberculosis and is waiting for their scheduled surgery in the isolation room on the nursing unit. How should the patient be transported to surgery?",
+      "prompt": "A patient with infectious pulmonary tuberculosis requires urgent surgery. The OR team has arranged airborne precautions and is ready to receive the patient directly. According to ORNAC-aligned Canadian precautions, which respiratory protection plan is appropriate for transport?",
       "options": [
-        "Transport the patient to the preoperative ready area and post a sign on the curtain that states, “TB precautions.”",
-        "Place a mask on the patient before transporting and transport the patient to the last bay near the door in the postanesthesia care unit.",
-        "Place a mask on the patient before transporting and transport the patient to the preoperative ready area.",
-        "Place a mask on the patient before transporting and transport the patient directly to the OR."
+        "Have the patient wear a surgical/procedure mask; transporting personnel wear surgical/procedure masks.",
+        "Have the patient wear a surgical/procedure mask; transporting personnel do not need respirators while the patient is masked.",
+        "Have transporting personnel wear fit-tested N95 respirators; the patient does not need a mask during transport.",
+        "Have the patient wear a surgical/procedure mask, if tolerated; transporting personnel wear fit-tested N95 or equivalent respirators."
       ],
       "answer": 3,
       "reviewOnly": false,
-      "explanation": "Mask the patient for transport and transfer directly to the OR. Do not apply the recording’s additional claim that staff should omit respiratory protection when the patient is masked: ORNAC requires a selected and fitted respirator for personnel in contact with a known or suspected airborne-infectious patient.",
-      "concept": "aorn-source-review",
+      "explanation": "Use a surgical/procedure mask on the patient, if tolerated, for source control during essential transport. Staff transporting or directly caring for the patient use fit-tested N95 or equivalent respirators and perform the required seal check. Patient masking does not replace staff respiratory protection. Transfer directly to the prepared OR under the coordinated airborne-precaution plan.",
+      "concept": "precaution_examples",
       "reference": {
         "sections": [
           "2.2"
@@ -1434,21 +1434,33 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "Explanation conflict: ORNAC §§2.2.8–2.2.9 require appropriate respirators for personnel in contact with a known or suspected airborne-infectious patient. Keep the correct patient-transport answer, but do not adopt the recording’s staff no-respirator statement.",
+      "referenceLabel": "Guideline reference",
+      "currentGuidance": "Canadian adaptation: ORNAC §§2.2.8–2.2.9, PDF page 69 (printed 2-11), supports respiratory protection for personnel in contact with a known or suspected airborne-infectious patient. The linked Canadian Tuberculosis Standards explicitly applies respirator use to transporting personnel. This item is scored against the Canadian answer, not the original course explanation.",
       "origin": {
         "questionNumber": 42,
-        "answerStatus": "scored against the visible course key; Canadian comparison below",
+        "answerStatus": "adapted to test ORNAC-aligned Canadian TB transport precautions",
         "videoTimeSeconds": 106.625,
         "explanationTimeSeconds": 105
       },
       "examReview": {
         "verified": true,
         "answer": 3,
-        "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
+        "meaning": "Historical recording key for the original question; the rewritten Canadian question is scored using its own answer."
       },
-      "additionalReferences": [],
-      "ornacComparison": "explanation-conflict"
+      "additionalReferences": [
+        {
+          "name": "Canadian Tuberculosis Standards, Chapter 14: airborne precautions and respiratory protection",
+          "url": "https://www.canada.ca/en/public-health/services/diseases/tuberculosis/health-professionals/canadian-tuberculosis-standards/prevention-control-transmission-healthcare-settings.html"
+        }
+      ],
+      "ornacComparison": "core-aligned",
+      "guidelineAdapted": true,
+      "optionExplanations": [
+        "A surgical/procedure mask on staff is not a substitute for the respiratory protection required for infectious pulmonary TB.",
+        "Patient masking reduces the release of respiratory secretions but does not remove the Canadian requirement for staff respiratory protection.",
+        "Staff respirators do not replace source control: the patient should also wear a surgical/procedure mask during transport, if tolerated.",
+        "This combines patient source control with appropriate respiratory protection for transporting personnel."
+      ]
     },
     {
       "id": "AORN-CNOR-043",
