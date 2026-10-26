@@ -2,14 +2,14 @@
   "metadata": {
     "title": "AORN CNOR · Canadian review",
     "sourceCount": 200,
-    "questionCount": 179,
-    "scoredCount": 159,
-    "reviewOnlyCount": 20,
-    "excludedCount": 19,
+    "questionCount": 164,
+    "scoredCount": 146,
+    "reviewOnlyCount": 18,
+    "excludedCount": 36,
     "needsRecaptureCount": 0,
-    "reviewed": "2026-10-22",
-    "note": "Recorded questions with edited explanatory summaries and Canadian cross-references. US policy items excluded. Review-only items do not affect scores. ORNAC does not cover every clinical fact.",
-    "removedByRequestCount": 2
+    "reviewed": "2026-10-26",
+    "note": "Canadian ORNAC-aligned revisions to source questions 43, 46, 55, 60, 61, 67, 109, 141 and 146; original AORN answer keys retained solely as provenance. Explicitly requested questions removed. Review-only items do not affect scores; not all clinical facts are addressed in ORNAC.",
+    "removedByRequestCount": 17
   },
   "questions": [
     {
@@ -1467,16 +1467,16 @@
       "collection": "aorn",
       "category": "Infection prevention",
       "source": "2.2",
-      "prompt": "Which of the following diseases requires the perioperative team to wear personal protective equipment (PPE) for airborne precautions?",
+      "prompt": "A patient with suspected chickenpox requires an urgent operation. Which additional precautions should the perioperative team plan in accordance with Canadian transmission-based precautions?",
       "options": [
-        "Clostridium difficile",
-        "Mumps",
-        "Meningococcal disease",
-        "Varicella zoster"
+        "Airborne and contact precautions, with an appropriate airborne-isolation pathway and task-specific PPE.",
+        "Droplet precautions alone because vesicular skin lesions are present.",
+        "Contact precautions alone once the patient's rash has been covered.",
+        "Routine practices alone because the procedure is performed in an operating room."
       ],
-      "answer": 3,
+      "answer": 0,
       "reviewOnly": false,
-      "explanation": "Varicella requires airborne precautions and also contact precautions. C. difficile requires contact measures; mumps and meningococcal disease require droplet measures. Use the full organism-specific precautions rather than treating these categories as mutually exclusive.",
+      "explanation": "Varicella (chickenpox) calls for airborne AND contact precautions in addition to routine practices. Coordinate the operating-room pathway, respiratory protection, room controls and cleaning with infection prevention and local policy.",
       "concept": "aorn-source-review",
       "reference": {
         "sections": [
@@ -1493,8 +1493,8 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "Scope addition: airborne is the recorded answer, but varicella also requires contact precautions. See the linked PHAC organism-specific guidance.",
+      "referenceLabel": "Canadian ORNAC-aligned revision (original AORN answer retained as historical provenance)",
+      "currentGuidance": "ORNAC §2.2; PHAC organism-specific additional precautions for varicella.",
       "origin": {
         "questionNumber": 43,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
@@ -1512,7 +1512,9 @@
           "url": "https://www.canada.ca/en/public-health/services/publications/diseases-conditions/routine-practices-precautions-healthcare-associated-infections/part-c.html"
         }
       ],
-      "ornacComparison": "related"
+      "ornacComparison": "adapted",
+      "guidelineAdapted": true,
+      "canadianRevision": "2026-10-26"
     },
     {
       "id": "AORN-CNOR-044",
@@ -1613,16 +1615,16 @@
       "collection": "aorn",
       "category": "Infection prevention",
       "source": "2.30",
-      "prompt": "A two-room design for endoscopy processing should provide",
+      "prompt": "A Canadian endoscope-reprocessing area is being renovated. Which arrangement best limits contamination of reprocessed devices?",
       "options": [
-        "a separate door or pass-through window from the decontamination area to the clean workroom.",
-        "continuous access between the decontamination area and the clean workroom.",
-        "positive airflow pressure in the decontamination room and negative airflow pressure in the clean workroom.",
-        "multidirectional access to all hospital staff to the decontamination area, clean workroom, and storage areas."
+        "Physically separate contaminated receiving and cleaning from clean inspection and preparation, with a controlled one-way workflow.",
+        "Permit staff and used scopes to move freely between the contaminated and clean workrooms.",
+        "Use positive pressure in the contaminated area to push air toward the clean work area.",
+        "Locate clean scope storage in the soiled receiving area to shorten travel time."
       ],
       "answer": 0,
       "reviewOnly": false,
-      "explanation": "Separate dirty and clean processing areas with controlled transfer between them. Unrestricted traffic or airflow from dirty to clean areas undermines separation.",
+      "explanation": "Canadian reprocessing design separates dirty and clean functions and supports movement from contaminated to clean areas without cross-traffic or dirty-to-clean transfer. Specific ventilation and pass-through design must meet applicable facility standards.",
       "concept": "aorn-source-review",
       "reference": {
         "sections": [
@@ -1635,8 +1637,8 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the related section addresses this topic but does not independently establish every detail or distractor in the recorded item.",
+      "referenceLabel": "Canadian ORNAC-aligned revision (original AORN answer retained as historical provenance)",
+      "currentGuidance": "ORNAC §2.30; separation of contaminated and clean reprocessing functions.",
       "origin": {
         "questionNumber": 46,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
@@ -1649,7 +1651,9 @@
         "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
       },
       "additionalReferences": [],
-      "ornacComparison": "related"
+      "ornacComparison": "adapted",
+      "guidelineAdapted": true,
+      "canadianRevision": "2026-10-26"
     },
     {
       "id": "AORN-CNOR-049",
@@ -1899,16 +1903,16 @@
       "collection": "aorn",
       "category": "Infection prevention",
       "source": "2.26",
-      "prompt": "How often should steam sterilizer quality assurance testing be performed with a biological indicator (Bl)?",
+      "prompt": "Under ORNAC guidance, how frequently is routine biological-indicator monitoring required for a steam sterilizer used for reprocessing?",
       "options": [
-        "At least weekly, and preferably each day the sterilizer is used",
-        "At least twice a month",
-        "At least monthly",
-        "At least every other month"
+        "Each day that each sterilizer is used, using a biological indicator validated for the cycle.",
+        "Once a week, even when the sterilizer runs daily.",
+        "Once a month if the mechanical printout is normal.",
+        "Only when an external chemical indicator fails."
       ],
-      "answer": null,
-      "reviewOnly": true,
-      "explanation": "The recording accepts at least weekly BI testing, preferably daily. ORNAC requires biological testing daily when each sterilizer is used, with a validated indicator specific to the cycle. No option states that requirement, so this item is not scored.",
+      "answer": 0,
+      "reviewOnly": false,
+      "explanation": "ORNAC §2.26.4 identifies daily biological testing when each sterilizer is used, with an indicator validated for the cycle. Additional monitoring or qualification testing may be necessary according to the load, cycle and applicable instructions.",
       "concept": "aorn-source-review",
       "reference": {
         "sections": [
@@ -1921,8 +1925,8 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "Answer conflict: ORNAC §2.26.4 requires daily BI testing when each sterilizer is used, with a validated indicator for the cycle. Weekly is not the Canadian minimum.",
+      "referenceLabel": "Canadian ORNAC-aligned revision (original AORN answer retained as historical provenance)",
+      "currentGuidance": "ORNAC 17th ed., §2.26.4.",
       "origin": {
         "questionNumber": 55,
         "answerStatus": "source key visible; review only, not scored",
@@ -1935,7 +1939,9 @@
         "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
       },
       "additionalReferences": [],
-      "ornacComparison": "answer-conflict"
+      "ornacComparison": "adapted",
+      "guidelineAdapted": true,
+      "canadianRevision": "2026-10-26"
     },
     {
       "id": "AORN-CNOR-056",
@@ -2118,16 +2124,16 @@
       "collection": "aorn",
       "category": "Infection prevention",
       "source": "2.26",
-      "prompt": "Which statement regarding the use of chemical indicators (Cls) is true?",
+      "prompt": "A processed instrument set has a chemical indicator that has reached its specified endpoint. What conclusion is appropriate under Canadian sterilization-monitoring principles?",
       "options": [
-        "Cls should only be placed on the inside of the package.",
-        "Cls verify that the items are sterile.",
-        "Cls do not detect procedural errors and equipment malfunctions.",
-        "Cls immediately verify that one or more of the conditions necessary for sterilization have been achieved within each package."
+        "The indicator demonstrates exposure to its specified process condition(s), but does not by itself prove that the contents are sterile.",
+        "The indicator confirms that every item in the set is sterile.",
+        "The chemical-indicator result replaces the biological-monitoring program.",
+        "The set may be released even if the physical cycle record documents failure."
       ],
-      "answer": 3,
+      "answer": 0,
       "reviewOnly": false,
-      "explanation": "A chemical indicator shows exposure to one or more process conditions. It does not prove sterility or replace the full physical, chemical, and biological monitoring system.",
+      "explanation": "Chemical indicators respond to particular sterilization process conditions; they do not prove sterility. Evaluate the indicator with physical monitoring, biological monitoring where required, packaging integrity and release criteria.",
       "concept": "aorn-source-review",
       "reference": {
         "sections": [
@@ -2140,8 +2146,8 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the related section addresses this topic but does not independently establish every detail or distractor in the recorded item.",
+      "referenceLabel": "Canadian ORNAC-aligned revision (original AORN answer retained as historical provenance)",
+      "currentGuidance": "ORNAC §2.26; Canadian medical-device reprocessing monitoring principles.",
       "origin": {
         "questionNumber": 60,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
@@ -2154,23 +2160,25 @@
         "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
       },
       "additionalReferences": [],
-      "ornacComparison": "related"
+      "ornacComparison": "adapted",
+      "guidelineAdapted": true,
+      "canadianRevision": "2026-10-26"
     },
     {
       "id": "AORN-CNOR-061",
       "collection": "aorn",
       "category": "Infection prevention",
       "source": "2.16",
-      "prompt": "When should the internal Cl be read and interpreted (eg, color, migration, other change)?",
+      "prompt": "During aseptic opening of a sterilized tray, the internal chemical indicator shows an unacceptable result. What should the perioperative nurse do?",
       "options": [
-        "After the tray or items are placed on the sterile field, but before the initial count",
-        "Before the tray or items are placed on the sterile field",
-        "After the tray or items are placed on the sterile field, but before the time out",
-        "After the tray or items are placed on the sterile field, but before the patient arrives to the OR"
+        "Withhold the contents from sterile use and follow the facility's failed-indicator and reprocessing procedure.",
+        "Use the tray because the external chemical indicator has changed.",
+        "Place the instruments on the sterile field and recheck the indicator after the initial count.",
+        "Use the tray if the sterile wrapper is dry and intact."
       ],
-      "answer": 1,
+      "answer": 0,
       "reviewOnly": false,
-      "explanation": "Inspect and interpret the internal chemical indicator before placing the tray or items on the sterile field. An unacceptable result requires the item to be withheld.",
+      "explanation": "An unacceptable internal chemical indicator must be treated as a failed process check. Do not introduce the contents into the sterile field; segregate the item and initiate the applicable investigation and reprocessing process.",
       "concept": "aorn-source-review",
       "reference": {
         "sections": [
@@ -2187,8 +2195,8 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the related section addresses this topic but does not independently establish every detail or distractor in the recorded item.",
+      "referenceLabel": "Canadian ORNAC-aligned revision (original AORN answer retained as historical provenance)",
+      "currentGuidance": "ORNAC §§2.16 and 2.26; failed-indicator response.",
       "origin": {
         "questionNumber": 61,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
@@ -2201,7 +2209,9 @@
         "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
       },
       "additionalReferences": [],
-      "ornacComparison": "related"
+      "ornacComparison": "adapted",
+      "guidelineAdapted": true,
+      "canadianRevision": "2026-10-26"
     },
     {
       "id": "AORN-CNOR-062",
@@ -2431,16 +2441,16 @@
       "collection": "aorn",
       "category": "Infection prevention",
       "source": "2.22",
-      "prompt": "Which of the following items are acceptable to place in peel pouches?",
+      "prompt": "Which instrument is most suitable for a peel pouch when its manufacturer has validated that packaging and sterilization method?",
       "options": [
-        "Heavy, sharp items",
-        "Large, sharply angulated items",
-        "Small, lightweight, low-profile items",
-        "Drills and weighted vaginal speculums"
+        "A small, lightweight instrument that fits without stressing the seal or puncturing the pouch.",
+        "A heavy, pointed instrument pressing against the pouch seam.",
+        "A large instrument folded tightly to fit into the pouch.",
+        "A bulky powered handpiece without validated pouch instructions."
       ],
-      "answer": 2,
+      "answer": 0,
       "reviewOnly": false,
-      "explanation": "Peel pouches are intended for compatible small, lightweight items. Heavy, sharp, or bulky devices can compromise the pouch or seal; use the packaging manufacturer’s validated instructions.",
+      "explanation": "Peel pouches must be validated and sized appropriately for their contents. Avoid overfilling, sharp points contacting the pouch, compromised seals and items too heavy or bulky for the packaging; follow device and packaging instructions for use.",
       "concept": "aorn-source-review",
       "reference": {
         "sections": [
@@ -2457,8 +2467,8 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the related section addresses this topic but does not independently establish every detail or distractor in the recorded item.",
+      "referenceLabel": "Canadian ORNAC-aligned revision (original AORN answer retained as historical provenance)",
+      "currentGuidance": "ORNAC §2.22; validated packaging and medical-device instructions for use.",
       "origin": {
         "questionNumber": 67,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
@@ -2471,7 +2481,9 @@
         "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
       },
       "additionalReferences": [],
-      "ornacComparison": "related"
+      "ornacComparison": "adapted",
+      "guidelineAdapted": true,
+      "canadianRevision": "2026-10-26"
     },
     {
       "id": "AORN-CNOR-068",
@@ -2697,49 +2709,6 @@
       "ornacComparison": "core-aligned"
     },
     {
-      "id": "AORN-CNOR-073",
-      "collection": "aorn",
-      "category": "Infection prevention",
-      "source": "2.25",
-      "prompt": "An example of a noncritical item according to the Spaulding Classification system is",
-      "options": [
-        "a laryngoscope.",
-        "a blood pressure cuff.",
-        "a urinary catheter.",
-        "an intravenous needle."
-      ],
-      "answer": 1,
-      "reviewOnly": false,
-      "explanation": "A blood-pressure cuff ordinarily contacts intact skin and is noncritical. A laryngoscope blade contacts mucosa; an intravenous needle and urinary catheter require sterility for their intended use.",
-      "concept": "aorn-source-review",
-      "reference": {
-        "sections": [
-          "2.25"
-        ],
-        "pages": [
-          {
-            "pdfPage": 141,
-            "printedPage": "2-83"
-          }
-        ]
-      },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the core answer agrees with the cited guideline passage. The explanation is an edited study summary, not a verbatim guideline quotation.",
-      "origin": {
-        "questionNumber": 73,
-        "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 177.125,
-        "explanationTimeSeconds": 177.75
-      },
-      "examReview": {
-        "verified": true,
-        "answer": 1,
-        "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
-      },
-      "additionalReferences": [],
-      "ornacComparison": "core-aligned"
-    },
-    {
       "id": "AORN-CNOR-074",
       "collection": "aorn",
       "category": "Perioperative phases & anesthesia",
@@ -2777,49 +2746,6 @@
         "answerStatus": "scored against the visible course key; Canadian comparison below",
         "videoTimeSeconds": 180.75,
         "explanationTimeSeconds": 179.25
-      },
-      "examReview": {
-        "verified": true,
-        "answer": 3,
-        "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
-      },
-      "additionalReferences": [],
-      "ornacComparison": "related"
-    },
-    {
-      "id": "AORN-CNOR-075",
-      "collection": "aorn",
-      "category": "Perioperative phases & anesthesia",
-      "source": "3.36",
-      "prompt": "When a patient’s cooperation is needed during a procedure, what type of anesthesia is used?",
-      "options": [
-        "General",
-        "Monitored anesthesia care",
-        "Moderate sedation",
-        "Local"
-      ],
-      "answer": 3,
-      "reviewOnly": false,
-      "explanation": "Local anaesthesia can permit an awake patient to cooperate during a minor procedure. General anaesthesia causes unconsciousness; sedation or monitored anaesthesia care may reduce responsiveness.",
-      "concept": "aorn-source-review",
-      "reference": {
-        "sections": [
-          "3.36"
-        ],
-        "pages": [
-          {
-            "pdfPage": 320,
-            "printedPage": "3-144"
-          }
-        ]
-      },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the related section addresses this topic but does not independently establish every detail or distractor in the recorded item.",
-      "origin": {
-        "questionNumber": 75,
-        "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 182.25,
-        "explanationTimeSeconds": 183.25
       },
       "examReview": {
         "verified": true,
@@ -3071,53 +2997,6 @@
       },
       "additionalReferences": [],
       "ornacComparison": "related"
-    },
-    {
-      "id": "AORN-CNOR-084",
-      "collection": "aorn",
-      "category": "Perioperative phases & anesthesia",
-      "source": "3.29",
-      "prompt": "The anesthesia professional requests that the RN circulator perform cricoid pressure during the induction of anesthesia, it is most important for the RN circulator to",
-      "options": [
-        "maintain pressure until proper placement of the endotracheal (ET) tube is confirmed and the cuff is inflated.",
-        "document the time-out.",
-        "transfer medications to the sterile field.",
-        "count with the scrub person."
-      ],
-      "answer": 0,
-      "reviewOnly": false,
-      "explanation": "When cricoid pressure is requested and appropriate, maintain it until the anaesthesia professional confirms airway placement and directs release. ORNAC describes confirmation of tube position, cuff inflation, and bilateral breath sounds, with contraindications including active vomiting and certain neck injuries.",
-      "concept": "aorn-source-review",
-      "reference": {
-        "sections": [
-          "3.29"
-        ],
-        "pages": [
-          {
-            "pdfPage": 307,
-            "printedPage": "3-131"
-          },
-          {
-            "pdfPage": 308,
-            "printedPage": "3-132"
-          }
-        ]
-      },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the core answer agrees with the cited guideline passage. The explanation is an edited study summary, not a verbatim guideline quotation.",
-      "origin": {
-        "questionNumber": 84,
-        "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 204.375,
-        "explanationTimeSeconds": 203.25
-      },
-      "examReview": {
-        "verified": true,
-        "answer": 0,
-        "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
-      },
-      "additionalReferences": [],
-      "ornacComparison": "core-aligned"
     },
     {
       "id": "AORN-CNOR-085",
@@ -3581,53 +3460,6 @@
       "ornacComparison": "related"
     },
     {
-      "id": "AORN-CNOR-095",
-      "collection": "aorn",
-      "category": "Perioperative phases & anesthesia",
-      "source": "3.28",
-      "prompt": "Which of the following medications reverses the effects of benzodiazepines?",
-      "options": [
-        "Neostigmine (Prostigmin)",
-        "Flumazenil (Romazicon)",
-        "Sugammadex (Bridion)",
-        "Naloxone (Narcan)"
-      ],
-      "answer": 1,
-      "reviewOnly": false,
-      "explanation": "Flumazenil reverses benzodiazepine effects. Its use requires particular caution with seizure disorders and chronic benzodiazepine exposure; reversal does not remove the need for observation.",
-      "concept": "aorn-source-review",
-      "reference": {
-        "sections": [
-          "3.28"
-        ],
-        "pages": [
-          {
-            "pdfPage": 304,
-            "printedPage": "3-128"
-          },
-          {
-            "pdfPage": 305,
-            "printedPage": "3-129"
-          }
-        ]
-      },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the related section addresses this topic but does not independently establish every detail or distractor in the recorded item.",
-      "origin": {
-        "questionNumber": 95,
-        "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 227.125,
-        "explanationTimeSeconds": 227.75
-      },
-      "examReview": {
-        "verified": true,
-        "answer": 1,
-        "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
-      },
-      "additionalReferences": [],
-      "ornacComparison": "related"
-    },
-    {
       "id": "AORN-CNOR-096",
       "collection": "aorn",
       "category": "Perioperative phases & anesthesia",
@@ -4020,49 +3852,6 @@
       "ornacComparison": "related"
     },
     {
-      "id": "AORN-CNOR-104",
-      "collection": "aorn",
-      "category": "Perioperative phases & anesthesia",
-      "source": "3.32",
-      "prompt": "Which of the following is a potential complication of epidural anesthesia and causes complete paralysis requiring intubation, control of ventilation, blood pressure and cardiovascular support and amnestic medications until resolved?",
-      "options": [
-        "Inadvertent dural puncture",
-        "Subarachnoid injection",
-        "Epidural abscess",
-        "Epidural hematoma"
-      ],
-      "answer": 1,
-      "reviewOnly": false,
-      "explanation": "Unintentional subarachnoid administration of an epidural dose can produce a high or total spinal block with profound respiratory and cardiovascular effects. Recognize deterioration promptly and support the anaesthesia emergency response.",
-      "concept": "aorn-source-review",
-      "reference": {
-        "sections": [
-          "3.32"
-        ],
-        "pages": [
-          {
-            "pdfPage": 312,
-            "printedPage": "3-136"
-          }
-        ]
-      },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the related section addresses this topic but does not independently establish every detail or distractor in the recorded item.",
-      "origin": {
-        "questionNumber": 104,
-        "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 248.25,
-        "explanationTimeSeconds": 247.5
-      },
-      "examReview": {
-        "verified": true,
-        "answer": 1,
-        "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
-      },
-      "additionalReferences": [],
-      "ornacComparison": "related"
-    },
-    {
       "id": "AORN-CNOR-105",
       "collection": "aorn",
       "category": "Perioperative phases & anesthesia",
@@ -4208,67 +3997,20 @@
       "ornacComparison": "related"
     },
     {
-      "id": "AORN-CNOR-108",
-      "collection": "aorn",
-      "category": "Exceptional clinical events",
-      "source": "5.8",
-      "prompt": "Which of the following reconstitution agents should be restocked on the malignant hyperthermia (MH) cart after a crisis?",
-      "options": [
-        "Sterile 0.9% normal saline",
-        "Sterile lactated ringers",
-        "Sterile water",
-        "Sterile dextrose 5% in water (D5W)"
-      ],
-      "answer": 2,
-      "reviewOnly": false,
-      "explanation": "Use sterile water for injection without bacteriostatic preservative for the dantrolene formulations described in the recording. Reconstitution volume is formulation-specific; do not assume all vials contain the same amount or require the same volume.",
-      "concept": "aorn-source-review",
-      "reference": {
-        "sections": [
-          "5.8"
-        ],
-        "pages": [
-          {
-            "pdfPage": 477,
-            "printedPage": "5-29"
-          },
-          {
-            "pdfPage": 478,
-            "printedPage": "5-30"
-          }
-        ]
-      },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the related section addresses this topic but does not independently establish every detail or distractor in the recorded item.",
-      "origin": {
-        "questionNumber": 108,
-        "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 256.5,
-        "explanationTimeSeconds": 255.5
-      },
-      "examReview": {
-        "verified": true,
-        "answer": 2,
-        "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
-      },
-      "additionalReferences": [],
-      "ornacComparison": "related"
-    },
-    {
       "id": "AORN-CNOR-109",
       "collection": "aorn",
       "category": "Exceptional clinical events",
       "source": "5.8",
-      "prompt": "Which of the following medications is a known triggering agent for malignant hyperthermia (MH)?",
+      "prompt": "A patient reports a family history of malignant hyperthermia before an elective procedure. Which planned anaesthetic agent should the team identify as a triggering exposure?",
       "options": [
-        "Desflurane (Suprane)",
-        "Rocuronium (Zemuron)",
-        "Etomidate (Amidate)",
-        "Neostigmine (Prostigmin)"
+        "Desflurane, a volatile inhalational anaesthetic.",
+        "Rocuronium, a nondepolarizing neuromuscular blocker.",
+        "Etomidate, an intravenous induction agent.",
+        "Neostigmine, a neuromuscular-blockade reversal agent."
       ],
       "answer": 0,
       "reviewOnly": false,
-      "explanation": "Desflurane is an MH-triggering volatile anaesthetic. Succinylcholine is another trigger, although it is not one of these choices. The other listed options are not the intended triggering agents.",
+      "explanation": "Desflurane is an MH-triggering volatile agent; succinylcholine is also a known trigger. Communicate the risk to anaesthesia, confirm a non-triggering plan and prepare according to the MH protocol. This drug distinction is also supported by Canadian MH clinical resources.",
       "concept": "aorn-source-review",
       "reference": {
         "sections": [
@@ -4285,8 +4027,8 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the related section addresses this topic but does not independently establish every detail or distractor in the recorded item.",
+      "referenceLabel": "Canadian ORNAC-aligned revision (original AORN answer retained as historical provenance)",
+      "currentGuidance": "ORNAC §5.8; Canadian malignant-hyperthermia preparedness.",
       "origin": {
         "questionNumber": 109,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
@@ -4299,7 +4041,9 @@
         "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
       },
       "additionalReferences": [],
-      "ornacComparison": "related"
+      "ornacComparison": "adapted",
+      "guidelineAdapted": true,
+      "canadianRevision": "2026-10-26"
     },
     {
       "id": "AORN-CNOR-110",
@@ -5149,49 +4893,6 @@
       "ornacComparison": "core-aligned"
     },
     {
-      "id": "AORN-CNOR-127",
-      "collection": "aorn",
-      "category": "Safety",
-      "source": "3.7",
-      "prompt": "Patient B is positioned supine for a total thyroidectomy. Where should the safety strap be placed?",
-      "options": [
-        "Approximately 2 inches (5 cm) below the patient’s knees",
-        "Approximately 2 inches (5 cm) above the patient’s knees",
-        "Across the patient's chest",
-        "Across the patient's knees"
-      ],
-      "answer": 1,
-      "reviewOnly": false,
-      "explanation": "Place the supine safety strap approximately 5 cm above the knees, avoiding direct pressure on the knee joint. This location differs from lateral-position restraint placement.",
-      "concept": "aorn-source-review",
-      "reference": {
-        "sections": [
-          "3.7"
-        ],
-        "pages": [
-          {
-            "pdfPage": 214,
-            "printedPage": "3-38"
-          }
-        ]
-      },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the core answer agrees with the cited guideline passage. The explanation is an edited study summary, not a verbatim guideline quotation.",
-      "origin": {
-        "questionNumber": 127,
-        "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 300.25,
-        "explanationTimeSeconds": 300.75
-      },
-      "examReview": {
-        "verified": true,
-        "answer": 1,
-        "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
-      },
-      "additionalReferences": [],
-      "ornacComparison": "core-aligned"
-    },
-    {
       "id": "AORN-CNOR-128",
       "collection": "aorn",
       "category": "Safety",
@@ -5276,65 +4977,6 @@
       },
       "additionalReferences": [],
       "ornacComparison": "core-aligned"
-    },
-    {
-      "id": "AORN-CNOR-130",
-      "collection": "aorn",
-      "category": "Safety",
-      "source": "3.7",
-      "prompt": "Which of the following can put pressure on the common peroneal nerve in the OR?",
-      "options": [
-        "The lateral side of the leg resting against the stirrup bars and intermittent pneumatic compression devices wrapped too tightly",
-        "The inappropriate placement of abdominal pelvic retractors and vaginal retractors in the pelvic cavity",
-        "The scrubbed person leaning against the inner thigh while holding vaginal or anal retractors",
-        "The perioperative team hyperextending the hips during stirrup positioning"
-      ],
-      "answer": 0,
-      "reviewOnly": false,
-      "explanation": "The common peroneal nerve is vulnerable where it passes near the fibular head. Stirrup-bar pressure and excessively tight compression devices can injure it.",
-      "concept": "aorn-source-review",
-      "reference": {
-        "sections": [
-          "3.7"
-        ],
-        "pages": [
-          {
-            "pdfPage": 212,
-            "printedPage": "3-36"
-          },
-          {
-            "pdfPage": 213,
-            "printedPage": "3-37"
-          },
-          {
-            "pdfPage": 214,
-            "printedPage": "3-38"
-          },
-          {
-            "pdfPage": 217,
-            "printedPage": "3-41"
-          },
-          {
-            "pdfPage": 218,
-            "printedPage": "3-42"
-          }
-        ]
-      },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the related section addresses this topic but does not independently establish every detail or distractor in the recorded item.",
-      "origin": {
-        "questionNumber": 130,
-        "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 307.875,
-        "explanationTimeSeconds": 306.75
-      },
-      "examReview": {
-        "verified": true,
-        "answer": 0,
-        "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
-      },
-      "additionalReferences": [],
-      "ornacComparison": "related"
     },
     {
       "id": "AORN-CNOR-131",
@@ -5729,16 +5371,16 @@
       "collection": "aorn",
       "category": "Safety",
       "source": "3.41",
-      "prompt": "Patient J is at risk for a burn from an improperly placed dispersive electrode on the right anterior thigh when which of the following is altered?",
+      "prompt": "An electrosurgical dispersive return electrode has only partial contact with the patient's skin. Why does this increase burn risk?",
       "options": [
-        "Emissions",
-        "Current",
-        "Resistance",
-        "Voltage"
+        "The same return current is concentrated over a smaller contact area, increasing local current density and heating.",
+        "The electrode prevents any electrical current from returning to the generator.",
+        "The operating room's mains voltage necessarily increases when contact decreases.",
+        "The device becomes safe as long as the electrode touches the patient's skin at one point."
       ],
-      "answer": null,
-      "reviewOnly": true,
-      "explanation": "The recording marks current, but the wording does not distinguish current density, contact area, resistance, and the generator’s response. Its explanation also generalizes a return to ground rather than the intended generator circuit. ORNAC does not resolve these options into a unique answer; this ambiguous item is not scored.",
+      "answer": 0,
+      "reviewOnly": false,
+      "explanation": "Loss of effective return-electrode contact concentrates current at the remaining contact area and can cause localized heating and a burn. Check application site, electrode integrity, generator alarms and manufacturer instructions; a bare reference to 'current' alone is inadequate.",
       "concept": "aorn-source-review",
       "reference": {
         "sections": [
@@ -5763,8 +5405,8 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the related section addresses this topic but does not independently establish every detail or distractor in the recorded item.",
+      "referenceLabel": "Canadian ORNAC-aligned revision (original AORN answer retained as historical provenance)",
+      "currentGuidance": "ORNAC §3.41; electrosurgical dispersive-electrode contact and thermal-injury prevention.",
       "origin": {
         "questionNumber": 141,
         "answerStatus": "source key visible; review only, not scored",
@@ -5777,7 +5419,9 @@
         "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
       },
       "additionalReferences": [],
-      "ornacComparison": "related"
+      "ornacComparison": "adapted",
+      "guidelineAdapted": true,
+      "canadianRevision": "2026-10-26"
     },
     {
       "id": "AORN-CNOR-143",
@@ -5925,16 +5569,16 @@
       "collection": "aorn",
       "category": "Safety",
       "source": "4.20",
-      "prompt": "Following a colectomy, a red, blistered area is noted on the patient’s right thigh where the electrosurgical return electrode was placed. The RN circulator documented the finding, what else should they do?",
+      "prompt": "A patient develops a blistered injury at the electrosurgical return-electrode site following surgery. Which response best supports patient safety and investigation?",
       "options": [
-        "Apply antibiotic ointment to the affected area.",
-        "Place an electrosurgical return electrode on themself and activate the hand pencil to ensure the unit is working properly.",
-        "Remove the electrosurgical unit (ESU) from service and save the active and return electrode, including the ESU return electrode package.",
-        "Plug the ESU into a different outlet before the next surgery starts."
+        "Assess and report the injury, remove the potentially implicated electrosurgical equipment from service, and preserve relevant electrodes and packaging under local incident policy.",
+        "Test the electrosurgical unit by activating it against a staff member's skin.",
+        "Replace the electrode and return the unit to service without reporting the event.",
+        "Apply an ointment and omit device-related incident documentation."
       ],
-      "answer": 2,
+      "answer": 0,
       "reviewOnly": false,
-      "explanation": "Remove the ESU from service, preserve accessories and packaging where possible, and report the event for investigation. Do not test a suspect unit on yourself or simply move it to a different outlet.",
+      "explanation": "Provide appropriate patient assessment and care, document and report the event, and prevent reuse of potentially implicated equipment until evaluated. Retain disposable components and packaging as directed by the organization's incident investigation process.",
       "concept": "aorn-source-review",
       "reference": {
         "sections": [
@@ -5951,8 +5595,8 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the related section addresses this topic but does not independently establish every detail or distractor in the recorded item.",
+      "referenceLabel": "Canadian ORNAC-aligned revision (original AORN answer retained as historical provenance)",
+      "currentGuidance": "ORNAC §4.20; electrical/surgical-energy adverse-event response.",
       "origin": {
         "questionNumber": 146,
         "answerStatus": "scored against the visible course key; Canadian comparison below",
@@ -5965,7 +5609,9 @@
         "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
       },
       "additionalReferences": [],
-      "ornacComparison": "related"
+      "ornacComparison": "adapted",
+      "guidelineAdapted": true,
+      "canadianRevision": "2026-10-26"
     },
     {
       "id": "AORN-CNOR-147",
@@ -6524,49 +6170,6 @@
       "ornacComparison": "core-aligned"
     },
     {
-      "id": "AORN-CNOR-161",
-      "collection": "aorn",
-      "category": "Safety",
-      "source": "3.14",
-      "prompt": "The RN circulator and scrub person are performing the initial count of laparotomy sponges prior to the patient’s arrival. The anesthesia professional interrupts the count and requests the RN circulator obtain an epidural kit from the clean core. Which of the following is the best action regarding the initial count?",
-      "options": [
-        "The RN circulator should obtain the epidural kit from the clean core while the scrub person finishes the laparotomy sponge count alone.",
-        "The RN circulator and scrub person should continue counting the laparotomy sponges where they left off prior to the interruption.",
-        "The RN circulator should obtain the epidural kit from the clean core and when they return continue counting the laparotomy sponges where they left off prior to the interruption with the scrub person.",
-        "The RN circulator and scrub person should restart the laparotomy sponge count, document the initial number of laparotomy sponges, and then the RN circulator can obtain the epidural kit."
-      ],
-      "answer": 3,
-      "reviewOnly": false,
-      "explanation": "The recording chooses completing a fresh, uninterrupted laparotomy-sponge count before obtaining the kit. ORNAC says to avoid interruption and resume at the end of the last recorded item if interrupted. That wording does not authorize guessing a mid-count total or counting alone; the unrecorded item group must be reliably established.",
-      "concept": "aorn-source-review",
-      "reference": {
-        "sections": [
-          "3.14"
-        ],
-        "pages": [
-          {
-            "pdfPage": 268,
-            "printedPage": "3-92"
-          }
-        ]
-      },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "Wording note: ORNAC §3.14.12 says resume at the end of the last recorded item after interruption. The recording says restart the item type being counted. Do not interpret either as permitting an undocumented partial count or a one-person count.",
-      "origin": {
-        "questionNumber": 161,
-        "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 375.25,
-        "explanationTimeSeconds": 375.75
-      },
-      "examReview": {
-        "verified": true,
-        "answer": 3,
-        "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
-      },
-      "additionalReferences": [],
-      "ornacComparison": "wording-note"
-    },
-    {
       "id": "AORN-CNOR-162",
       "collection": "aorn",
       "category": "Perioperative phases & anesthesia",
@@ -6947,53 +6550,6 @@
       "ornacComparison": "related"
     },
     {
-      "id": "AORN-CNOR-170",
-      "collection": "aorn",
-      "category": "Perioperative phases & anesthesia",
-      "source": "4.14",
-      "prompt": "The handling and management of sentinel lymph node (SLN) specimens during procedures should include which of the following?",
-      "options": [
-        "Minimally handle the specimen and use long instruments or devices when manipulating specimens.",
-        "Use special instrument cleaning procedures.",
-        "Delay the transport of the specimen to the pathology laboratory.",
-        "Use special laundering procedures for linen and surgical attire."
-      ],
-      "answer": 0,
-      "reviewOnly": false,
-      "explanation": "Minimize handling time, maximize feasible distance, and use long instruments for radioactive SLN specimens. Communicate and document the radioactive material during pathology handoff and follow the local radiation-safety procedure.",
-      "concept": "aorn-source-review",
-      "reference": {
-        "sections": [
-          "4.14"
-        ],
-        "pages": [
-          {
-            "pdfPage": 419,
-            "printedPage": "4-55"
-          },
-          {
-            "pdfPage": 420,
-            "printedPage": "4-56"
-          }
-        ]
-      },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the related section addresses this topic but does not independently establish every detail or distractor in the recorded item.",
-      "origin": {
-        "questionNumber": 170,
-        "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 410,
-        "explanationTimeSeconds": 409
-      },
-      "examReview": {
-        "verified": true,
-        "answer": 0,
-        "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
-      },
-      "additionalReferences": [],
-      "ornacComparison": "related"
-    },
-    {
       "id": "AORN-CNOR-171",
       "collection": "aorn",
       "category": "Perioperative phases & anesthesia",
@@ -7179,125 +6735,6 @@
       "ornacComparison": "related"
     },
     {
-      "id": "AORN-CNOR-176",
-      "collection": "aorn",
-      "category": "Perioperative phases & anesthesia",
-      "source": "aorn-recording",
-      "prompt": "A patient who receives a Glasgow Coma Score of 2 for eye opening opens their eyes",
-      "options": [
-        "spontaneously.",
-        "in response to verbal stimuli.",
-        "in response to painful stimuli.",
-        "in response to olfactory stimuli."
-      ],
-      "answer": 2,
-      "reviewOnly": false,
-      "explanation": "Eye opening in response to pain scores 2 on the Glasgow Coma Scale; spontaneous opening scores 4, response to voice 3, and no response 1.",
-      "concept": "aorn-source-review",
-      "reference": {
-        "sections": [],
-        "pages": []
-      },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: this specific clinical fact was not located in the supplied guideline. The displayed course key is not an ORNAC-verified answer.",
-      "origin": {
-        "questionNumber": 176,
-        "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 422.125,
-        "explanationTimeSeconds": 421
-      },
-      "examReview": {
-        "verified": true,
-        "answer": 2,
-        "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
-      },
-      "additionalReferences": [],
-      "ornacComparison": "not-addressed"
-    },
-    {
-      "id": "AORN-CNOR-177",
-      "collection": "aorn",
-      "category": "Perioperative phases & anesthesia",
-      "source": "3.13",
-      "prompt": "Which of the following scoring systems is commonly used to determine if the patient is ready for discharge from the PACU?",
-      "options": [
-        "Glasgow Coma Scale",
-        "Mallampati Classification",
-        "Caprini Risk Assessment Tool",
-        "Aldrete Score"
-      ],
-      "answer": 3,
-      "reviewOnly": false,
-      "explanation": "The Aldrete score supports PACU discharge assessment. Do not use the recording’s score of eight as a universal discharge authorization; the local criteria, clinical assessment, and authorized discharge plan govern.",
-      "concept": "aorn-source-review",
-      "reference": {
-        "sections": [
-          "3.13"
-        ],
-        "pages": [
-          {
-            "pdfPage": 261,
-            "printedPage": "3-85"
-          },
-          {
-            "pdfPage": 262,
-            "printedPage": "3-86"
-          }
-        ]
-      },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the related section addresses this topic but does not independently establish every detail or distractor in the recorded item.",
-      "origin": {
-        "questionNumber": 177,
-        "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 423.125,
-        "explanationTimeSeconds": 423.75
-      },
-      "examReview": {
-        "verified": true,
-        "answer": 3,
-        "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
-      },
-      "additionalReferences": [],
-      "ornacComparison": "related"
-    },
-    {
-      "id": "AORN-CNOR-178",
-      "collection": "aorn",
-      "category": "Perioperative phases & anesthesia",
-      "source": "aorn-recording",
-      "prompt": "Patient F has new onset atrial fibrillation status post a coronary artery bypass graft. Patient F has an increased risk of which of the following conditions?",
-      "options": [
-        "Hemorrhagic stroke",
-        "Embolic stroke",
-        "Chronic obstructive pulmonary disease",
-        "Diabetes"
-      ],
-      "answer": 1,
-      "reviewOnly": false,
-      "explanation": "Atrial fibrillation increases embolic-stroke risk through thrombus formation and embolization. The other listed conditions are not the intended consequence of new AF.",
-      "concept": "aorn-source-review",
-      "reference": {
-        "sections": [],
-        "pages": []
-      },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: this specific clinical fact was not located in the supplied guideline. The displayed course key is not an ORNAC-verified answer.",
-      "origin": {
-        "questionNumber": 178,
-        "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 426.25,
-        "explanationTimeSeconds": 425.25
-      },
-      "examReview": {
-        "verified": true,
-        "answer": 1,
-        "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
-      },
-      "additionalReferences": [],
-      "ornacComparison": "not-addressed"
-    },
-    {
       "id": "AORN-CNOR-179",
       "collection": "aorn",
       "category": "Perioperative phases & anesthesia",
@@ -7336,89 +6773,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/7813318/"
         }
       ],
-      "ornacComparison": "not-addressed"
-    },
-    {
-      "id": "AORN-CNOR-180",
-      "collection": "aorn",
-      "category": "Perioperative phases & anesthesia",
-      "source": "3.13",
-      "prompt": "Establishing a patent airway is the priority in the care of the PACU patient. A chin tilt or jaw thrust may be used to open the airway. The patient can also be repositioned in the recovery position on their right side. What does the recovery position facilitate?",
-      "options": [
-        "It allows the tongue to move backward and the airway to remain open.",
-        "It allows the bronchi to relax.",
-        "It allows the tongue to move forward and the airway to remain open.",
-        "It allows the larynx to spasm."
-      ],
-      "answer": 2,
-      "reviewOnly": false,
-      "explanation": "Side positioning can move the relaxed tongue forward and help maintain airway patency. Airway management still requires assessment, appropriate manoeuvres, monitoring, and assistance as needed.",
-      "concept": "aorn-source-review",
-      "reference": {
-        "sections": [
-          "3.13"
-        ],
-        "pages": [
-          {
-            "pdfPage": 261,
-            "printedPage": "3-85"
-          },
-          {
-            "pdfPage": 262,
-            "printedPage": "3-86"
-          }
-        ]
-      },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: the related section addresses this topic but does not independently establish every detail or distractor in the recorded item.",
-      "origin": {
-        "questionNumber": 180,
-        "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 430.375,
-        "explanationTimeSeconds": 429
-      },
-      "examReview": {
-        "verified": true,
-        "answer": 2,
-        "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
-      },
-      "additionalReferences": [],
-      "ornacComparison": "related"
-    },
-    {
-      "id": "AORN-CNOR-181",
-      "collection": "aorn",
-      "category": "Perioperative phases & anesthesia",
-      "source": "aorn-recording",
-      "prompt": "Patient T is 10 years old and underwent surgery to repair a severe tibial metaphyseal fracture. Which of the following is the primary complication resulting from an injury to an epiphyseal plate?",
-      "options": [
-        "Chronic wound infection",
-        "Permanent limb shortening",
-        "Osteoporosis",
-        "Bone cancer"
-      ],
-      "answer": 1,
-      "reviewOnly": false,
-      "explanation": "Damage to a growing epiphyseal plate can impair longitudinal growth and cause deformity or permanent limb shortening. This is the growth-related complication targeted by the question.",
-      "concept": "aorn-source-review",
-      "reference": {
-        "sections": [],
-        "pages": []
-      },
-      "referenceLabel": "ORNAC cross-reference (see comparison note)",
-      "currentGuidance": "ORNAC cross-check: this specific clinical fact was not located in the supplied guideline. The displayed course key is not an ORNAC-verified answer.",
-      "origin": {
-        "questionNumber": 181,
-        "answerStatus": "scored against the visible course key; Canadian comparison below",
-        "videoTimeSeconds": 431.5,
-        "explanationTimeSeconds": 432.25
-      },
-      "examReview": {
-        "verified": true,
-        "answer": 1,
-        "meaning": "Verified means the marked course answer is visible, not that ORNAC validates every statement."
-      },
-      "additionalReferences": [],
       "ornacComparison": "not-addressed"
     },
     {
