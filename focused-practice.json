@@ -38,9 +38,9 @@
       "answer": 0,
       "explanation": "Propofol is a iv hypnotic (gaba-a–acting anesthetic).",
       "whyOthers": [
-        "This describes a different drug class; Propofol is a iv hypnotic (gaba-a–acting anesthetic).",
-        "This describes a different drug class; Propofol is a iv hypnotic (gaba-a–acting anesthetic).",
-        "This describes a different drug class; Propofol is a iv hypnotic (gaba-a–acting anesthetic)."
+        "\"Opioid analgesic (mu-receptor agonist)\" describes a different class. The correct class for the named agent is IV hypnotic (GABA-A–acting anesthetic).",
+        "\"Amide local anesthetic\" describes a different class. The correct class for the named agent is IV hypnotic (GABA-A–acting anesthetic).",
+        "\"Selective alpha-2 adrenergic agonist\" describes a different class. The correct class for the named agent is IV hypnotic (GABA-A–acting anesthetic)."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -73,9 +73,9 @@
       "answer": 0,
       "explanation": "Propofol: Rapid IV induction and maintenance of hypnosis, including total IV anesthesia. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Propofol's principal role: Rapid IV induction and maintenance of hypnosis, including total IV anesthesia.",
-        "That function is different from Propofol's principal role: Rapid IV induction and maintenance of hypnosis, including total IV anesthesia.",
-        "That function is different from Propofol's principal role: Rapid IV induction and maintenance of hypnosis, including total IV anesthesia."
+        "\"Produce muscle paralysis without analgesia or unconsciousness.\" is not the principal role of the named agent. Its main use is: Rapid IV induction and maintenance of hypnosis, including total IV anesthesia.",
+        "\"Reverse opioid-induced respiratory depression.\" is not the principal role of the named agent. Its main use is: Rapid IV induction and maintenance of hypnosis, including total IV anesthesia.",
+        "\"Block nerve conduction in a regional anesthetic.\" is not the principal role of the named agent. Its main use is: Rapid IV induction and maintenance of hypnosis, including total IV anesthesia."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -108,9 +108,9 @@
       "answer": 0,
       "explanation": "Propofol: No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Propofol; No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
-        "This is incorrect for Propofol; No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
-        "This is incorrect for Propofol; No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve."
+        "\"Naloxone reverses this medication.\" is not the correct reversal/rescue statement for this agent. No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
+        "\"Flumazenil specifically reverses this medication.\" is not the correct reversal/rescue statement for this agent. No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
+        "\"Sugammadex encapsulates and reverses this medication.\" is not the correct reversal/rescue statement for this agent. No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -143,9 +143,9 @@
       "answer": 0,
       "explanation": "Etomidate is a iv hypnotic (gaba-a–acting anesthetic).",
       "whyOthers": [
-        "This describes a different drug class; Etomidate is a iv hypnotic (gaba-a–acting anesthetic).",
-        "This describes a different drug class; Etomidate is a iv hypnotic (gaba-a–acting anesthetic).",
-        "This describes a different drug class; Etomidate is a iv hypnotic (gaba-a–acting anesthetic)."
+        "\"Aminosteroid nondepolarizing neuromuscular blocker\" describes a different class. The correct class for the named agent is IV hypnotic (GABA-A–acting anesthetic).",
+        "\"Benzodiazepine\" describes a different class. The correct class for the named agent is IV hypnotic (GABA-A–acting anesthetic).",
+        "\"Inhaled anesthetic gas and analgesic adjunct\" describes a different class. The correct class for the named agent is IV hypnotic (GABA-A–acting anesthetic)."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -178,9 +178,9 @@
       "answer": 0,
       "explanation": "Etomidate: IV induction when relative cardiovascular stability is desirable. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Etomidate's principal role: IV induction when relative cardiovascular stability is desirable.",
-        "That function is different from Etomidate's principal role: IV induction when relative cardiovascular stability is desirable.",
-        "That function is different from Etomidate's principal role: IV induction when relative cardiovascular stability is desirable."
+        "\"Produce muscle paralysis without analgesia or unconsciousness.\" is not the principal role of the named agent. Its main use is: IV induction when relative cardiovascular stability is desirable.",
+        "\"Reverse opioid-induced respiratory depression.\" is not the principal role of the named agent. Its main use is: IV induction when relative cardiovascular stability is desirable.",
+        "\"Block nerve conduction in a regional anesthetic.\" is not the principal role of the named agent. Its main use is: IV induction when relative cardiovascular stability is desirable."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -213,9 +213,9 @@
       "answer": 0,
       "explanation": "Etomidate: No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Etomidate; No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
-        "This is incorrect for Etomidate; No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
-        "This is incorrect for Etomidate; No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve."
+        "\"Naloxone reverses this medication.\" is not the correct reversal/rescue statement for this agent. No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
+        "\"Flumazenil specifically reverses this medication.\" is not the correct reversal/rescue statement for this agent. No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
+        "\"Sugammadex encapsulates and reverses this medication.\" is not the correct reversal/rescue statement for this agent. No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -248,9 +248,9 @@
       "answer": 0,
       "explanation": "Ketamine is a dissociative anesthetic (nmda receptor antagonist).",
       "whyOthers": [
-        "This describes a different drug class; Ketamine is a dissociative anesthetic (nmda receptor antagonist).",
-        "This describes a different drug class; Ketamine is a dissociative anesthetic (nmda receptor antagonist).",
-        "This describes a different drug class; Ketamine is a dissociative anesthetic (nmda receptor antagonist)."
+        "\"Volatile inhalational anesthetic\" describes a different class. The correct class for the named agent is Dissociative anesthetic (NMDA receptor antagonist).",
+        "\"IV hypnotic (GABA-A–acting anesthetic)\" describes a different class. The correct class for the named agent is Dissociative anesthetic (NMDA receptor antagonist).",
+        "\"Depolarizing neuromuscular blocking agent\" describes a different class. The correct class for the named agent is Dissociative anesthetic (NMDA receptor antagonist)."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -283,9 +283,9 @@
       "answer": 0,
       "explanation": "Ketamine: Dissociative anesthesia with substantial analgesia. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Ketamine's principal role: Dissociative anesthesia with substantial analgesia.",
-        "That function is different from Ketamine's principal role: Dissociative anesthesia with substantial analgesia.",
-        "That function is different from Ketamine's principal role: Dissociative anesthesia with substantial analgesia."
+        "\"Reverse a benzodiazepine overdose.\" is not the principal role of the named agent. Its main use is: Dissociative anesthesia with substantial analgesia.",
+        "\"Produce muscle paralysis without sedation.\" is not the principal role of the named agent. Its main use is: Dissociative anesthesia with substantial analgesia.",
+        "\"Reverse nondepolarizing muscle blockade.\" is not the principal role of the named agent. Its main use is: Dissociative anesthesia with substantial analgesia."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -318,9 +318,9 @@
       "answer": 0,
       "explanation": "Ketamine: No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Ketamine; No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
-        "This is incorrect for Ketamine; No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
-        "This is incorrect for Ketamine; No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve."
+        "\"Naloxone reverses this medication.\" is not the correct reversal/rescue statement for this agent. No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
+        "\"Flumazenil specifically reverses this medication.\" is not the correct reversal/rescue statement for this agent. No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
+        "\"Sugammadex encapsulates and reverses this medication.\" is not the correct reversal/rescue statement for this agent. No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -353,9 +353,9 @@
       "answer": 0,
       "explanation": "Midazolam is a benzodiazepine.",
       "whyOthers": [
-        "This describes a different drug class; Midazolam is a benzodiazepine.",
-        "This describes a different drug class; Midazolam is a benzodiazepine.",
-        "This describes a different drug class; Midazolam is a benzodiazepine."
+        "\"Amide local anesthetic\" describes a different class. The correct class for the named agent is Benzodiazepine.",
+        "\"Selective alpha-2 adrenergic agonist\" describes a different class. The correct class for the named agent is Benzodiazepine.",
+        "\"Benzylisoquinolinium nondepolarizing neuromuscular blocker\" describes a different class. The correct class for the named agent is Benzodiazepine."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -388,9 +388,9 @@
       "answer": 0,
       "explanation": "Midazolam: Anxiolysis, sedation, and anterograde amnesia. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Midazolam's principal role: Anxiolysis, sedation, and anterograde amnesia.",
-        "That function is different from Midazolam's principal role: Anxiolysis, sedation, and anterograde amnesia.",
-        "That function is different from Midazolam's principal role: Anxiolysis, sedation, and anterograde amnesia."
+        "\"Paralyze skeletal muscle for rapid intubation.\" is not the principal role of the named agent. Its main use is: Anxiolysis, sedation, and anterograde amnesia.",
+        "\"Provide a long-acting local nerve block.\" is not the principal role of the named agent. Its main use is: Anxiolysis, sedation, and anterograde amnesia.",
+        "\"Reverse opioid-induced respiratory depression.\" is not the principal role of the named agent. Its main use is: Anxiolysis, sedation, and anterograde amnesia."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -423,9 +423,9 @@
       "answer": 0,
       "explanation": "Midazolam: Flumazenil antagonizes benzodiazepines, but can precipitate seizures/withdrawal in susceptible patients. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Midazolam; Flumazenil antagonizes benzodiazepines, but can precipitate seizures/withdrawal in susceptible patients.",
-        "This is incorrect for Midazolam; Flumazenil antagonizes benzodiazepines, but can precipitate seizures/withdrawal in susceptible patients.",
-        "This is incorrect for Midazolam; Flumazenil antagonizes benzodiazepines, but can precipitate seizures/withdrawal in susceptible patients."
+        "\"Naloxone is its specific antagonist.\" is not the correct reversal/rescue statement for this agent. Flumazenil antagonizes benzodiazepines, but can precipitate seizures/withdrawal in susceptible patients.",
+        "\"Sugammadex is its specific antagonist.\" is not the correct reversal/rescue statement for this agent. Flumazenil antagonizes benzodiazepines, but can precipitate seizures/withdrawal in susceptible patients.",
+        "\"Dantrolene reverses its usual sedative effect.\" is not the correct reversal/rescue statement for this agent. Flumazenil antagonizes benzodiazepines, but can precipitate seizures/withdrawal in susceptible patients."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -458,9 +458,9 @@
       "answer": 0,
       "explanation": "Fentanyl is a opioid analgesic (mu-receptor agonist).",
       "whyOthers": [
-        "This describes a different drug class; Fentanyl is a opioid analgesic (mu-receptor agonist).",
-        "This describes a different drug class; Fentanyl is a opioid analgesic (mu-receptor agonist).",
-        "This describes a different drug class; Fentanyl is a opioid analgesic (mu-receptor agonist)."
+        "\"IV hypnotic (GABA-A–acting anesthetic)\" describes a different class. The correct class for the named agent is Opioid analgesic (mu-receptor agonist).",
+        "\"Inhaled anesthetic gas and analgesic adjunct\" describes a different class. The correct class for the named agent is Opioid analgesic (mu-receptor agonist).",
+        "\"Aminosteroid nondepolarizing neuromuscular blocker\" describes a different class. The correct class for the named agent is Opioid analgesic (mu-receptor agonist)."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -493,9 +493,9 @@
       "answer": 0,
       "explanation": "Fentanyl: Potent short-acting analgesia during operative stimulation. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Fentanyl's principal role: Potent short-acting analgesia during operative stimulation.",
-        "That function is different from Fentanyl's principal role: Potent short-acting analgesia during operative stimulation.",
-        "That function is different from Fentanyl's principal role: Potent short-acting analgesia during operative stimulation."
+        "\"Produce skeletal-muscle paralysis without analgesia.\" is not the principal role of the named agent. Its main use is: Potent short-acting analgesia during operative stimulation.",
+        "\"Maintain anesthesia solely by an inhaled volatile agent.\" is not the principal role of the named agent. Its main use is: Potent short-acting analgesia during operative stimulation.",
+        "\"Reverse a benzodiazepine's sedative effect.\" is not the principal role of the named agent. Its main use is: Potent short-acting analgesia during operative stimulation."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -528,9 +528,9 @@
       "answer": 0,
       "explanation": "Fentanyl: Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Fentanyl; Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation.",
-        "This is incorrect for Fentanyl; Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation.",
-        "This is incorrect for Fentanyl; Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation."
+        "\"Flumazenil is the specific antagonist.\" is not the correct reversal/rescue statement for this agent. Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation.",
+        "\"Sugammadex is the specific antagonist.\" is not the correct reversal/rescue statement for this agent. Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation.",
+        "\"Neostigmine directly reverses opioid analgesia.\" is not the correct reversal/rescue statement for this agent. Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -563,9 +563,9 @@
       "answer": 0,
       "explanation": "Remifentanil is a opioid analgesic (mu-receptor agonist).",
       "whyOthers": [
-        "This describes a different drug class; Remifentanil is a opioid analgesic (mu-receptor agonist).",
-        "This describes a different drug class; Remifentanil is a opioid analgesic (mu-receptor agonist).",
-        "This describes a different drug class; Remifentanil is a opioid analgesic (mu-receptor agonist)."
+        "\"Dissociative anesthetic (NMDA receptor antagonist)\" describes a different class. The correct class for the named agent is Opioid analgesic (mu-receptor agonist).",
+        "\"Depolarizing neuromuscular blocking agent\" describes a different class. The correct class for the named agent is Opioid analgesic (mu-receptor agonist).",
+        "\"Volatile inhalational anesthetic\" describes a different class. The correct class for the named agent is Opioid analgesic (mu-receptor agonist)."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -598,9 +598,9 @@
       "answer": 0,
       "explanation": "Remifentanil: Very short-acting, precisely titratable intraoperative analgesia. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Remifentanil's principal role: Very short-acting, precisely titratable intraoperative analgesia.",
-        "That function is different from Remifentanil's principal role: Very short-acting, precisely titratable intraoperative analgesia.",
-        "That function is different from Remifentanil's principal role: Very short-acting, precisely titratable intraoperative analgesia."
+        "\"Produce skeletal-muscle paralysis without analgesia.\" is not the principal role of the named agent. Its main use is: Very short-acting, precisely titratable intraoperative analgesia.",
+        "\"Maintain anesthesia solely by an inhaled volatile agent.\" is not the principal role of the named agent. Its main use is: Very short-acting, precisely titratable intraoperative analgesia.",
+        "\"Reverse a benzodiazepine's sedative effect.\" is not the principal role of the named agent. Its main use is: Very short-acting, precisely titratable intraoperative analgesia."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -633,9 +633,9 @@
       "answer": 0,
       "explanation": "Remifentanil: Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Remifentanil; Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation.",
-        "This is incorrect for Remifentanil; Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation.",
-        "This is incorrect for Remifentanil; Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation."
+        "\"Flumazenil is the specific antagonist.\" is not the correct reversal/rescue statement for this agent. Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation.",
+        "\"Sugammadex is the specific antagonist.\" is not the correct reversal/rescue statement for this agent. Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation.",
+        "\"Neostigmine directly reverses opioid analgesia.\" is not the correct reversal/rescue statement for this agent. Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -668,9 +668,9 @@
       "answer": 0,
       "explanation": "Morphine is a opioid analgesic (mu-receptor agonist).",
       "whyOthers": [
-        "This describes a different drug class; Morphine is a opioid analgesic (mu-receptor agonist).",
-        "This describes a different drug class; Morphine is a opioid analgesic (mu-receptor agonist).",
-        "This describes a different drug class; Morphine is a opioid analgesic (mu-receptor agonist)."
+        "\"Selective alpha-2 adrenergic agonist\" describes a different class. The correct class for the named agent is Opioid analgesic (mu-receptor agonist).",
+        "\"Benzylisoquinolinium nondepolarizing neuromuscular blocker\" describes a different class. The correct class for the named agent is Opioid analgesic (mu-receptor agonist).",
+        "\"Amide local anesthetic\" describes a different class. The correct class for the named agent is Opioid analgesic (mu-receptor agonist)."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -703,9 +703,9 @@
       "answer": 0,
       "explanation": "Morphine: Longer-duration opioid analgesia for perioperative pain. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Morphine's principal role: Longer-duration opioid analgesia for perioperative pain.",
-        "That function is different from Morphine's principal role: Longer-duration opioid analgesia for perioperative pain.",
-        "That function is different from Morphine's principal role: Longer-duration opioid analgesia for perioperative pain."
+        "\"Produce skeletal-muscle paralysis without analgesia.\" is not the principal role of the named agent. Its main use is: Longer-duration opioid analgesia for perioperative pain.",
+        "\"Maintain anesthesia solely by an inhaled volatile agent.\" is not the principal role of the named agent. Its main use is: Longer-duration opioid analgesia for perioperative pain.",
+        "\"Reverse a benzodiazepine's sedative effect.\" is not the principal role of the named agent. Its main use is: Longer-duration opioid analgesia for perioperative pain."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -738,9 +738,9 @@
       "answer": 0,
       "explanation": "Morphine: Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Morphine; Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation.",
-        "This is incorrect for Morphine; Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation.",
-        "This is incorrect for Morphine; Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation."
+        "\"Flumazenil is the specific antagonist.\" is not the correct reversal/rescue statement for this agent. Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation.",
+        "\"Sugammadex is the specific antagonist.\" is not the correct reversal/rescue statement for this agent. Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation.",
+        "\"Neostigmine directly reverses opioid analgesia.\" is not the correct reversal/rescue statement for this agent. Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -773,9 +773,9 @@
       "answer": 0,
       "explanation": "Hydromorphone is a opioid analgesic (mu-receptor agonist).",
       "whyOthers": [
-        "This describes a different drug class; Hydromorphone is a opioid analgesic (mu-receptor agonist).",
-        "This describes a different drug class; Hydromorphone is a opioid analgesic (mu-receptor agonist).",
-        "This describes a different drug class; Hydromorphone is a opioid analgesic (mu-receptor agonist)."
+        "\"Inhaled anesthetic gas and analgesic adjunct\" describes a different class. The correct class for the named agent is Opioid analgesic (mu-receptor agonist).",
+        "\"Aminosteroid nondepolarizing neuromuscular blocker\" describes a different class. The correct class for the named agent is Opioid analgesic (mu-receptor agonist).",
+        "\"Benzodiazepine\" describes a different class. The correct class for the named agent is Opioid analgesic (mu-receptor agonist)."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -808,9 +808,9 @@
       "answer": 0,
       "explanation": "Hydromorphone: Potent perioperative and postoperative opioid analgesia. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Hydromorphone's principal role: Potent perioperative and postoperative opioid analgesia.",
-        "That function is different from Hydromorphone's principal role: Potent perioperative and postoperative opioid analgesia.",
-        "That function is different from Hydromorphone's principal role: Potent perioperative and postoperative opioid analgesia."
+        "\"Produce skeletal-muscle paralysis without analgesia.\" is not the principal role of the named agent. Its main use is: Potent perioperative and postoperative opioid analgesia.",
+        "\"Maintain anesthesia solely by an inhaled volatile agent.\" is not the principal role of the named agent. Its main use is: Potent perioperative and postoperative opioid analgesia.",
+        "\"Reverse a benzodiazepine's sedative effect.\" is not the principal role of the named agent. Its main use is: Potent perioperative and postoperative opioid analgesia."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -843,9 +843,9 @@
       "answer": 0,
       "explanation": "Hydromorphone: Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Hydromorphone; Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation.",
-        "This is incorrect for Hydromorphone; Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation.",
-        "This is incorrect for Hydromorphone; Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation."
+        "\"Flumazenil is the specific antagonist.\" is not the correct reversal/rescue statement for this agent. Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation.",
+        "\"Sugammadex is the specific antagonist.\" is not the correct reversal/rescue statement for this agent. Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation.",
+        "\"Neostigmine directly reverses opioid analgesia.\" is not the correct reversal/rescue statement for this agent. Naloxone can reverse opioid effects, including respiratory depression; titrate and monitor for resedation."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -878,9 +878,9 @@
       "answer": 0,
       "explanation": "Dexmedetomidine is a selective alpha-2 adrenergic agonist.",
       "whyOthers": [
-        "This describes a different drug class; Dexmedetomidine is a selective alpha-2 adrenergic agonist.",
-        "This describes a different drug class; Dexmedetomidine is a selective alpha-2 adrenergic agonist.",
-        "This describes a different drug class; Dexmedetomidine is a selective alpha-2 adrenergic agonist."
+        "\"Depolarizing neuromuscular blocking agent\" describes a different class. The correct class for the named agent is Selective alpha-2 adrenergic agonist.",
+        "\"Aminosteroid nondepolarizing neuromuscular blocker\" describes a different class. The correct class for the named agent is Selective alpha-2 adrenergic agonist.",
+        "\"Benzodiazepine\" describes a different class. The correct class for the named agent is Selective alpha-2 adrenergic agonist."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -913,9 +913,9 @@
       "answer": 0,
       "explanation": "Dexmedetomidine: Sedation with sympathetic attenuation and some analgesic-sparing effect. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Dexmedetomidine's principal role: Sedation with sympathetic attenuation and some analgesic-sparing effect.",
-        "That function is different from Dexmedetomidine's principal role: Sedation with sympathetic attenuation and some analgesic-sparing effect.",
-        "That function is different from Dexmedetomidine's principal role: Sedation with sympathetic attenuation and some analgesic-sparing effect."
+        "\"Produce depolarizing paralysis for intubation.\" is not the principal role of the named agent. Its main use is: Sedation with sympathetic attenuation and some analgesic-sparing effect.",
+        "\"Reverse neuromuscular blockade caused by rocuronium.\" is not the principal role of the named agent. Its main use is: Sedation with sympathetic attenuation and some analgesic-sparing effect.",
+        "\"Produce local nerve blockade by sodium-channel inhibition.\" is not the principal role of the named agent. Its main use is: Sedation with sympathetic attenuation and some analgesic-sparing effect."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -948,9 +948,9 @@
       "answer": 0,
       "explanation": "Dexmedetomidine: No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Dexmedetomidine; No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
-        "This is incorrect for Dexmedetomidine; No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
-        "This is incorrect for Dexmedetomidine; No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve."
+        "\"Naloxone reverses this medication.\" is not the correct reversal/rescue statement for this agent. No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
+        "\"Flumazenil specifically reverses this medication.\" is not the correct reversal/rescue statement for this agent. No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
+        "\"Sugammadex encapsulates and reverses this medication.\" is not the correct reversal/rescue statement for this agent. No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -983,9 +983,9 @@
       "answer": 0,
       "explanation": "Sevoflurane is a volatile inhalational anesthetic.",
       "whyOthers": [
-        "This describes a different drug class; Sevoflurane is a volatile inhalational anesthetic.",
-        "This describes a different drug class; Sevoflurane is a volatile inhalational anesthetic.",
-        "This describes a different drug class; Sevoflurane is a volatile inhalational anesthetic."
+        "\"Benzylisoquinolinium nondepolarizing neuromuscular blocker\" describes a different class. The correct class for the named agent is Volatile inhalational anesthetic.",
+        "\"Amide local anesthetic\" describes a different class. The correct class for the named agent is Volatile inhalational anesthetic.",
+        "\"Dissociative anesthetic (NMDA receptor antagonist)\" describes a different class. The correct class for the named agent is Volatile inhalational anesthetic."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1018,9 +1018,9 @@
       "answer": 0,
       "explanation": "Sevoflurane: Inhalational induction or maintenance of general anesthesia. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Sevoflurane's principal role: Inhalational induction or maintenance of general anesthesia.",
-        "That function is different from Sevoflurane's principal role: Inhalational induction or maintenance of general anesthesia.",
-        "That function is different from Sevoflurane's principal role: Inhalational induction or maintenance of general anesthesia."
+        "\"Reverse opioid sedation.\" is not the principal role of the named agent. Its main use is: Inhalational induction or maintenance of general anesthesia.",
+        "\"Provide paralysis without hypnosis or analgesia.\" is not the principal role of the named agent. Its main use is: Inhalational induction or maintenance of general anesthesia.",
+        "\"Provide intrathecal local anesthetic nerve blockade.\" is not the principal role of the named agent. Its main use is: Inhalational induction or maintenance of general anesthesia."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1053,9 +1053,9 @@
       "answer": 0,
       "explanation": "Sevoflurane: There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Sevoflurane; There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence.",
-        "This is incorrect for Sevoflurane; There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence.",
-        "This is incorrect for Sevoflurane; There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence."
+        "\"Sugammadex antagonizes the volatile anesthetic itself.\" is not the correct reversal/rescue statement for this agent. There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence.",
+        "\"Flumazenil antagonizes this inhalational agent.\" is not the correct reversal/rescue statement for this agent. There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence.",
+        "\"Naloxone is the specific volatile-anesthetic reversal drug.\" is not the correct reversal/rescue statement for this agent. There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1093,9 +1093,9 @@
       "answer": 0,
       "explanation": "Desflurane is a volatile inhalational anesthetic.",
       "whyOthers": [
-        "This describes a different drug class; Desflurane is a volatile inhalational anesthetic.",
-        "This describes a different drug class; Desflurane is a volatile inhalational anesthetic.",
-        "This describes a different drug class; Desflurane is a volatile inhalational anesthetic."
+        "\"Opioid analgesic (mu-receptor agonist)\" describes a different class. The correct class for the named agent is Volatile inhalational anesthetic.",
+        "\"Benzodiazepine\" describes a different class. The correct class for the named agent is Volatile inhalational anesthetic.",
+        "\"Selective alpha-2 adrenergic agonist\" describes a different class. The correct class for the named agent is Volatile inhalational anesthetic."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1128,9 +1128,9 @@
       "answer": 0,
       "explanation": "Desflurane: Rapidly adjustable maintenance of general anesthesia by inhalation. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Desflurane's principal role: Rapidly adjustable maintenance of general anesthesia by inhalation.",
-        "That function is different from Desflurane's principal role: Rapidly adjustable maintenance of general anesthesia by inhalation.",
-        "That function is different from Desflurane's principal role: Rapidly adjustable maintenance of general anesthesia by inhalation."
+        "\"Reverse opioid sedation.\" is not the principal role of the named agent. Its main use is: Rapidly adjustable maintenance of general anesthesia by inhalation.",
+        "\"Provide paralysis without hypnosis or analgesia.\" is not the principal role of the named agent. Its main use is: Rapidly adjustable maintenance of general anesthesia by inhalation.",
+        "\"Provide intrathecal local anesthetic nerve blockade.\" is not the principal role of the named agent. Its main use is: Rapidly adjustable maintenance of general anesthesia by inhalation."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1163,9 +1163,9 @@
       "answer": 0,
       "explanation": "Desflurane: There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Desflurane; There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence.",
-        "This is incorrect for Desflurane; There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence.",
-        "This is incorrect for Desflurane; There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence."
+        "\"Sugammadex antagonizes the volatile anesthetic itself.\" is not the correct reversal/rescue statement for this agent. There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence.",
+        "\"Flumazenil antagonizes this inhalational agent.\" is not the correct reversal/rescue statement for this agent. There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence.",
+        "\"Naloxone is the specific volatile-anesthetic reversal drug.\" is not the correct reversal/rescue statement for this agent. There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1203,9 +1203,9 @@
       "answer": 0,
       "explanation": "Isoflurane is a volatile inhalational anesthetic.",
       "whyOthers": [
-        "This describes a different drug class; Isoflurane is a volatile inhalational anesthetic.",
-        "This describes a different drug class; Isoflurane is a volatile inhalational anesthetic.",
-        "This describes a different drug class; Isoflurane is a volatile inhalational anesthetic."
+        "\"Aminosteroid nondepolarizing neuromuscular blocker\" describes a different class. The correct class for the named agent is Volatile inhalational anesthetic.",
+        "\"IV hypnotic (GABA-A–acting anesthetic)\" describes a different class. The correct class for the named agent is Volatile inhalational anesthetic.",
+        "\"Inhaled anesthetic gas and analgesic adjunct\" describes a different class. The correct class for the named agent is Volatile inhalational anesthetic."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1238,9 +1238,9 @@
       "answer": 0,
       "explanation": "Isoflurane: Maintenance of general anesthesia by inhalation. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Isoflurane's principal role: Maintenance of general anesthesia by inhalation.",
-        "That function is different from Isoflurane's principal role: Maintenance of general anesthesia by inhalation.",
-        "That function is different from Isoflurane's principal role: Maintenance of general anesthesia by inhalation."
+        "\"Reverse opioid sedation.\" is not the principal role of the named agent. Its main use is: Maintenance of general anesthesia by inhalation.",
+        "\"Provide paralysis without hypnosis or analgesia.\" is not the principal role of the named agent. Its main use is: Maintenance of general anesthesia by inhalation.",
+        "\"Provide intrathecal local anesthetic nerve blockade.\" is not the principal role of the named agent. Its main use is: Maintenance of general anesthesia by inhalation."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1273,9 +1273,9 @@
       "answer": 0,
       "explanation": "Isoflurane: There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Isoflurane; There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence.",
-        "This is incorrect for Isoflurane; There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence.",
-        "This is incorrect for Isoflurane; There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence."
+        "\"Sugammadex antagonizes the volatile anesthetic itself.\" is not the correct reversal/rescue statement for this agent. There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence.",
+        "\"Flumazenil antagonizes this inhalational agent.\" is not the correct reversal/rescue statement for this agent. There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence.",
+        "\"Naloxone is the specific volatile-anesthetic reversal drug.\" is not the correct reversal/rescue statement for this agent. There is no specific reversal drug; discontinue the volatile anesthetic and support ventilation. Dantrolene treats malignant hyperthermia, not routine emergence."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1313,9 +1313,9 @@
       "answer": 0,
       "explanation": "Nitrous oxide is a inhaled anesthetic gas and analgesic adjunct.",
       "whyOthers": [
-        "This describes a different drug class; Nitrous oxide is a inhaled anesthetic gas and analgesic adjunct.",
-        "This describes a different drug class; Nitrous oxide is a inhaled anesthetic gas and analgesic adjunct.",
-        "This describes a different drug class; Nitrous oxide is a inhaled anesthetic gas and analgesic adjunct."
+        "\"Volatile inhalational anesthetic\" describes a different class. The correct class for the named agent is Inhaled anesthetic gas and analgesic adjunct.",
+        "\"IV hypnotic (GABA-A–acting anesthetic)\" describes a different class. The correct class for the named agent is Inhaled anesthetic gas and analgesic adjunct.",
+        "\"Depolarizing neuromuscular blocking agent\" describes a different class. The correct class for the named agent is Inhaled anesthetic gas and analgesic adjunct."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1348,9 +1348,9 @@
       "answer": 0,
       "explanation": "Nitrous oxide: An inhaled adjunct that provides analgesic and anesthetic-sparing effects. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Nitrous oxide's principal role: An inhaled adjunct that provides analgesic and anesthetic-sparing effects.",
-        "That function is different from Nitrous oxide's principal role: An inhaled adjunct that provides analgesic and anesthetic-sparing effects.",
-        "That function is different from Nitrous oxide's principal role: An inhaled adjunct that provides analgesic and anesthetic-sparing effects."
+        "\"Reverse benzodiazepine amnesia.\" is not the principal role of the named agent. Its main use is: An inhaled adjunct that provides analgesic and anesthetic-sparing effects.",
+        "\"Provide standalone neuromuscular paralysis for intubation.\" is not the principal role of the named agent. Its main use is: An inhaled adjunct that provides analgesic and anesthetic-sparing effects.",
+        "\"Reverse residual rocuronium blockade.\" is not the principal role of the named agent. Its main use is: An inhaled adjunct that provides analgesic and anesthetic-sparing effects."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1383,9 +1383,9 @@
       "answer": 0,
       "explanation": "Nitrous oxide: No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Nitrous oxide; No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
-        "This is incorrect for Nitrous oxide; No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
-        "This is incorrect for Nitrous oxide; No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve."
+        "\"Naloxone reverses this medication.\" is not the correct reversal/rescue statement for this agent. No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
+        "\"Flumazenil specifically reverses this medication.\" is not the correct reversal/rescue statement for this agent. No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve.",
+        "\"Sugammadex encapsulates and reverses this medication.\" is not the correct reversal/rescue statement for this agent. No drug-specific antagonist reverses its routine effect; support airway/physiology and allow drug effect to resolve."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1418,9 +1418,9 @@
       "answer": 0,
       "explanation": "Succinylcholine is a depolarizing neuromuscular blocking agent.",
       "whyOthers": [
-        "This describes a different drug class; Succinylcholine is a depolarizing neuromuscular blocking agent.",
-        "This describes a different drug class; Succinylcholine is a depolarizing neuromuscular blocking agent.",
-        "This describes a different drug class; Succinylcholine is a depolarizing neuromuscular blocking agent."
+        "\"Amide local anesthetic\" describes a different class. The correct class for the named agent is Depolarizing neuromuscular blocking agent.",
+        "\"Dissociative anesthetic (NMDA receptor antagonist)\" describes a different class. The correct class for the named agent is Depolarizing neuromuscular blocking agent.",
+        "\"Benzylisoquinolinium nondepolarizing neuromuscular blocker\" describes a different class. The correct class for the named agent is Depolarizing neuromuscular blocking agent."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1453,9 +1453,9 @@
       "answer": 0,
       "explanation": "Succinylcholine: Rapid-onset skeletal-muscle paralysis for intubation, without hypnosis or analgesia. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Succinylcholine's principal role: Rapid-onset skeletal-muscle paralysis for intubation, without hypnosis or analgesia.",
-        "That function is different from Succinylcholine's principal role: Rapid-onset skeletal-muscle paralysis for intubation, without hypnosis or analgesia.",
-        "That function is different from Succinylcholine's principal role: Rapid-onset skeletal-muscle paralysis for intubation, without hypnosis or analgesia."
+        "\"Provide hypnosis and analgesia without additional medication.\" is not the principal role of the named agent. Its main use is: Rapid-onset skeletal-muscle paralysis for intubation, without hypnosis or analgesia.",
+        "\"Reverse opioid respiratory depression.\" is not the principal role of the named agent. Its main use is: Rapid-onset skeletal-muscle paralysis for intubation, without hypnosis or analgesia.",
+        "\"Block pain fibers during a local infiltration.\" is not the principal role of the named agent. Its main use is: Rapid-onset skeletal-muscle paralysis for intubation, without hypnosis or analgesia."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1488,9 +1488,9 @@
       "answer": 0,
       "explanation": "Succinylcholine: No direct routine reversal agent; maintain oxygenation and ventilation until paralysis resolves. Sugammadex does not reverse succinylcholine. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Succinylcholine; No direct routine reversal agent; maintain oxygenation and ventilation until paralysis resolves. Sugammadex does not reverse succinylcholine.",
-        "This is incorrect for Succinylcholine; No direct routine reversal agent; maintain oxygenation and ventilation until paralysis resolves. Sugammadex does not reverse succinylcholine.",
-        "This is incorrect for Succinylcholine; No direct routine reversal agent; maintain oxygenation and ventilation until paralysis resolves. Sugammadex does not reverse succinylcholine."
+        "\"Sugammadex directly encapsulates succinylcholine.\" is not the correct reversal/rescue statement for this agent. No direct routine reversal agent; maintain oxygenation and ventilation until paralysis resolves. Sugammadex does not reverse succinylcholine.",
+        "\"Flumazenil reverses the paralysis.\" is not the correct reversal/rescue statement for this agent. No direct routine reversal agent; maintain oxygenation and ventilation until paralysis resolves. Sugammadex does not reverse succinylcholine.",
+        "\"Naloxone reverses the paralysis.\" is not the correct reversal/rescue statement for this agent. No direct routine reversal agent; maintain oxygenation and ventilation until paralysis resolves. Sugammadex does not reverse succinylcholine."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1528,9 +1528,9 @@
       "answer": 0,
       "explanation": "Rocuronium is a aminosteroid nondepolarizing neuromuscular blocker.",
       "whyOthers": [
-        "This describes a different drug class; Rocuronium is a aminosteroid nondepolarizing neuromuscular blocker.",
-        "This describes a different drug class; Rocuronium is a aminosteroid nondepolarizing neuromuscular blocker.",
-        "This describes a different drug class; Rocuronium is a aminosteroid nondepolarizing neuromuscular blocker."
+        "\"IV hypnotic (GABA-A–acting anesthetic)\" describes a different class. The correct class for the named agent is Aminosteroid nondepolarizing neuromuscular blocker.",
+        "\"Inhaled anesthetic gas and analgesic adjunct\" describes a different class. The correct class for the named agent is Aminosteroid nondepolarizing neuromuscular blocker.",
+        "\"Opioid analgesic (mu-receptor agonist)\" describes a different class. The correct class for the named agent is Aminosteroid nondepolarizing neuromuscular blocker."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1568,9 +1568,9 @@
       "answer": 0,
       "explanation": "Rocuronium: Nondepolarizing paralysis for tracheal intubation and surgery. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Rocuronium's principal role: Nondepolarizing paralysis for tracheal intubation and surgery.",
-        "That function is different from Rocuronium's principal role: Nondepolarizing paralysis for tracheal intubation and surgery.",
-        "That function is different from Rocuronium's principal role: Nondepolarizing paralysis for tracheal intubation and surgery."
+        "\"Provide hypnosis and analgesia without additional medication.\" is not the principal role of the named agent. Its main use is: Nondepolarizing paralysis for tracheal intubation and surgery.",
+        "\"Reverse opioid respiratory depression.\" is not the principal role of the named agent. Its main use is: Nondepolarizing paralysis for tracheal intubation and surgery.",
+        "\"Block pain fibers during a local infiltration.\" is not the principal role of the named agent. Its main use is: Nondepolarizing paralysis for tracheal intubation and surgery."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1603,9 +1603,9 @@
       "answer": 0,
       "explanation": "Rocuronium: Sugammadex specifically reverses rocuronium/vecuronium; neostigmine is an alternative for sufficiently recovered block. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Rocuronium; Sugammadex specifically reverses rocuronium/vecuronium; neostigmine is an alternative for sufficiently recovered block.",
-        "This is incorrect for Rocuronium; Sugammadex specifically reverses rocuronium/vecuronium; neostigmine is an alternative for sufficiently recovered block.",
-        "This is incorrect for Rocuronium; Sugammadex specifically reverses rocuronium/vecuronium; neostigmine is an alternative for sufficiently recovered block."
+        "\"Naloxone is the preferred direct reversal.\" is not the correct reversal/rescue statement for this agent. Sugammadex specifically reverses rocuronium/vecuronium; neostigmine is an alternative for sufficiently recovered block.",
+        "\"Flumazenil is the preferred direct reversal.\" is not the correct reversal/rescue statement for this agent. Sugammadex specifically reverses rocuronium/vecuronium; neostigmine is an alternative for sufficiently recovered block.",
+        "\"Only spontaneous recovery is possible; no pharmacological antagonism exists.\" is not the correct reversal/rescue statement for this agent. Sugammadex specifically reverses rocuronium/vecuronium; neostigmine is an alternative for sufficiently recovered block."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1643,9 +1643,9 @@
       "answer": 0,
       "explanation": "Vecuronium is a aminosteroid nondepolarizing neuromuscular blocker.",
       "whyOthers": [
-        "This describes a different drug class; Vecuronium is a aminosteroid nondepolarizing neuromuscular blocker.",
-        "This describes a different drug class; Vecuronium is a aminosteroid nondepolarizing neuromuscular blocker.",
-        "This describes a different drug class; Vecuronium is a aminosteroid nondepolarizing neuromuscular blocker."
+        "\"Dissociative anesthetic (NMDA receptor antagonist)\" describes a different class. The correct class for the named agent is Aminosteroid nondepolarizing neuromuscular blocker.",
+        "\"Depolarizing neuromuscular blocking agent\" describes a different class. The correct class for the named agent is Aminosteroid nondepolarizing neuromuscular blocker.",
+        "\"Volatile inhalational anesthetic\" describes a different class. The correct class for the named agent is Aminosteroid nondepolarizing neuromuscular blocker."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1683,9 +1683,9 @@
       "answer": 0,
       "explanation": "Vecuronium: Nondepolarizing paralysis during general anesthesia. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Vecuronium's principal role: Nondepolarizing paralysis during general anesthesia.",
-        "That function is different from Vecuronium's principal role: Nondepolarizing paralysis during general anesthesia.",
-        "That function is different from Vecuronium's principal role: Nondepolarizing paralysis during general anesthesia."
+        "\"Provide hypnosis and analgesia without additional medication.\" is not the principal role of the named agent. Its main use is: Nondepolarizing paralysis during general anesthesia.",
+        "\"Reverse opioid respiratory depression.\" is not the principal role of the named agent. Its main use is: Nondepolarizing paralysis during general anesthesia.",
+        "\"Block pain fibers during a local infiltration.\" is not the principal role of the named agent. Its main use is: Nondepolarizing paralysis during general anesthesia."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1718,9 +1718,9 @@
       "answer": 0,
       "explanation": "Vecuronium: Sugammadex specifically reverses rocuronium/vecuronium; neostigmine is an alternative for sufficiently recovered block. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Vecuronium; Sugammadex specifically reverses rocuronium/vecuronium; neostigmine is an alternative for sufficiently recovered block.",
-        "This is incorrect for Vecuronium; Sugammadex specifically reverses rocuronium/vecuronium; neostigmine is an alternative for sufficiently recovered block.",
-        "This is incorrect for Vecuronium; Sugammadex specifically reverses rocuronium/vecuronium; neostigmine is an alternative for sufficiently recovered block."
+        "\"Naloxone is the preferred direct reversal.\" is not the correct reversal/rescue statement for this agent. Sugammadex specifically reverses rocuronium/vecuronium; neostigmine is an alternative for sufficiently recovered block.",
+        "\"Flumazenil is the preferred direct reversal.\" is not the correct reversal/rescue statement for this agent. Sugammadex specifically reverses rocuronium/vecuronium; neostigmine is an alternative for sufficiently recovered block.",
+        "\"Only spontaneous recovery is possible; no pharmacological antagonism exists.\" is not the correct reversal/rescue statement for this agent. Sugammadex specifically reverses rocuronium/vecuronium; neostigmine is an alternative for sufficiently recovered block."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1758,9 +1758,9 @@
       "answer": 0,
       "explanation": "Cisatracurium is a benzylisoquinolinium nondepolarizing neuromuscular blocker.",
       "whyOthers": [
-        "This describes a different drug class; Cisatracurium is a benzylisoquinolinium nondepolarizing neuromuscular blocker.",
-        "This describes a different drug class; Cisatracurium is a benzylisoquinolinium nondepolarizing neuromuscular blocker.",
-        "This describes a different drug class; Cisatracurium is a benzylisoquinolinium nondepolarizing neuromuscular blocker."
+        "\"Dissociative anesthetic (NMDA receptor antagonist)\" describes a different class. The correct class for the named agent is Benzylisoquinolinium nondepolarizing neuromuscular blocker.",
+        "\"Depolarizing neuromuscular blocking agent\" describes a different class. The correct class for the named agent is Benzylisoquinolinium nondepolarizing neuromuscular blocker.",
+        "\"Volatile inhalational anesthetic\" describes a different class. The correct class for the named agent is Benzylisoquinolinium nondepolarizing neuromuscular blocker."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1798,9 +1798,9 @@
       "answer": 0,
       "explanation": "Cisatracurium: Nondepolarizing paralysis with largely organ-independent Hofmann elimination. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Cisatracurium's principal role: Nondepolarizing paralysis with largely organ-independent Hofmann elimination.",
-        "That function is different from Cisatracurium's principal role: Nondepolarizing paralysis with largely organ-independent Hofmann elimination.",
-        "That function is different from Cisatracurium's principal role: Nondepolarizing paralysis with largely organ-independent Hofmann elimination."
+        "\"Provide hypnosis and analgesia without additional medication.\" is not the principal role of the named agent. Its main use is: Nondepolarizing paralysis with largely organ-independent Hofmann elimination.",
+        "\"Reverse opioid respiratory depression.\" is not the principal role of the named agent. Its main use is: Nondepolarizing paralysis with largely organ-independent Hofmann elimination.",
+        "\"Block pain fibers during a local infiltration.\" is not the principal role of the named agent. Its main use is: Nondepolarizing paralysis with largely organ-independent Hofmann elimination."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1833,9 +1833,9 @@
       "answer": 0,
       "explanation": "Cisatracurium: Neostigmine with an antimuscarinic can antagonize sufficiently recovered nondepolarizing block; sugammadex does not reverse this agent. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Cisatracurium; Neostigmine with an antimuscarinic can antagonize sufficiently recovered nondepolarizing block; sugammadex does not reverse this agent.",
-        "This is incorrect for Cisatracurium; Neostigmine with an antimuscarinic can antagonize sufficiently recovered nondepolarizing block; sugammadex does not reverse this agent.",
-        "This is incorrect for Cisatracurium; Neostigmine with an antimuscarinic can antagonize sufficiently recovered nondepolarizing block; sugammadex does not reverse this agent."
+        "\"Sugammadex specifically and reliably encapsulates this agent.\" is not the correct reversal/rescue statement for this agent. Neostigmine with an antimuscarinic can antagonize sufficiently recovered nondepolarizing block; sugammadex does not reverse this agent.",
+        "\"Naloxone directly reverses this neuromuscular blocker.\" is not the correct reversal/rescue statement for this agent. Neostigmine with an antimuscarinic can antagonize sufficiently recovered nondepolarizing block; sugammadex does not reverse this agent.",
+        "\"Flumazenil directly reverses this neuromuscular blocker.\" is not the correct reversal/rescue statement for this agent. Neostigmine with an antimuscarinic can antagonize sufficiently recovered nondepolarizing block; sugammadex does not reverse this agent."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1873,9 +1873,9 @@
       "answer": 0,
       "explanation": "Atracurium is a benzylisoquinolinium nondepolarizing neuromuscular blocker.",
       "whyOthers": [
-        "This describes a different drug class; Atracurium is a benzylisoquinolinium nondepolarizing neuromuscular blocker.",
-        "This describes a different drug class; Atracurium is a benzylisoquinolinium nondepolarizing neuromuscular blocker.",
-        "This describes a different drug class; Atracurium is a benzylisoquinolinium nondepolarizing neuromuscular blocker."
+        "\"Selective alpha-2 adrenergic agonist\" describes a different class. The correct class for the named agent is Benzylisoquinolinium nondepolarizing neuromuscular blocker.",
+        "\"Opioid analgesic (mu-receptor agonist)\" describes a different class. The correct class for the named agent is Benzylisoquinolinium nondepolarizing neuromuscular blocker.",
+        "\"Amide local anesthetic\" describes a different class. The correct class for the named agent is Benzylisoquinolinium nondepolarizing neuromuscular blocker."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1913,9 +1913,9 @@
       "answer": 0,
       "explanation": "Atracurium: Nondepolarizing paralysis, metabolized partly by Hofmann elimination. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Atracurium's principal role: Nondepolarizing paralysis, metabolized partly by Hofmann elimination.",
-        "That function is different from Atracurium's principal role: Nondepolarizing paralysis, metabolized partly by Hofmann elimination.",
-        "That function is different from Atracurium's principal role: Nondepolarizing paralysis, metabolized partly by Hofmann elimination."
+        "\"Provide hypnosis and analgesia without additional medication.\" is not the principal role of the named agent. Its main use is: Nondepolarizing paralysis, metabolized partly by Hofmann elimination.",
+        "\"Reverse opioid respiratory depression.\" is not the principal role of the named agent. Its main use is: Nondepolarizing paralysis, metabolized partly by Hofmann elimination.",
+        "\"Block pain fibers during a local infiltration.\" is not the principal role of the named agent. Its main use is: Nondepolarizing paralysis, metabolized partly by Hofmann elimination."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1948,9 +1948,9 @@
       "answer": 0,
       "explanation": "Atracurium: Neostigmine with an antimuscarinic can antagonize sufficiently recovered nondepolarizing block; sugammadex does not reverse this agent. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Atracurium; Neostigmine with an antimuscarinic can antagonize sufficiently recovered nondepolarizing block; sugammadex does not reverse this agent.",
-        "This is incorrect for Atracurium; Neostigmine with an antimuscarinic can antagonize sufficiently recovered nondepolarizing block; sugammadex does not reverse this agent.",
-        "This is incorrect for Atracurium; Neostigmine with an antimuscarinic can antagonize sufficiently recovered nondepolarizing block; sugammadex does not reverse this agent."
+        "\"Sugammadex specifically and reliably encapsulates this agent.\" is not the correct reversal/rescue statement for this agent. Neostigmine with an antimuscarinic can antagonize sufficiently recovered nondepolarizing block; sugammadex does not reverse this agent.",
+        "\"Naloxone directly reverses this neuromuscular blocker.\" is not the correct reversal/rescue statement for this agent. Neostigmine with an antimuscarinic can antagonize sufficiently recovered nondepolarizing block; sugammadex does not reverse this agent.",
+        "\"Flumazenil directly reverses this neuromuscular blocker.\" is not the correct reversal/rescue statement for this agent. Neostigmine with an antimuscarinic can antagonize sufficiently recovered nondepolarizing block; sugammadex does not reverse this agent."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -1988,9 +1988,9 @@
       "answer": 0,
       "explanation": "Lidocaine is a amide local anesthetic.",
       "whyOthers": [
-        "This describes a different drug class; Lidocaine is a amide local anesthetic.",
-        "This describes a different drug class; Lidocaine is a amide local anesthetic.",
-        "This describes a different drug class; Lidocaine is a amide local anesthetic."
+        "\"Depolarizing neuromuscular blocking agent\" describes a different class. The correct class for the named agent is Amide local anesthetic.",
+        "\"Aminosteroid nondepolarizing neuromuscular blocker\" describes a different class. The correct class for the named agent is Amide local anesthetic.",
+        "\"IV hypnotic (GABA-A–acting anesthetic)\" describes a different class. The correct class for the named agent is Amide local anesthetic."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -2023,9 +2023,9 @@
       "answer": 0,
       "explanation": "Lidocaine: Local or regional nerve conduction blockade, often for shorter procedures. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Lidocaine's principal role: Local or regional nerve conduction blockade, often for shorter procedures.",
-        "That function is different from Lidocaine's principal role: Local or regional nerve conduction blockade, often for shorter procedures.",
-        "That function is different from Lidocaine's principal role: Local or regional nerve conduction blockade, often for shorter procedures."
+        "\"Produce full general anesthesia by inhalation.\" is not the principal role of the named agent. Its main use is: Local or regional nerve conduction blockade, often for shorter procedures.",
+        "\"Provide paralysis without hypnosis or pain relief.\" is not the principal role of the named agent. Its main use is: Local or regional nerve conduction blockade, often for shorter procedures.",
+        "\"Reverse benzodiazepine-induced sedation.\" is not the principal role of the named agent. Its main use is: Local or regional nerve conduction blockade, often for shorter procedures."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -2058,9 +2058,9 @@
       "answer": 0,
       "explanation": "Lidocaine: No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Lidocaine; No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal.",
-        "This is incorrect for Lidocaine; No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal.",
-        "This is incorrect for Lidocaine; No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal."
+        "\"Sugammadex is used to reverse its nerve block.\" is not the correct reversal/rescue statement for this agent. No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal.",
+        "\"Flumazenil reverses the local block.\" is not the correct reversal/rescue statement for this agent. No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal.",
+        "\"Naloxone reverses the local block.\" is not the correct reversal/rescue statement for this agent. No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -2098,9 +2098,9 @@
       "answer": 0,
       "explanation": "Bupivacaine is a amide local anesthetic.",
       "whyOthers": [
-        "This describes a different drug class; Bupivacaine is a amide local anesthetic.",
-        "This describes a different drug class; Bupivacaine is a amide local anesthetic.",
-        "This describes a different drug class; Bupivacaine is a amide local anesthetic."
+        "\"Benzylisoquinolinium nondepolarizing neuromuscular blocker\" describes a different class. The correct class for the named agent is Amide local anesthetic.",
+        "\"Volatile inhalational anesthetic\" describes a different class. The correct class for the named agent is Amide local anesthetic.",
+        "\"Dissociative anesthetic (NMDA receptor antagonist)\" describes a different class. The correct class for the named agent is Amide local anesthetic."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -2133,9 +2133,9 @@
       "answer": 0,
       "explanation": "Bupivacaine: Long-acting local, peripheral nerve, or neuraxial blockade. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Bupivacaine's principal role: Long-acting local, peripheral nerve, or neuraxial blockade.",
-        "That function is different from Bupivacaine's principal role: Long-acting local, peripheral nerve, or neuraxial blockade.",
-        "That function is different from Bupivacaine's principal role: Long-acting local, peripheral nerve, or neuraxial blockade."
+        "\"Produce full general anesthesia by inhalation.\" is not the principal role of the named agent. Its main use is: Long-acting local, peripheral nerve, or neuraxial blockade.",
+        "\"Provide paralysis without hypnosis or pain relief.\" is not the principal role of the named agent. Its main use is: Long-acting local, peripheral nerve, or neuraxial blockade.",
+        "\"Reverse benzodiazepine-induced sedation.\" is not the principal role of the named agent. Its main use is: Long-acting local, peripheral nerve, or neuraxial blockade."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -2168,9 +2168,9 @@
       "answer": 0,
       "explanation": "Bupivacaine: No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Bupivacaine; No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal.",
-        "This is incorrect for Bupivacaine; No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal.",
-        "This is incorrect for Bupivacaine; No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal."
+        "\"Sugammadex is used to reverse its nerve block.\" is not the correct reversal/rescue statement for this agent. No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal.",
+        "\"Flumazenil reverses the local block.\" is not the correct reversal/rescue statement for this agent. No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal.",
+        "\"Naloxone reverses the local block.\" is not the correct reversal/rescue statement for this agent. No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -2208,9 +2208,9 @@
       "answer": 0,
       "explanation": "Ropivacaine is a amide local anesthetic.",
       "whyOthers": [
-        "This describes a different drug class; Ropivacaine is a amide local anesthetic.",
-        "This describes a different drug class; Ropivacaine is a amide local anesthetic.",
-        "This describes a different drug class; Ropivacaine is a amide local anesthetic."
+        "\"Opioid analgesic (mu-receptor agonist)\" describes a different class. The correct class for the named agent is Amide local anesthetic.",
+        "\"Benzodiazepine\" describes a different class. The correct class for the named agent is Amide local anesthetic.",
+        "\"Selective alpha-2 adrenergic agonist\" describes a different class. The correct class for the named agent is Amide local anesthetic."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -2243,9 +2243,9 @@
       "answer": 0,
       "explanation": "Ropivacaine: Long-acting peripheral nerve or neuraxial analgesia/anesthesia. This does not imply that it supplies other components of general anesthesia.",
       "whyOthers": [
-        "That function is different from Ropivacaine's principal role: Long-acting peripheral nerve or neuraxial analgesia/anesthesia.",
-        "That function is different from Ropivacaine's principal role: Long-acting peripheral nerve or neuraxial analgesia/anesthesia.",
-        "That function is different from Ropivacaine's principal role: Long-acting peripheral nerve or neuraxial analgesia/anesthesia."
+        "\"Produce full general anesthesia by inhalation.\" is not the principal role of the named agent. Its main use is: Long-acting peripheral nerve or neuraxial analgesia/anesthesia.",
+        "\"Provide paralysis without hypnosis or pain relief.\" is not the principal role of the named agent. Its main use is: Long-acting peripheral nerve or neuraxial analgesia/anesthesia.",
+        "\"Reverse benzodiazepine-induced sedation.\" is not the principal role of the named agent. Its main use is: Long-acting peripheral nerve or neuraxial analgesia/anesthesia."
       ],
       "concept": "focus-anesthetic",
       "reference": {
@@ -2278,9 +2278,9 @@
       "answer": 0,
       "explanation": "Ropivacaine: No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal. Reversal of sedation, paralysis, and drug toxicity are different clinical concepts.",
       "whyOthers": [
-        "This is incorrect for Ropivacaine; No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal.",
-        "This is incorrect for Ropivacaine; No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal.",
-        "This is incorrect for Ropivacaine; No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal."
+        "\"Sugammadex is used to reverse its nerve block.\" is not the correct reversal/rescue statement for this agent. No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal.",
+        "\"Flumazenil reverses the local block.\" is not the correct reversal/rescue statement for this agent. No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal.",
+        "\"Naloxone reverses the local block.\" is not the correct reversal/rescue statement for this agent. No agent routinely reverses the local block; 20% lipid emulsion is rescue treatment for severe local-anesthetic systemic toxicity (LAST), not routine reversal."
       ],
       "concept": "focus-anesthetic",
       "reference": {
