@@ -26,7 +26,7 @@
     {
       "id": "FOCUS-ANA-001",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Propofol?",
       "options": [
@@ -61,7 +61,7 @@
     {
       "id": "FOCUS-ANA-002",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Propofol in the operating room?",
       "options": [
@@ -96,7 +96,7 @@
     {
       "id": "FOCUS-ANA-003",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Propofol?",
       "options": [
@@ -131,7 +131,7 @@
     {
       "id": "FOCUS-ANA-004",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Etomidate?",
       "options": [
@@ -166,7 +166,7 @@
     {
       "id": "FOCUS-ANA-005",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Etomidate in the operating room?",
       "options": [
@@ -201,7 +201,7 @@
     {
       "id": "FOCUS-ANA-006",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Etomidate?",
       "options": [
@@ -236,7 +236,7 @@
     {
       "id": "FOCUS-ANA-007",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Ketamine?",
       "options": [
@@ -271,7 +271,7 @@
     {
       "id": "FOCUS-ANA-008",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Ketamine in the operating room?",
       "options": [
@@ -306,7 +306,7 @@
     {
       "id": "FOCUS-ANA-009",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Ketamine?",
       "options": [
@@ -341,7 +341,7 @@
     {
       "id": "FOCUS-ANA-010",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Midazolam?",
       "options": [
@@ -376,7 +376,7 @@
     {
       "id": "FOCUS-ANA-011",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Midazolam in the operating room?",
       "options": [
@@ -411,7 +411,7 @@
     {
       "id": "FOCUS-ANA-012",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Midazolam?",
       "options": [
@@ -446,7 +446,7 @@
     {
       "id": "FOCUS-ANA-013",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Fentanyl?",
       "options": [
@@ -481,7 +481,7 @@
     {
       "id": "FOCUS-ANA-014",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Fentanyl in the operating room?",
       "options": [
@@ -516,7 +516,7 @@
     {
       "id": "FOCUS-ANA-015",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Fentanyl?",
       "options": [
@@ -551,7 +551,7 @@
     {
       "id": "FOCUS-ANA-016",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Remifentanil?",
       "options": [
@@ -586,7 +586,7 @@
     {
       "id": "FOCUS-ANA-017",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Remifentanil in the operating room?",
       "options": [
@@ -621,7 +621,7 @@
     {
       "id": "FOCUS-ANA-018",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Remifentanil?",
       "options": [
@@ -656,7 +656,7 @@
     {
       "id": "FOCUS-ANA-019",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Morphine?",
       "options": [
@@ -691,7 +691,7 @@
     {
       "id": "FOCUS-ANA-020",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Morphine in the operating room?",
       "options": [
@@ -726,7 +726,7 @@
     {
       "id": "FOCUS-ANA-021",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Morphine?",
       "options": [
@@ -761,7 +761,7 @@
     {
       "id": "FOCUS-ANA-022",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Hydromorphone?",
       "options": [
@@ -796,7 +796,7 @@
     {
       "id": "FOCUS-ANA-023",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Hydromorphone in the operating room?",
       "options": [
@@ -831,7 +831,7 @@
     {
       "id": "FOCUS-ANA-024",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Hydromorphone?",
       "options": [
@@ -866,7 +866,7 @@
     {
       "id": "FOCUS-ANA-025",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Dexmedetomidine?",
       "options": [
@@ -901,7 +901,7 @@
     {
       "id": "FOCUS-ANA-026",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Dexmedetomidine in the operating room?",
       "options": [
@@ -936,7 +936,7 @@
     {
       "id": "FOCUS-ANA-027",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Dexmedetomidine?",
       "options": [
@@ -971,7 +971,7 @@
     {
       "id": "FOCUS-ANA-028",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Sevoflurane?",
       "options": [
@@ -1006,7 +1006,7 @@
     {
       "id": "FOCUS-ANA-029",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Sevoflurane in the operating room?",
       "options": [
@@ -1041,7 +1041,7 @@
     {
       "id": "FOCUS-ANA-030",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Sevoflurane?",
       "options": [
@@ -1081,7 +1081,7 @@
     {
       "id": "FOCUS-ANA-031",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Desflurane?",
       "options": [
@@ -1116,7 +1116,7 @@
     {
       "id": "FOCUS-ANA-032",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Desflurane in the operating room?",
       "options": [
@@ -1151,7 +1151,7 @@
     {
       "id": "FOCUS-ANA-033",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Desflurane?",
       "options": [
@@ -1191,7 +1191,7 @@
     {
       "id": "FOCUS-ANA-034",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Isoflurane?",
       "options": [
@@ -1226,7 +1226,7 @@
     {
       "id": "FOCUS-ANA-035",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Isoflurane in the operating room?",
       "options": [
@@ -1261,7 +1261,7 @@
     {
       "id": "FOCUS-ANA-036",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Isoflurane?",
       "options": [
@@ -1301,7 +1301,7 @@
     {
       "id": "FOCUS-ANA-037",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Nitrous oxide?",
       "options": [
@@ -1336,7 +1336,7 @@
     {
       "id": "FOCUS-ANA-038",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Nitrous oxide in the operating room?",
       "options": [
@@ -1371,7 +1371,7 @@
     {
       "id": "FOCUS-ANA-039",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Nitrous oxide?",
       "options": [
@@ -1406,7 +1406,7 @@
     {
       "id": "FOCUS-ANA-040",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Succinylcholine?",
       "options": [
@@ -1441,7 +1441,7 @@
     {
       "id": "FOCUS-ANA-041",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Succinylcholine in the operating room?",
       "options": [
@@ -1476,7 +1476,7 @@
     {
       "id": "FOCUS-ANA-042",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Succinylcholine?",
       "options": [
@@ -1516,7 +1516,7 @@
     {
       "id": "FOCUS-ANA-043",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Rocuronium?",
       "options": [
@@ -1556,7 +1556,7 @@
     {
       "id": "FOCUS-ANA-044",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Rocuronium in the operating room?",
       "options": [
@@ -1591,7 +1591,7 @@
     {
       "id": "FOCUS-ANA-045",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Rocuronium?",
       "options": [
@@ -1631,7 +1631,7 @@
     {
       "id": "FOCUS-ANA-046",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Vecuronium?",
       "options": [
@@ -1671,7 +1671,7 @@
     {
       "id": "FOCUS-ANA-047",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Vecuronium in the operating room?",
       "options": [
@@ -1706,7 +1706,7 @@
     {
       "id": "FOCUS-ANA-048",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Vecuronium?",
       "options": [
@@ -1746,7 +1746,7 @@
     {
       "id": "FOCUS-ANA-049",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Cisatracurium?",
       "options": [
@@ -1786,7 +1786,7 @@
     {
       "id": "FOCUS-ANA-050",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Cisatracurium in the operating room?",
       "options": [
@@ -1821,7 +1821,7 @@
     {
       "id": "FOCUS-ANA-051",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Cisatracurium?",
       "options": [
@@ -1861,7 +1861,7 @@
     {
       "id": "FOCUS-ANA-052",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Atracurium?",
       "options": [
@@ -1901,7 +1901,7 @@
     {
       "id": "FOCUS-ANA-053",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Atracurium in the operating room?",
       "options": [
@@ -1936,7 +1936,7 @@
     {
       "id": "FOCUS-ANA-054",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Atracurium?",
       "options": [
@@ -1976,7 +1976,7 @@
     {
       "id": "FOCUS-ANA-055",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Lidocaine?",
       "options": [
@@ -2011,7 +2011,7 @@
     {
       "id": "FOCUS-ANA-056",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Lidocaine in the operating room?",
       "options": [
@@ -2046,7 +2046,7 @@
     {
       "id": "FOCUS-ANA-057",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Lidocaine?",
       "options": [
@@ -2086,7 +2086,7 @@
     {
       "id": "FOCUS-ANA-058",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Bupivacaine?",
       "options": [
@@ -2121,7 +2121,7 @@
     {
       "id": "FOCUS-ANA-059",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Bupivacaine in the operating room?",
       "options": [
@@ -2156,7 +2156,7 @@
     {
       "id": "FOCUS-ANA-060",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Bupivacaine?",
       "options": [
@@ -2196,7 +2196,7 @@
     {
       "id": "FOCUS-ANA-061",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which pharmacological class best describes Ropivacaine?",
       "options": [
@@ -2231,7 +2231,7 @@
     {
       "id": "FOCUS-ANA-062",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "What is the principal anesthesia-related use of Ropivacaine in the operating room?",
       "options": [
@@ -2266,7 +2266,7 @@
     {
       "id": "FOCUS-ANA-063",
       "collection": "anesthesia",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.28",
       "prompt": "Which reversal or rescue statement is correct for Ropivacaine?",
       "options": [
@@ -3045,7 +3045,7 @@
     {
       "id": "FOCUS-MED-001",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Warfarin belong to?",
       "options": [
@@ -3085,7 +3085,7 @@
     {
       "id": "FOCUS-MED-002",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Warfarin?",
       "options": [
@@ -3125,7 +3125,7 @@
     {
       "id": "FOCUS-MED-003",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Apixaban belong to?",
       "options": [
@@ -3165,7 +3165,7 @@
     {
       "id": "FOCUS-MED-004",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Apixaban?",
       "options": [
@@ -3205,7 +3205,7 @@
     {
       "id": "FOCUS-MED-005",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Rivaroxaban belong to?",
       "options": [
@@ -3245,7 +3245,7 @@
     {
       "id": "FOCUS-MED-006",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Rivaroxaban?",
       "options": [
@@ -3285,7 +3285,7 @@
     {
       "id": "FOCUS-MED-007",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Dabigatran belong to?",
       "options": [
@@ -3325,7 +3325,7 @@
     {
       "id": "FOCUS-MED-008",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Dabigatran?",
       "options": [
@@ -3365,7 +3365,7 @@
     {
       "id": "FOCUS-MED-009",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Enoxaparin belong to?",
       "options": [
@@ -3405,7 +3405,7 @@
     {
       "id": "FOCUS-MED-010",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Enoxaparin?",
       "options": [
@@ -3445,7 +3445,7 @@
     {
       "id": "FOCUS-MED-011",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Unfractionated heparin belong to?",
       "options": [
@@ -3485,7 +3485,7 @@
     {
       "id": "FOCUS-MED-012",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Unfractionated heparin?",
       "options": [
@@ -3525,7 +3525,7 @@
     {
       "id": "FOCUS-MED-013",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Clopidogrel belong to?",
       "options": [
@@ -3565,7 +3565,7 @@
     {
       "id": "FOCUS-MED-014",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Clopidogrel?",
       "options": [
@@ -3605,7 +3605,7 @@
     {
       "id": "FOCUS-MED-015",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Aspirin (acetylsalicylic acid) belong to?",
       "options": [
@@ -3645,7 +3645,7 @@
     {
       "id": "FOCUS-MED-016",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Aspirin (acetylsalicylic acid)?",
       "options": [
@@ -3685,7 +3685,7 @@
     {
       "id": "FOCUS-MED-017",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Insulin glargine belong to?",
       "options": [
@@ -3725,7 +3725,7 @@
     {
       "id": "FOCUS-MED-018",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Insulin glargine?",
       "options": [
@@ -3765,7 +3765,7 @@
     {
       "id": "FOCUS-MED-019",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Insulin lispro belong to?",
       "options": [
@@ -3805,7 +3805,7 @@
     {
       "id": "FOCUS-MED-020",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Insulin lispro?",
       "options": [
@@ -3845,7 +3845,7 @@
     {
       "id": "FOCUS-MED-021",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Empagliflozin belong to?",
       "options": [
@@ -3885,7 +3885,7 @@
     {
       "id": "FOCUS-MED-022",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Empagliflozin?",
       "options": [
@@ -3926,7 +3926,7 @@
     {
       "id": "FOCUS-MED-023",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Dapagliflozin belong to?",
       "options": [
@@ -3966,7 +3966,7 @@
     {
       "id": "FOCUS-MED-024",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Dapagliflozin?",
       "options": [
@@ -4007,7 +4007,7 @@
     {
       "id": "FOCUS-MED-025",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Semaglutide belong to?",
       "options": [
@@ -4047,7 +4047,7 @@
     {
       "id": "FOCUS-MED-026",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Semaglutide?",
       "options": [
@@ -4088,7 +4088,7 @@
     {
       "id": "FOCUS-MED-027",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Tirzepatide belong to?",
       "options": [
@@ -4128,7 +4128,7 @@
     {
       "id": "FOCUS-MED-028",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Tirzepatide?",
       "options": [
@@ -4169,7 +4169,7 @@
     {
       "id": "FOCUS-MED-029",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Metoprolol belong to?",
       "options": [
@@ -4209,7 +4209,7 @@
     {
       "id": "FOCUS-MED-030",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Metoprolol?",
       "options": [
@@ -4249,7 +4249,7 @@
     {
       "id": "FOCUS-MED-031",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Lisinopril belong to?",
       "options": [
@@ -4289,7 +4289,7 @@
     {
       "id": "FOCUS-MED-032",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Lisinopril?",
       "options": [
@@ -4329,7 +4329,7 @@
     {
       "id": "FOCUS-MED-033",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Losartan belong to?",
       "options": [
@@ -4369,7 +4369,7 @@
     {
       "id": "FOCUS-MED-034",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Losartan?",
       "options": [
@@ -4409,7 +4409,7 @@
     {
       "id": "FOCUS-MED-035",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Furosemide belong to?",
       "options": [
@@ -4444,7 +4444,7 @@
     {
       "id": "FOCUS-MED-036",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Furosemide?",
       "options": [
@@ -4479,7 +4479,7 @@
     {
       "id": "FOCUS-MED-037",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Prednisone (chronic systemic use) belong to?",
       "options": [
@@ -4514,7 +4514,7 @@
     {
       "id": "FOCUS-MED-038",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Prednisone (chronic systemic use)?",
       "options": [
@@ -4549,7 +4549,7 @@
     {
       "id": "FOCUS-MED-039",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Morphine (chronic home therapy) belong to?",
       "options": [
@@ -4584,7 +4584,7 @@
     {
       "id": "FOCUS-MED-040",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Morphine (chronic home therapy)?",
       "options": [
@@ -4619,7 +4619,7 @@
     {
       "id": "FOCUS-MED-041",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Lithium belong to?",
       "options": [
@@ -4654,7 +4654,7 @@
     {
       "id": "FOCUS-MED-042",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Lithium?",
       "options": [
@@ -4689,7 +4689,7 @@
     {
       "id": "FOCUS-MED-043",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Sertraline belong to?",
       "options": [
@@ -4724,7 +4724,7 @@
     {
       "id": "FOCUS-MED-044",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Sertraline?",
       "options": [
@@ -4759,7 +4759,7 @@
     {
       "id": "FOCUS-MED-045",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Phenelzine belong to?",
       "options": [
@@ -4794,7 +4794,7 @@
     {
       "id": "FOCUS-MED-046",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Phenelzine?",
       "options": [
@@ -4829,7 +4829,7 @@
     {
       "id": "FOCUS-MED-047",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Phenytoin belong to?",
       "options": [
@@ -4864,7 +4864,7 @@
     {
       "id": "FOCUS-MED-048",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Phenytoin?",
       "options": [
@@ -4899,7 +4899,7 @@
     {
       "id": "FOCUS-MED-049",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does Ginkgo biloba supplement belong to?",
       "options": [
@@ -4934,7 +4934,7 @@
     {
       "id": "FOCUS-MED-050",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of Ginkgo biloba supplement?",
       "options": [
@@ -4969,7 +4969,7 @@
     {
       "id": "FOCUS-MED-051",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class does St. John's wort supplement belong to?",
       "options": [
@@ -5004,7 +5004,7 @@
     {
       "id": "FOCUS-MED-052",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which important perioperative concern is most closely associated with a patient's use of St. John's wort supplement?",
       "options": [
@@ -5039,7 +5039,7 @@
     {
       "id": "FOCUS-MED-053",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class best describes Garlic supplement (concentrated)?",
       "options": [
@@ -5079,7 +5079,7 @@
     {
       "id": "FOCUS-MED-054",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which perioperative concern is most relevant when a patient reports using Garlic supplement (concentrated)?",
       "options": [
@@ -5119,7 +5119,7 @@
     {
       "id": "FOCUS-MED-055",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class best describes Ginseng supplement?",
       "options": [
@@ -5159,7 +5159,7 @@
     {
       "id": "FOCUS-MED-056",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which perioperative concern is most relevant when a patient reports using Ginseng supplement?",
       "options": [
@@ -5199,7 +5199,7 @@
     {
       "id": "FOCUS-MED-057",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class best describes Ibuprofen?",
       "options": [
@@ -5239,7 +5239,7 @@
     {
       "id": "FOCUS-MED-058",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which perioperative concern is most relevant when a patient reports using Ibuprofen?",
       "options": [
@@ -5279,7 +5279,7 @@
     {
       "id": "FOCUS-MED-059",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "During medication reconciliation, which class best describes Metformin?",
       "options": [
@@ -5319,7 +5319,7 @@
     {
       "id": "FOCUS-MED-060",
       "collection": "medications",
-      "category": "Perioperative phases and anesthesia",
+      "category": "Perioperative phases & anesthesia",
       "source": "3.1",
       "prompt": "Which perioperative concern is most relevant when a patient reports using Metformin?",
       "options": [
