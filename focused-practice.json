@@ -4901,19 +4901,19 @@
       "collection": "medications",
       "category": "Perioperative phases & anesthesia",
       "source": "3.1",
-      "prompt": "During medication reconciliation, which class does Ginkgo biloba supplement belong to?",
+      "prompt": "A patient reports daily Ginkgo biloba use before surgery, but their INR is normal. Which interpretation is most appropriate?",
       "options": [
-        "Herbal supplement",
-        "Antithrombin-potentiating anticoagulant",
-        "SGLT2 inhibitor",
-        "Angiotensin II receptor blocker (ARB)"
+        "A normal INR does not exclude possible supplement-related bleeding interactions; document the use and notify the perioperative team.",
+        "A normal INR establishes that Ginkgo biloba cannot affect perioperative bleeding risk.",
+        "Ginkgo biloba is a vitamin K antagonist, so INR must be elevated if it has a clinical effect.",
+        "A nonprescription product does not need to be included in medication reconciliation if prescribed anticoagulants are absent."
       ],
       "answer": 0,
-      "explanation": "Ginkgo biloba supplement is in the herbal supplement class. This classification helps anticipate drug-specific perioperative concerns.",
+      "explanation": "Ginkgo biloba may interact with anticoagulant drugs and may increase bleeding risk. INR measures a portion of coagulation function, not every possible effect on platelet-related bleeding or drug interactions. Record the supplement, amount, and last use, and communicate it before surgery; a normal INR is not a blanket assurance.",
       "whyOthers": [
-        "Antithrombin-potentiating anticoagulant is a different class; Ginkgo biloba supplement is herbal supplement.",
-        "SGLT2 inhibitor is a different class; Ginkgo biloba supplement is herbal supplement.",
-        "Angiotensin II receptor blocker (ARB) is a different class; Ginkgo biloba supplement is herbal supplement."
+        "A normal INR does not rule out all potential medication- or supplement-related bleeding effects.",
+        "Ginkgo is not a vitamin K antagonist; its potential interactions do not require a characteristic INR elevation.",
+        "Medication reconciliation includes OTC medications and herbal products even when no prescribed anticoagulant is listed."
       ],
       "concept": "focus-periop-meds",
       "reference": {
@@ -4928,7 +4928,12 @@
         ]
       },
       "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
-      "additionalReferences": [],
+      "additionalReferences": [
+        {
+          "name": "NCCIH · Ginkgo: Usefulness and Safety",
+          "url": "https://www.nccih.nih.gov/health/ginkgo"
+        }
+      ],
       "difficulty": "focused"
     },
     {
@@ -4971,19 +4976,19 @@
       "collection": "medications",
       "category": "Perioperative phases & anesthesia",
       "source": "3.1",
-      "prompt": "During medication reconciliation, which class does St. John's wort supplement belong to?",
+      "prompt": "A patient who takes St. John's wort has tramadol proposed for postoperative pain. What is the interaction of greatest concern?",
       "options": [
-        "Herbal supplement",
-        "Antiplatelet cyclooxygenase inhibitor",
-        "Dual GIP/GLP-1 receptor agonist",
-        "Glucocorticoid corticosteroid"
+        "Increased risk of serotonin toxicity because both can contribute to serotonergic effects.",
+        "Severe hypoglycemia because both medications stimulate pancreatic insulin release.",
+        "Excess anticoagulation because tramadol directly inhibits factor Xa.",
+        "Prolonged neuromuscular paralysis because St. John's wort blocks the neuromuscular junction."
       ],
       "answer": 0,
-      "explanation": "St. John's wort supplement is in the herbal supplement class. This classification helps anticipate drug-specific perioperative concerns.",
+      "explanation": "St. John's wort has serotonergic effects and multiple drug interactions. Tramadol is also serotonergic, so the combination may increase the risk of serotonin toxicity. Flag the combination for the anesthesia/prescribing team rather than assuming that an herbal product is irrelevant.",
       "whyOthers": [
-        "Antiplatelet cyclooxygenase inhibitor is a different class; St. John's wort supplement is herbal supplement.",
-        "Dual GIP/GLP-1 receptor agonist is a different class; St. John's wort supplement is herbal supplement.",
-        "Glucocorticoid corticosteroid is a different class; St. John's wort supplement is herbal supplement."
+        "Neither St. John's wort nor tramadol is a pancreatic insulin secretagogue; that is not the key interaction.",
+        "Tramadol is not a direct factor Xa inhibitor; the more relevant interaction here is serotonergic.",
+        "St. John's wort is not a neuromuscular blocking drug; the concern in this scenario is potential serotonin toxicity."
       ],
       "concept": "focus-periop-meds",
       "reference": {
@@ -4998,7 +5003,12 @@
         ]
       },
       "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
-      "additionalReferences": [],
+      "additionalReferences": [
+        {
+          "name": "NCCIH · Herb–Drug Interactions",
+          "url": "https://www.nccih.nih.gov/health/providers/digest/herb-drug-interactions-science"
+        }
+      ],
       "difficulty": "focused"
     },
     {
@@ -5041,19 +5051,19 @@
       "collection": "medications",
       "category": "Perioperative phases & anesthesia",
       "source": "3.1",
-      "prompt": "During medication reconciliation, which class best describes Garlic supplement (concentrated)?",
+      "prompt": "During preoperative assessment, a patient says they eat garlic regularly and also take concentrated garlic capsules. Which detail is most important to clarify?",
       "options": [
-        "Herbal supplement",
-        "Selective serotonin reuptake inhibitor (SSRI)",
-        "SGLT2 inhibitor",
-        "Direct factor Xa inhibitor (DOAC)"
+        "The dose and timing of the garlic supplement and any concurrent antiplatelet or anticoagulant drugs, because supplements may increase bleeding risk.",
+        "Whether garlic was used as a seasoning, because ordinary food use by itself always requires cancelling surgery.",
+        "The type of meal containing garlic, because it establishes whether the patient's INR will be therapeutic.",
+        "Nothing further, because garlic supplements cannot interact with prescription medication when they come from food plants."
       ],
       "answer": 0,
-      "explanation": "Garlic supplement (concentrated) belongs to the herbal supplement category; assess its interactions in the preoperative medication history.",
+      "explanation": "Distinguish dietary garlic from concentrated supplements. Garlic supplements may increase bleeding risk, especially with aspirin or anticoagulant drugs, so obtain supplement details and inform the perioperative team. Routine consumption of garlic in food is not equivalent to a high-dose supplement.",
       "whyOthers": [
-        "Selective serotonin reuptake inhibitor (SSRI) is a different medication class, not the classification of Garlic supplement (concentrated).",
-        "SGLT2 inhibitor is a different medication class, not the classification of Garlic supplement (concentrated).",
-        "Direct factor Xa inhibitor (DOAC) is a different medication class, not the classification of Garlic supplement (concentrated)."
+        "Ordinary dietary garlic is not an automatic indication to cancel surgery; assess concentrated supplement use and interacting medication.",
+        "A meal containing garlic does not establish a therapeutic INR, and INR does not replace a medication history.",
+        "Botanical supplements can have pharmacological actions and interactions even though they originate from food plants."
       ],
       "concept": "focus-periop-meds",
       "reference": {
@@ -5070,7 +5080,7 @@
       "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
-          "name": "NCCIH · Garlic and safety",
+          "name": "NCCIH · Garlic: Usefulness and Safety",
           "url": "https://www.nccih.nih.gov/health/garlic"
         }
       ],
@@ -5121,19 +5131,19 @@
       "collection": "medications",
       "category": "Perioperative phases & anesthesia",
       "source": "3.1",
-      "prompt": "During medication reconciliation, which class best describes Ginseng supplement?",
+      "prompt": "An NPO patient with diabetes uses ginseng supplements and has an insulin regimen. Which perioperative assessment is particularly relevant?",
       "options": [
-        "Herbal supplement",
-        "Glucocorticoid corticosteroid",
-        "ACE inhibitor",
-        "Beta-adrenergic blocker"
+        "Review and monitor glucose while communicating supplement use, because some ginseng products may lower blood glucose.",
+        "Assume ginseng reliably prevents fasting hypoglycemia and omit glucose monitoring.",
+        "Treat ginseng as a rapid-acting insulin and calculate insulin dosing by the number of capsules.",
+        "Ignore the supplement because herbal products cannot affect glucose or interact with diabetes medication."
       ],
       "answer": 0,
-      "explanation": "Ginseng supplement belongs to the herbal supplement category; assess its interactions in the preoperative medication history.",
+      "explanation": "Some evidence suggests that Asian ginseng may lower blood glucose, although effects vary by product and evidence remains limited. A fasting patient taking insulin already needs an individualized glucose plan; disclose ginseng use and follow the perioperative glucose-monitoring plan.",
       "whyOthers": [
-        "Glucocorticoid corticosteroid is a different medication class, not the classification of Ginseng supplement.",
-        "ACE inhibitor is a different medication class, not the classification of Ginseng supplement.",
-        "Beta-adrenergic blocker is a different medication class, not the classification of Ginseng supplement."
+        "Ginseng is not a reliable protection against hypoglycemia, and fasting patients using insulin still require glucose assessment.",
+        "Ginseng is not insulin and has no reliable insulin-equivalent capsule conversion.",
+        "Herbal products may affect glucose and interact with medicines; medication reconciliation must include them."
       ],
       "concept": "focus-periop-meds",
       "reference": {
@@ -5150,8 +5160,8 @@
       "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
-          "name": "UKCPA · Herbal remedies position statement",
-          "url": "https://periop-handbook.ukclinicalpharmacy.org/note/herbal-remedies-position-statement/"
+          "name": "NCCIH · Asian Ginseng: Usefulness and Safety",
+          "url": "https://www.nccih.nih.gov/health/asian-ginseng"
         }
       ],
       "difficulty": "focused"
