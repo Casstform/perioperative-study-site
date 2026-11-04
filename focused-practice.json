@@ -5,7 +5,7 @@
     "counts": {
       "anesthesia": 63,
       "precautions": 20,
-      "medications": 52
+      "medications": 60
     }
   },
   "concepts": {
@@ -54,7 +54,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -89,7 +89,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -124,7 +124,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -159,7 +159,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -194,7 +194,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -229,7 +229,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -264,7 +264,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -299,7 +299,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -334,7 +334,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -369,7 +369,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -404,7 +404,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -439,7 +439,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -474,7 +474,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -509,7 +509,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -544,7 +544,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -579,7 +579,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -614,7 +614,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -649,7 +649,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -684,7 +684,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -719,7 +719,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -754,7 +754,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -789,7 +789,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -824,7 +824,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -859,7 +859,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -894,7 +894,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -929,7 +929,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -964,7 +964,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -999,7 +999,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -1034,7 +1034,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -1069,7 +1069,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [
         {
           "name": "MHAUS · Malignant hyperthermia information",
@@ -1109,7 +1109,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -1144,7 +1144,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -1179,7 +1179,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [
         {
           "name": "MHAUS · Malignant hyperthermia information",
@@ -1219,7 +1219,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -1254,7 +1254,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -1289,7 +1289,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [
         {
           "name": "MHAUS · Malignant hyperthermia information",
@@ -1329,7 +1329,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -1364,7 +1364,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -1399,7 +1399,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -1434,7 +1434,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -1469,7 +1469,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -1504,7 +1504,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [
         {
           "name": "ASA · Neuromuscular blockade monitoring and antagonism (2023)",
@@ -1544,7 +1544,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [
         {
           "name": "ASA · Neuromuscular blockade monitoring and antagonism (2023)",
@@ -1584,7 +1584,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -1619,7 +1619,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [
         {
           "name": "ASA · Neuromuscular blockade monitoring and antagonism (2023)",
@@ -1659,7 +1659,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [
         {
           "name": "ASA · Neuromuscular blockade monitoring and antagonism (2023)",
@@ -1699,7 +1699,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -1734,7 +1734,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [
         {
           "name": "ASA · Neuromuscular blockade monitoring and antagonism (2023)",
@@ -1774,7 +1774,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [
         {
           "name": "ASA · Neuromuscular blockade monitoring and antagonism (2023)",
@@ -1814,7 +1814,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -1849,7 +1849,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [
         {
           "name": "ASA · Neuromuscular blockade monitoring and antagonism (2023)",
@@ -1889,7 +1889,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [
         {
           "name": "ASA · Neuromuscular blockade monitoring and antagonism (2023)",
@@ -1929,7 +1929,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -1964,7 +1964,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [
         {
           "name": "ASA · Neuromuscular blockade monitoring and antagonism (2023)",
@@ -2004,7 +2004,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -2039,7 +2039,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -2074,7 +2074,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [
         {
           "name": "ORNAC §3.32 · Recognition of local-anesthetic systemic toxicity",
@@ -2114,7 +2114,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -2149,7 +2149,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -2184,7 +2184,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [
         {
           "name": "ORNAC §3.32 · Recognition of local-anesthetic systemic toxicity",
@@ -2224,7 +2224,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -2259,7 +2259,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -2294,7 +2294,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC anesthesia scope; reversal details in clinical references",
       "additionalReferences": [
         {
           "name": "ORNAC §3.32 · Recognition of local-anesthetic systemic toxicity",
@@ -2334,7 +2334,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [],
       "difficulty": "focused",
       "currentGuidance": "Precautions are additive to routine practices. Apply current site-specific IPAC direction, and reassess aerosol-generating procedures separately."
@@ -2370,7 +2370,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [],
       "difficulty": "focused",
       "currentGuidance": "Precautions are additive to routine practices. Apply current site-specific IPAC direction, and reassess aerosol-generating procedures separately."
@@ -2406,7 +2406,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [],
       "difficulty": "focused",
       "currentGuidance": "Precautions are additive to routine practices. Apply current site-specific IPAC direction, and reassess aerosol-generating procedures separately."
@@ -2442,7 +2442,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [],
       "difficulty": "focused",
       "currentGuidance": "Precautions are additive to routine practices. Apply current site-specific IPAC direction, and reassess aerosol-generating procedures separately."
@@ -2478,7 +2478,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [],
       "difficulty": "focused",
       "currentGuidance": "Precautions are additive to routine practices. Apply current site-specific IPAC direction, and reassess aerosol-generating procedures separately."
@@ -2514,7 +2514,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [],
       "difficulty": "focused",
       "currentGuidance": "Precautions are additive to routine practices. Apply current site-specific IPAC direction, and reassess aerosol-generating procedures separately."
@@ -2550,7 +2550,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [],
       "difficulty": "focused",
       "currentGuidance": "Precautions are additive to routine practices. Apply current site-specific IPAC direction, and reassess aerosol-generating procedures separately."
@@ -2586,7 +2586,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [],
       "difficulty": "focused",
       "currentGuidance": "Precautions are additive to routine practices. Apply current site-specific IPAC direction, and reassess aerosol-generating procedures separately."
@@ -2622,7 +2622,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [],
       "difficulty": "focused",
       "currentGuidance": "Precautions are additive to routine practices. Apply current site-specific IPAC direction, and reassess aerosol-generating procedures separately."
@@ -2658,7 +2658,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [],
       "difficulty": "focused",
       "currentGuidance": "Precautions are additive to routine practices. Apply current site-specific IPAC direction, and reassess aerosol-generating procedures separately."
@@ -2694,7 +2694,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [
         {
           "name": "PHAC · Pathogen-specific additional precautions",
@@ -2739,7 +2739,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [],
       "difficulty": "focused",
       "currentGuidance": "Precautions are additive to routine practices. Apply current site-specific IPAC direction, and reassess aerosol-generating procedures separately."
@@ -2775,7 +2775,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [],
       "difficulty": "focused",
       "currentGuidance": "Precautions are additive to routine practices. Apply current site-specific IPAC direction, and reassess aerosol-generating procedures separately."
@@ -2811,7 +2811,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [],
       "difficulty": "focused",
       "currentGuidance": "Precautions are additive to routine practices. Apply current site-specific IPAC direction, and reassess aerosol-generating procedures separately."
@@ -2847,7 +2847,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [],
       "difficulty": "focused",
       "currentGuidance": "Precautions are additive to routine practices. Apply current site-specific IPAC direction, and reassess aerosol-generating procedures separately."
@@ -2883,7 +2883,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [],
       "difficulty": "focused",
       "currentGuidance": "Precautions are additive to routine practices. Apply current site-specific IPAC direction, and reassess aerosol-generating procedures separately."
@@ -2919,7 +2919,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [],
       "difficulty": "focused",
       "currentGuidance": "Precautions are additive to routine practices. Apply current site-specific IPAC direction, and reassess aerosol-generating procedures separately."
@@ -2955,7 +2955,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [],
       "difficulty": "focused",
       "currentGuidance": "Precautions are additive to routine practices. Apply current site-specific IPAC direction, and reassess aerosol-generating procedures separately."
@@ -2991,7 +2991,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [
         {
           "name": "PHAC · Pathogen-specific additional precautions",
@@ -3032,7 +3032,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC precaution listing (combined guidance supplemented by PHAC)",
       "additionalReferences": [
         {
           "name": "PHAC · Pathogen-specific additional precautions",
@@ -3073,7 +3073,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -3113,7 +3113,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -3153,7 +3153,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -3193,7 +3193,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -3233,7 +3233,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -3273,7 +3273,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -3313,7 +3313,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -3353,7 +3353,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -3393,7 +3393,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -3433,7 +3433,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -3473,7 +3473,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -3513,7 +3513,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -3553,7 +3553,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -3593,7 +3593,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -3633,7 +3633,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -3673,7 +3673,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -3713,7 +3713,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "ADA · Diabetes Care in Hospital, 2026",
@@ -3753,7 +3753,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "ADA · Diabetes Care in Hospital, 2026",
@@ -3793,7 +3793,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "ADA · Diabetes Care in Hospital, 2026",
@@ -3833,7 +3833,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "ADA · Diabetes Care in Hospital, 2026",
@@ -3873,7 +3873,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "ADA · SGLT2 inhibitors around surgery, 2026",
@@ -3913,7 +3913,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "ADA · SGLT2 inhibitors around surgery, 2026",
@@ -3954,7 +3954,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "ADA · SGLT2 inhibitors around surgery, 2026",
@@ -3994,7 +3994,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "ADA · SGLT2 inhibitors around surgery, 2026",
@@ -4035,7 +4035,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "Multisociety GLP-1 perioperative guidance, 2024",
@@ -4075,7 +4075,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "Multisociety GLP-1 perioperative guidance, 2024",
@@ -4116,7 +4116,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "Multisociety GLP-1 perioperative guidance, 2024",
@@ -4156,7 +4156,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "Multisociety GLP-1 perioperative guidance, 2024",
@@ -4197,7 +4197,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -4237,7 +4237,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -4277,7 +4277,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -4317,7 +4317,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -4357,7 +4357,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -4397,7 +4397,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [
         {
           "name": "AHA/ACC · Perioperative cardiovascular management, 2024",
@@ -4437,7 +4437,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -4472,7 +4472,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -4507,7 +4507,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -4542,7 +4542,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -4577,7 +4577,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -4612,7 +4612,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -4647,7 +4647,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -4682,7 +4682,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -4717,7 +4717,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -4752,7 +4752,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -4787,7 +4787,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -4822,7 +4822,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -4857,7 +4857,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -4892,7 +4892,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -4927,7 +4927,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -4962,7 +4962,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -4997,7 +4997,7 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [],
       "difficulty": "focused"
     },
@@ -5032,8 +5032,328 @@
           }
         ]
       },
-      "referenceLabel": "ORNAC scope reference (drug-specific facts use clinical guidance)",
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
       "additionalReferences": [],
+      "difficulty": "focused"
+    },
+    {
+      "id": "FOCUS-MED-053",
+      "collection": "medications",
+      "category": "Perioperative phases and anesthesia",
+      "source": "3.1",
+      "prompt": "During medication reconciliation, which class best describes Garlic supplement (concentrated)?",
+      "options": [
+        "Herbal supplement",
+        "Selective serotonin reuptake inhibitor (SSRI)",
+        "SGLT2 inhibitor",
+        "Direct factor Xa inhibitor (DOAC)"
+      ],
+      "answer": 0,
+      "explanation": "Garlic supplement (concentrated) belongs to the herbal supplement category; assess its interactions in the preoperative medication history.",
+      "whyOthers": [
+        "Selective serotonin reuptake inhibitor (SSRI) is a different medication class, not the classification of Garlic supplement (concentrated).",
+        "SGLT2 inhibitor is a different medication class, not the classification of Garlic supplement (concentrated).",
+        "Direct factor Xa inhibitor (DOAC) is a different medication class, not the classification of Garlic supplement (concentrated)."
+      ],
+      "concept": "focus-periop-meds",
+      "reference": {
+        "sections": [
+          "3.1"
+        ],
+        "pages": [
+          {
+            "pdfPage": 182,
+            "printedPage": "3-6"
+          }
+        ]
+      },
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
+      "additionalReferences": [
+        {
+          "name": "NCCIH · Garlic and safety",
+          "url": "https://www.nccih.nih.gov/health/garlic"
+        }
+      ],
+      "difficulty": "focused"
+    },
+    {
+      "id": "FOCUS-MED-054",
+      "collection": "medications",
+      "category": "Perioperative phases and anesthesia",
+      "source": "3.1",
+      "prompt": "Which perioperative concern is most relevant when a patient reports using Garlic supplement (concentrated)?",
+      "options": [
+        "Possible increased perioperative bleeding and interaction with antiplatelet or anticoagulant therapy; supplement dose matters.",
+        "Perioperative euglycemic ketoacidosis during fasting.",
+        "Prolonged neuromuscular blockade from lithium.",
+        "Retained gastric contents from slowed gastric emptying."
+      ],
+      "answer": 0,
+      "explanation": "Garlic supplement (concentrated): Possible increased perioperative bleeding and interaction with antiplatelet or anticoagulant therapy; supplement dose matters. Identify and communicate its use rather than assuming a universal withholding rule.",
+      "whyOthers": [
+        "Perioperative euglycemic ketoacidosis during fasting. is not the characteristic concern highlighted for Garlic supplement (concentrated); Possible increased perioperative bleeding and interaction with antiplatelet or anticoagulant therapy; supplement dose matters.",
+        "Prolonged neuromuscular blockade from lithium. is not the characteristic concern highlighted for Garlic supplement (concentrated); Possible increased perioperative bleeding and interaction with antiplatelet or anticoagulant therapy; supplement dose matters.",
+        "Retained gastric contents from slowed gastric emptying. is not the characteristic concern highlighted for Garlic supplement (concentrated); Possible increased perioperative bleeding and interaction with antiplatelet or anticoagulant therapy; supplement dose matters."
+      ],
+      "concept": "focus-periop-meds",
+      "reference": {
+        "sections": [
+          "3.1"
+        ],
+        "pages": [
+          {
+            "pdfPage": 182,
+            "printedPage": "3-6"
+          }
+        ]
+      },
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
+      "additionalReferences": [
+        {
+          "name": "NCCIH · Garlic and safety",
+          "url": "https://www.nccih.nih.gov/health/garlic"
+        }
+      ],
+      "difficulty": "focused"
+    },
+    {
+      "id": "FOCUS-MED-055",
+      "collection": "medications",
+      "category": "Perioperative phases and anesthesia",
+      "source": "3.1",
+      "prompt": "During medication reconciliation, which class best describes Ginseng supplement?",
+      "options": [
+        "Herbal supplement",
+        "Glucocorticoid corticosteroid",
+        "ACE inhibitor",
+        "Beta-adrenergic blocker"
+      ],
+      "answer": 0,
+      "explanation": "Ginseng supplement belongs to the herbal supplement category; assess its interactions in the preoperative medication history.",
+      "whyOthers": [
+        "Glucocorticoid corticosteroid is a different medication class, not the classification of Ginseng supplement.",
+        "ACE inhibitor is a different medication class, not the classification of Ginseng supplement.",
+        "Beta-adrenergic blocker is a different medication class, not the classification of Ginseng supplement."
+      ],
+      "concept": "focus-periop-meds",
+      "reference": {
+        "sections": [
+          "3.1"
+        ],
+        "pages": [
+          {
+            "pdfPage": 182,
+            "printedPage": "3-6"
+          }
+        ]
+      },
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
+      "additionalReferences": [
+        {
+          "name": "UKCPA · Herbal remedies position statement",
+          "url": "https://periop-handbook.ukclinicalpharmacy.org/note/herbal-remedies-position-statement/"
+        }
+      ],
+      "difficulty": "focused"
+    },
+    {
+      "id": "FOCUS-MED-056",
+      "collection": "medications",
+      "category": "Perioperative phases and anesthesia",
+      "source": "3.1",
+      "prompt": "Which perioperative concern is most relevant when a patient reports using Ginseng supplement?",
+      "options": [
+        "Potential blood-glucose effects and medication interactions; evidence for surgical bleeding is mixed.",
+        "Bleeding related to direct thrombin inhibition.",
+        "Residual paralysis due to a neuromuscular blocker.",
+        "Abrupt opioid withdrawal if stopped."
+      ],
+      "answer": 0,
+      "explanation": "Ginseng supplement: Potential blood-glucose effects and medication interactions; evidence for surgical bleeding is mixed. Identify and communicate its use rather than assuming a universal withholding rule.",
+      "whyOthers": [
+        "Bleeding related to direct thrombin inhibition. is not the characteristic concern highlighted for Ginseng supplement; Potential blood-glucose effects and medication interactions; evidence for surgical bleeding is mixed.",
+        "Residual paralysis due to a neuromuscular blocker. is not the characteristic concern highlighted for Ginseng supplement; Potential blood-glucose effects and medication interactions; evidence for surgical bleeding is mixed.",
+        "Abrupt opioid withdrawal if stopped. is not the characteristic concern highlighted for Ginseng supplement; Potential blood-glucose effects and medication interactions; evidence for surgical bleeding is mixed."
+      ],
+      "concept": "focus-periop-meds",
+      "reference": {
+        "sections": [
+          "3.1"
+        ],
+        "pages": [
+          {
+            "pdfPage": 182,
+            "printedPage": "3-6"
+          }
+        ]
+      },
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
+      "additionalReferences": [
+        {
+          "name": "UKCPA · Herbal remedies position statement",
+          "url": "https://periop-handbook.ukclinicalpharmacy.org/note/herbal-remedies-position-statement/"
+        }
+      ],
+      "difficulty": "focused"
+    },
+    {
+      "id": "FOCUS-MED-057",
+      "collection": "medications",
+      "category": "Perioperative phases and anesthesia",
+      "source": "3.1",
+      "prompt": "During medication reconciliation, which class best describes Ibuprofen?",
+      "options": [
+        "Nonsteroidal anti-inflammatory drug (NSAID)",
+        "Opioid analgesic",
+        "Long-acting basal insulin",
+        "Vitamin K antagonist anticoagulant"
+      ],
+      "answer": 0,
+      "explanation": "Ibuprofen belongs to the nonsteroidal anti-inflammatory drug (nsaid) category; assess its interactions in the preoperative medication history.",
+      "whyOthers": [
+        "Opioid analgesic is a different medication class, not the classification of Ibuprofen.",
+        "Long-acting basal insulin is a different medication class, not the classification of Ibuprofen.",
+        "Vitamin K antagonist anticoagulant is a different medication class, not the classification of Ibuprofen."
+      ],
+      "concept": "focus-periop-meds",
+      "reference": {
+        "sections": [
+          "3.1"
+        ],
+        "pages": [
+          {
+            "pdfPage": 182,
+            "printedPage": "3-6"
+          }
+        ]
+      },
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
+      "additionalReferences": [
+        {
+          "name": "UKCPA · Ibuprofen perioperative medicine",
+          "url": "https://periop-handbook.ukclinicalpharmacy.org/drug/ibuprofen/"
+        }
+      ],
+      "difficulty": "focused"
+    },
+    {
+      "id": "FOCUS-MED-058",
+      "collection": "medications",
+      "category": "Perioperative phases and anesthesia",
+      "source": "3.1",
+      "prompt": "Which perioperative concern is most relevant when a patient reports using Ibuprofen?",
+      "options": [
+        "Increased bleeding risk and possible renal injury; continuation is determined by surgical and patient risk.",
+        "Euglycemic ketoacidosis specifically caused by renal glucose loss.",
+        "Stent thrombosis after interruption of P2Y12 platelet blockade.",
+        "Serotonin toxicity with serotonergic interacting drugs."
+      ],
+      "answer": 0,
+      "explanation": "Ibuprofen: Increased bleeding risk and possible renal injury; continuation is determined by surgical and patient risk. Identify and communicate its use rather than assuming a universal withholding rule.",
+      "whyOthers": [
+        "Euglycemic ketoacidosis specifically caused by renal glucose loss. is not the characteristic concern highlighted for Ibuprofen; Increased bleeding risk and possible renal injury; continuation is determined by surgical and patient risk.",
+        "Stent thrombosis after interruption of P2Y12 platelet blockade. is not the characteristic concern highlighted for Ibuprofen; Increased bleeding risk and possible renal injury; continuation is determined by surgical and patient risk.",
+        "Serotonin toxicity with serotonergic interacting drugs. is not the characteristic concern highlighted for Ibuprofen; Increased bleeding risk and possible renal injury; continuation is determined by surgical and patient risk."
+      ],
+      "concept": "focus-periop-meds",
+      "reference": {
+        "sections": [
+          "3.1"
+        ],
+        "pages": [
+          {
+            "pdfPage": 182,
+            "printedPage": "3-6"
+          }
+        ]
+      },
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
+      "additionalReferences": [
+        {
+          "name": "UKCPA · Ibuprofen perioperative medicine",
+          "url": "https://periop-handbook.ukclinicalpharmacy.org/drug/ibuprofen/"
+        }
+      ],
+      "difficulty": "focused"
+    },
+    {
+      "id": "FOCUS-MED-059",
+      "collection": "medications",
+      "category": "Perioperative phases and anesthesia",
+      "source": "3.1",
+      "prompt": "During medication reconciliation, which class best describes Metformin?",
+      "options": [
+        "Biguanide antihyperglycemic",
+        "P2Y12 platelet inhibitor",
+        "Loop diuretic",
+        "Angiotensin II receptor blocker (ARB)"
+      ],
+      "answer": 0,
+      "explanation": "Metformin belongs to the biguanide antihyperglycemic category; assess its interactions in the preoperative medication history.",
+      "whyOthers": [
+        "P2Y12 platelet inhibitor is a different medication class, not the classification of Metformin.",
+        "Loop diuretic is a different medication class, not the classification of Metformin.",
+        "Angiotensin II receptor blocker (ARB) is a different medication class, not the classification of Metformin."
+      ],
+      "concept": "focus-periop-meds",
+      "reference": {
+        "sections": [
+          "3.1"
+        ],
+        "pages": [
+          {
+            "pdfPage": 182,
+            "printedPage": "3-6"
+          }
+        ]
+      },
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
+      "additionalReferences": [
+        {
+          "name": "ADA · Diabetes Care in Hospital (2026)",
+          "url": "https://doi.org/10.2337/dc26-S016"
+        }
+      ],
+      "difficulty": "focused"
+    },
+    {
+      "id": "FOCUS-MED-060",
+      "collection": "medications",
+      "category": "Perioperative phases and anesthesia",
+      "source": "3.1",
+      "prompt": "Which perioperative concern is most relevant when a patient reports using Metformin?",
+      "options": [
+        "Rare lactic acidosis risk can rise in severe renal dysfunction, hypoxia, or critical illness; glucose management also matters.",
+        "High risk of aspiration from delayed gastric emptying due to GLP-1 activity.",
+        "Neuraxial hematoma from heparin-associated anticoagulation.",
+        "Bradycardia due to beta-blockade."
+      ],
+      "answer": 0,
+      "explanation": "Metformin: Rare lactic acidosis risk can rise in severe renal dysfunction, hypoxia, or critical illness; glucose management also matters. Identify and communicate its use rather than assuming a universal withholding rule.",
+      "whyOthers": [
+        "High risk of aspiration from delayed gastric emptying due to GLP-1 activity. is not the characteristic concern highlighted for Metformin; Rare lactic acidosis risk can rise in severe renal dysfunction, hypoxia, or critical illness; glucose management also matters.",
+        "Neuraxial hematoma from heparin-associated anticoagulation. is not the characteristic concern highlighted for Metformin; Rare lactic acidosis risk can rise in severe renal dysfunction, hypoxia, or critical illness; glucose management also matters.",
+        "Bradycardia due to beta-blockade. is not the characteristic concern highlighted for Metformin; Rare lactic acidosis risk can rise in severe renal dysfunction, hypoxia, or critical illness; glucose management also matters."
+      ],
+      "concept": "focus-periop-meds",
+      "reference": {
+        "sections": [
+          "3.1"
+        ],
+        "pages": [
+          {
+            "pdfPage": 182,
+            "printedPage": "3-6"
+          }
+        ]
+      },
+      "referenceLabel": "ORNAC medication-reconciliation scope; drug risks from clinical references",
+      "additionalReferences": [
+        {
+          "name": "ADA · Diabetes Care in Hospital (2026)",
+          "url": "https://doi.org/10.2337/dc26-S016"
+        }
+      ],
       "difficulty": "focused"
     }
   ]
