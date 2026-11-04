@@ -112,8 +112,12 @@ function updateDashboard() {
   $("#recording-note").classList.toggle("hidden", state.collection !== "recording");
   $("#aorn-note").classList.toggle("hidden", state.collection !== "aorn");
   const count = state.length === "all" ? pool.length : Math.min(Number(state.length), pool.length);
-  $("#session-description").textContent = `${count} ${state.collection === "aorn" ? "AORN Canadian review" : state.collection === "recording" ? "recorded practice" : state.pool === "all" ? "mixed" : state.pool} question${count === 1 ? "" : "s"}`;
-  $("#session-detail").textContent = ["recording", "aorn"].includes(state.collection) && state.length === "all"
+  const focusLabels = {anesthesia:"anesthetic-drug",precautions:"infection-control",medications:"perioperative-medication"};
+  const focus = focusLabels[state.collection];
+  $("#session-description").textContent = `${count} ${focus || (state.collection === "aorn" ? "AORN Canadian review" : state.collection === "recording" ? "recorded practice" : state.pool === "all" ? "mixed" : state.pool)} question${count === 1 ? "" : "s"}`;
+  $("#session-detail").textContent = focus
+    ? `${pool.length} focused questions available, with explanations and source context.`
+    : ["recording", "aorn"].includes(state.collection) && state.length === "all"
     ? "Recorded question order, shared cases, and linked explanations."
     : state.pool === "all" && !state.categories.size
     ? "Blueprint-aware mix with linked explanations."
@@ -122,8 +126,10 @@ function updateDashboard() {
 function renderHome() {
   const holder = $("#category-list");
   holder.replaceChildren();
-  state.bank.categories.forEach((category, i) => {
+  state.bank.categories.filter(category => state.bank.questions.some(q => q.category === category && inCollection(q))).forEach((category) => {
+    const i = state.bank.categories.indexOf(category);
     const button = document.createElement("button");
+    button.dataset.category = category;
     button.className = "category-pill";
     button.type = "button";
     button.setAttribute("aria-pressed", state.categories.has(category));
@@ -148,7 +154,7 @@ function syncControls() {
     button.setAttribute("aria-pressed", String(yes));
   });
   document.querySelectorAll("[data-length]").forEach(button => button.classList.toggle("selected", String(state.length) === button.dataset.length));
-  document.querySelectorAll(".category-pill").forEach((button, i) => button.setAttribute("aria-pressed", state.categories.has(state.bank.categories[i])));
+  document.querySelectorAll(".category-pill").forEach(button => button.setAttribute("aria-pressed", String(state.categories.has(button.dataset.category))));
 }
 function show(screen) {
   for (const id of ["home", "quiz", "results"]) $("#" + id).classList.toggle("hidden", id !== screen);
@@ -183,9 +189,9 @@ function renderQuestion() {
   $("#aside-number").innerHTML = `${String(s.index + 1).padStart(2, "0")}<span> / ${s.questions.length}</span>`;
   $("#session-correct").textContent = s.answers.filter(a => a.correct).length;
   $("#session-answered").textContent = s.answers.length;
-  $("#question-meta").textContent = q.category.toUpperCase() + (q.origin ? ` · ${q.guidelineAdapted ? "ORNAC ADAPTED" : q.collection === "aorn" ? "AORN CNOR" : "RECORDED PRACTICE"} #${q.origin.questionNumber}` : q.difficulty === "hard" ? " · HARD PRACTICE" : "");
+  $("#question-meta").textContent = q.category.toUpperCase() + (q.origin ? ` · ${q.guidelineAdapted ? "ORNAC ADAPTED" : q.collection === "aorn" ? "AORN CNOR" : "RECORDED PRACTICE"} #${q.origin.questionNumber}` : q.difficulty === "hard" ? " · HARD PRACTICE" : q.difficulty === "focused" ? " · FOCUSED REVIEW" : "");
   $("#review-only-notice").classList.toggle("hidden", !q.reviewOnly);
-  $("#recorded-key-notice").classList.toggle("hidden", !q.currentGuidance || q.reviewOnly || q.guidelineAdapted);
+  $("#recorded-key-notice").classList.toggle("hidden", !q.origin || !q.currentGuidance || q.reviewOnly || q.guidelineAdapted);
   $("#question-note").value = state.progress[q.id]?.note || "";
   $("#question-text").textContent = q.prompt;
   $("#case-box").classList.toggle("hidden", !q.case);
@@ -375,7 +381,7 @@ function bind() {
   $("#start-custom").addEventListener("click", () => startSession());
   $("#next-question").addEventListener("click", nextQuestion);
   $("#previous-question").addEventListener("click", () => { if (state.session.index > 0) { state.session.index--; renderQuestion(); } });
-  $("#question-set").addEventListener("change", event => { state.collection = event.target.value; renderHome(); });
+  $("#question-set").addEventListener("change", event => { state.collection = event.target.value; state.categories.clear(); renderHome(); });
   $("#question-note").addEventListener("input", event => { const q = state.session.questions[state.session.index]; entry(q.id).note = event.target.value; saveProgress(); });
   document.querySelectorAll("[data-nav-filter]").forEach(button => button.addEventListener("click", () => { state.navFilter = button.dataset.navFilter; renderNavigator(); }));
   $("#exit-quiz").addEventListener("click", () => {state.session = null; updateDashboard(); show("home");});
@@ -426,10 +432,21 @@ function bind() {
 async function init() {
   bind();
   try {
-    const response = await fetch("./bank.json?v=canadian-tb-q42");
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    state.bank = await response.json();
-    if (!Array.isArray(state.bank.questions) || !state.bank.questions.length) throw new Error("Question bank is empty");
+    const [baseResponse, focusResponse] = await Promise.all([
+      fetch("./bank.json?v=canadian-tb-q42"), fetch("./focused-practice.json?v=20261104")
+    ]);
+    if (!baseResponse.ok || !focusResponse.ok) throw new Error(`Question bank HTTP error: ${baseResponse.status}/${focusResponse.status}`);
+    const [base, focused] = await Promise.all([baseResponse.json(), focusResponse.json()]);
+    if (!Array.isArray(base.questions) || !base.questions.length || !Array.isArray(focused.questions)) throw new Error("Question bank is empty or invalid");
+    const ids = new Set(base.questions.map(q => q.id));
+    for (const q of focused.questions) {
+      if (ids.has(q.id) || !base.categories.includes(q.category) || !base.sources[q.source] || !q.options || q.options.length !== 4) throw new Error(`Invalid focused item: ${q.id}`);
+      ids.add(q.id);
+    }
+    base.questions.push(...focused.questions);
+    Object.assign(base.concepts, focused.concepts);
+    base.focusedPractice = focused.metadata;
+    state.bank = base;
     renderHome();
   } catch (error) {
     $("#bank-size").textContent = "—";
