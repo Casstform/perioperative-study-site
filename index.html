@@ -7,8 +7,8 @@
   <meta name="description" content="737 perioperative study questions: ORNAC, recorded reviews, anesthetic drugs, infection precautions, and perioperative medication risks.">
   <title>Perioperative Study Site · CPN(C) Practice</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20261010-hard-originals">
-  <script src="app.js?v=focused-20261104" defer></script>
+  <link rel="stylesheet" href="styles.css?v=multi-sets-20261109">
+  <script src="app.js?v=multi-sets-20261109" defer></script>
 </head>
 <body>
   <div class="site-shell">
@@ -20,14 +20,24 @@
     <main>
       <section id="home" class="home-screen">
         <section id="setup" class="setup-section">
-          <div class="section-heading"><div><p class="eyebrow">CPN(C) PRACTICE</p><h1>Build an exam</h1><p><span id="bank-size">—</span> questions across six domains. Choose a focus and exam length.</p></div></div>
+          <div class="section-heading"><div><p class="eyebrow">CPN(C) PRACTICE</p><h1>Build an exam</h1><p><span id="bank-size">—</span> questions across six domains. Choose question sets, domains, and exam length.</p></div></div>
           <div class="setup-grid">
             <div class="panel">
-              <h3><label for="question-set">Question set</label></h3>
-              <select id="question-set" class="study-select"><option value="all">Full bank · 737</option><option value="ornac">ORNAC hard practice · 330</option><option value="recording">Recorded practice · 100</option><option value="aorn">AORN CNOR · Canadian review · 164</option><option value="anesthesia">Anesthetic drugs · 63</option><option value="precautions">Disease precautions · 20</option><option value="medications">Perioperative medication risks · 60</option></select>
+              <div class="set-heading">
+                <h3 id="question-sets-heading">Question sets <span class="muted small">select one or more</span></h3>
+                <div class="set-actions"><button type="button" id="sets-select-all">Select all</button><button type="button" id="sets-clear">Clear</button></div>
+              </div>
+              <div class="question-set-list" id="question-sets" role="group" aria-labelledby="question-sets-heading">
+                <label class="question-set-option selected"><input type="checkbox" data-collection="ornac" checked><span>ORNAC hard practice</span><span class="set-count">330</span></label>
+                <label class="question-set-option selected"><input type="checkbox" data-collection="recording" checked><span>Recorded practice</span><span class="set-count">100</span></label>
+                <label class="question-set-option selected"><input type="checkbox" data-collection="aorn" checked><span>AORN CNOR · Canadian review</span><span class="set-count">164</span></label>
+                <label class="question-set-option selected"><input type="checkbox" data-collection="anesthesia" checked><span>Anesthetic drugs</span><span class="set-count">63</span></label>
+                <label class="question-set-option selected"><input type="checkbox" data-collection="precautions" checked><span>Disease precautions</span><span class="set-count">20</span></label>
+                <label class="question-set-option selected"><input type="checkbox" data-collection="medications" checked><span>Perioperative medication risks</span><span class="set-count">60</span></label>
+              </div>
               <h3>Question pool</h3>
               <div class="segmented" role="group" aria-label="Question pool">
-                <button class="selected" data-pool="all" aria-pressed="true">Full bank</button>
+                <button class="selected" data-pool="all" aria-pressed="true">All questions</button>
                 <button data-pool="missed" aria-pressed="false">Missed <span id="missed-count">0</span></button>
                 <button data-pool="bookmarked" aria-pressed="false">Saved <span id="saved-count">0</span></button>
               </div>
@@ -39,8 +49,8 @@
               <div class="length-options" role="group" aria-label="Exam length">
                 <button data-length="10">10</button><button class="selected" data-length="20">20</button><button data-length="50">50</button><button data-length="all">All</button>
               </div>
-              <p id="aorn-note" class="recording-note hidden">164 items: 146 scored against the recorded key and 18 review-only. Excluded questions are not included in this collection. ORNAC differences and limits are explained after each answer. Choose All for source order. <a href="aorn-review.html">Read the capture audit and Canadian comparison ↗</a></p>
-              <p id="recording-note" class="recording-note hidden">Original order when you choose All. All 100 answers are verified against the recorded review. Scores follow its key; current-guideline differences are flagged in explanations.</p>
+              <p id="aorn-note" class="recording-note hidden">164 items: 146 scored against the recorded key and 18 review-only. Excluded questions are not included in this collection. ORNAC differences and limits are explained after each answer. When using only AORN, select exam length All for source order. <a href="aorn-review.html">Read the capture audit and Canadian comparison ↗</a></p>
+              <p id="recording-note" class="recording-note hidden">When using only recorded practice, choose exam length All for original order. All 100 answers are verified against the recorded review. Scores follow its key; current-guideline differences are flagged in explanations.</p>
               <div class="session-summary"><span class="summary-icon">✦</span><div><strong id="session-description">20 mixed questions</strong><p id="session-detail">Blueprint-aware mix with linked explanations.</p></div></div>
               <button id="start-custom" class="button primary full">Begin exam <span>↗</span></button>
               <p id="setup-message" class="form-message" role="status"></p>
