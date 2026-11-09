@@ -3,8 +3,9 @@ const STORAGE_KEY = "perioperative-ornac17-v1";
 const THEME_KEY = "perioperative-study-lab-theme";
 const TEXT_SIZE_KEY = "perioperative-study-text-size";
 const icons = ["✧", "⊕", "✳", "◌", "⌁", "◈"];
+const COLLECTION_KEYS = ["ornac", "recording", "aorn", "anesthesia", "precautions", "medications"];
 const state = {
-  bank: null, pool: "all", collection: "all", length: 20, categories: new Set(), navFilter: "all",
+  bank: null, pool: "all", collections: new Set(COLLECTION_KEYS), length: 20, categories: new Set(), navFilter: "all",
   progress: loadProgress(), session: null
 };
 
@@ -33,7 +34,7 @@ function categorySelection() {
   return state.categories.size ? state.categories : new Set(state.bank.categories);
 }
 function inCollection(q) {
-  return state.collection === "all" || (q.collection || "ornac") === state.collection;
+  return state.collections.has(q.collection || "ornac");
 }
 function poolQuestions() {
   return state.bank.questions.filter(q => {
@@ -45,8 +46,8 @@ function poolQuestions() {
     return true;
   });
 }
-function sampleWeighted(pool, count) {
-  if (["recording", "aorn"].includes(state.collection) && count >= pool.length) {
+function sampleWeighted(pool, count, ensureSetCoverage = true) {
+  if (state.collections.size === 1 && (state.collections.has("recording") || state.collections.has("aorn")) && count >= pool.length) {
     return [...pool].sort((a, b) => a.origin.questionNumber - b.origin.questionNumber);
   }
   if (count >= pool.length) {
@@ -58,6 +59,19 @@ function sampleWeighted(pool, count) {
       else { const block = [q]; grouped.set(q.case, block); blocks.push(block); }
     }
     return shuffle(blocks).flat();
+  }
+  // Mixed exams cover every eligible selected set when the length allows it.
+  // Prefer standalone items so the seed does not break shared clinical cases.
+  const availableSets = [...new Set(pool.map(q => q.collection || "ornac"))];
+  if (ensureSetCoverage && availableSets.length > 1 && count >= availableSets.length &&
+      state.pool === "all" && !state.categories.size) {
+    const mandatory = availableSets.map(set => {
+      const candidates = pool.filter(q => (q.collection || "ornac") === set);
+      const standalone = candidates.filter(q => !q.case);
+      return shuffle(standalone.length ? standalone : candidates)[0];
+    });
+    const remaining = pool.filter(q => !mandatory.includes(q));
+    return shuffle([...mandatory, ...sampleWeighted(remaining, count - mandatory.length, false)]);
   }
   if (state.pool !== "all" || state.categories.size) return shuffle(pool).slice(0, count);
   const selected = [];
@@ -109,19 +123,25 @@ function updateDashboard() {
   $("#missed-count").textContent = records.filter(p => p.missed).length;
   $("#saved-count").textContent = records.filter(p => p.saved).length;
   const pool = poolQuestions();
-  $("#recording-note").classList.toggle("hidden", state.collection !== "recording");
-  $("#aorn-note").classList.toggle("hidden", state.collection !== "aorn");
+  const onlySet = state.collections.size === 1 ? [...state.collections][0] : null;
+  $("#recording-note").classList.toggle("hidden", !state.collections.has("recording") || state.collections.size > 2);
+  $("#aorn-note").classList.toggle("hidden", !state.collections.has("aorn") || state.collections.size > 2);
   const count = state.length === "all" ? pool.length : Math.min(Number(state.length), pool.length);
-  const focusLabels = {anesthesia:"anesthetic-drug",precautions:"infection-control",medications:"perioperative-medication"};
-  const focus = focusLabels[state.collection];
-  $("#session-description").textContent = `${count} ${focus || (state.collection === "aorn" ? "AORN Canadian review" : state.collection === "recording" ? "recorded practice" : state.pool === "all" ? "mixed" : state.pool)} question${count === 1 ? "" : "s"}`;
-  $("#session-detail").textContent = focus
-    ? `${pool.length} focused questions available, with explanations and source context.`
-    : ["recording", "aorn"].includes(state.collection) && state.length === "all"
-    ? "Recorded question order, shared cases, and linked explanations."
-    : state.pool === "all" && !state.categories.size
-    ? "Blueprint-aware mix with linked explanations."
-    : `${pool.length} available in your selected pool and domains.`;
+  const setLabels = {
+    ornac: "ORNAC hard practice", recording: "recorded practice",
+    aorn: "AORN Canadian review", anesthesia: "anesthetic drugs",
+    precautions: "disease precautions", medications: "perioperative medication risks"
+  };
+  $("#session-description").textContent = `${count} question${count === 1 ? "" : "s"} · ${onlySet ? setLabels[onlySet] : `${state.collections.size} sets`}`;
+  $("#session-detail").textContent = !state.collections.size
+    ? "Choose one or more question sets."
+    : ["recording", "aorn"].includes(onlySet) && state.length === "all" && state.pool === "all" && !state.categories.size
+    ? "Original recorded order, shared cases, and linked explanations."
+    : `${pool.length} available across your selected sets, pool, and domains.`;
+  $("#start-custom").disabled = !pool.length;
+  $("#setup-message").textContent = !state.collections.size
+    ? "Select at least one question set to begin."
+    : !pool.length ? "No questions match these sets, pool, and domains." : "";
 }
 function renderHome() {
   const holder = $("#category-list");
@@ -147,7 +167,10 @@ function renderHome() {
   updateDashboard();
 }
 function syncControls() {
-  $("#question-set").value = state.collection;
+  document.querySelectorAll("[data-collection]").forEach(input => {
+    input.checked = state.collections.has(input.dataset.collection);
+    input.closest(".question-set-option").classList.toggle("selected", input.checked);
+  });
   document.querySelectorAll("[data-pool]").forEach(button => {
     const yes = button.dataset.pool === state.pool;
     button.classList.toggle("selected", yes);
@@ -163,7 +186,7 @@ function show(screen) {
 function startSession() {
   const pool = poolQuestions();
   if (!pool.length) {
-    $("#setup-message").textContent = "No questions in that selection yet. Try another pool or domain.";
+    $("#setup-message").textContent = "No matching questions. Select at least one set or change your question pool or domains.";
     $("#setup").scrollIntoView({behavior: "smooth"});
     return;
   }
@@ -381,7 +404,22 @@ function bind() {
   $("#start-custom").addEventListener("click", () => startSession());
   $("#next-question").addEventListener("click", nextQuestion);
   $("#previous-question").addEventListener("click", () => { if (state.session.index > 0) { state.session.index--; renderQuestion(); } });
-  $("#question-set").addEventListener("change", event => { state.collection = event.target.value; state.categories.clear(); renderHome(); });
+  document.querySelectorAll("[data-collection]").forEach(input => input.addEventListener("change", () => {
+    if (input.checked) state.collections.add(input.dataset.collection);
+    else state.collections.delete(input.dataset.collection);
+    state.categories.clear();
+    renderHome();
+  }));
+  $("#sets-select-all").addEventListener("click", () => {
+    state.collections = new Set(COLLECTION_KEYS);
+    state.categories.clear();
+    renderHome();
+  });
+  $("#sets-clear").addEventListener("click", () => {
+    state.collections.clear();
+    state.categories.clear();
+    renderHome();
+  });
   $("#question-note").addEventListener("input", event => { const q = state.session.questions[state.session.index]; entry(q.id).note = event.target.value; saveProgress(); });
   document.querySelectorAll("[data-nav-filter]").forEach(button => button.addEventListener("click", () => { state.navFilter = button.dataset.navFilter; renderNavigator(); }));
   $("#exit-quiz").addEventListener("click", () => {state.session = null; updateDashboard(); show("home");});
